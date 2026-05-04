@@ -76,7 +76,7 @@ def format_rating_entries(ratings):
 
 def format_battle_card_entries(entries):
         if not entries:
-                return "None"
+                return "-"
 
         names = []
         for entry in entries:
