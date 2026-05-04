@@ -25,8 +25,6 @@ response = client.get("/")
 html = response.data.decode()
 # Fix relative links: /army/{id} -> army/{id}.html
 html = re.sub(r'href="/army/([^"]+)"', r'href="army/\1.html"', html)
-# Remove server-side sort URLs for static output
-html = re.sub(r'href="/\?sort=[^"]+"', 'href="index.html"', html)
 with (docs_dir / "index.html").open("w", encoding="utf-8") as f:
     f.write(html)
 

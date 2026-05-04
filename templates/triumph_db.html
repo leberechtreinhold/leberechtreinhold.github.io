@@ -70,8 +70,15 @@
                 font-weight: 700;
             }
 
-            .table thead th a:hover {
-                text-decoration: underline;
+            .table thead th.sortable {
+                cursor: pointer;
+                user-select: none;
+            }
+
+            .table thead th .sort-indicator {
+                margin-left: 0.35rem;
+                font-size: 0.9rem;
+                opacity: 0.95;
             }
 
             .table tbody tr:hover td {
@@ -100,38 +107,30 @@
             <div class="container">
                 <div class="box">
                     <div class="table-container">
-                        <table class="table is-striped is-hoverable is-fullwidth">
+                        <table id="army-table" class="table is-striped is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
-                                    <th>
-                                        <a href="{{ url_for('home', sort='army', dir='desc' if sort_by == 'army' and sort_dir == 'asc' else 'asc') }}">
-                                            Army{% if sort_by == 'army' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
-                                        </a>
+                                    <th class="sortable" data-col="0" data-type="text">
+                                        Army<span class="sort-indicator"></span>
                                     </th>
-                                    <th>
-                                        <a href="{{ url_for('home', sort='start_date', dir='desc' if sort_by == 'start_date' and sort_dir == 'asc' else 'asc') }}">
-                                            Start Date{% if sort_by == 'start_date' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
-                                        </a>
+                                    <th class="sortable" data-col="1" data-type="number">
+                                        Start Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th>
-                                        <a href="{{ url_for('home', sort='end_date', dir='desc' if sort_by == 'end_date' and sort_dir == 'asc' else 'asc') }}">
-                                            End Date{% if sort_by == 'end_date' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
-                                        </a>
+                                    <th class="sortable" data-col="2" data-type="number">
+                                        End Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th>
-                                        <a href="{{ url_for('home', sort='category', dir='desc' if sort_by == 'category' and sort_dir == 'asc' else 'asc') }}">
-                                            Category{% if sort_by == 'category' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
-                                        </a>
+                                    <th class="sortable" data-col="3" data-type="text">
+                                        Category<span class="sort-indicator"></span>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {% for row in army_rows %}
                                     <tr>
-                                        <td><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
-                                        <td>{{ row.start_date }}</td>
-                                        <td>{{ row.end_date }}</td>
-                                        <td>{{ row.category }}</td>
+                                        <td data-sort-value="{{ row.army_sort }}"><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
+                                        <td data-sort-value="{{ row.start_date_value if row.start_date_value is not none else '' }}">{{ row.start_date }}</td>
+                                        <td data-sort-value="{{ row.end_date_value if row.end_date_value is not none else '' }}">{{ row.end_date }}</td>
+                                        <td data-sort-value="{{ row.category_sort }}">{{ row.category }}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
@@ -140,5 +139,77 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            (() => {
+                const table = document.getElementById("army-table");
+                if (!table) return;
+
+                const tbody = table.querySelector("tbody");
+                const headers = Array.from(table.querySelectorAll("thead th.sortable"));
+                let currentSort = { col: 1, dir: "asc" };
+
+                function valueFor(row, col, type) {
+                    const cell = row.cells[col];
+                    const raw = (cell.dataset.sortValue || "").trim();
+
+                    if (type === "number") {
+                        if (raw === "") return Number.POSITIVE_INFINITY;
+                        const num = Number(raw);
+                        return Number.isNaN(num) ? Number.POSITIVE_INFINITY : num;
+                    }
+
+                    return raw.toLowerCase();
+                }
+
+                function updateIndicators() {
+                    headers.forEach((header) => {
+                        const indicator = header.querySelector(".sort-indicator");
+                        const col = Number(header.dataset.col);
+                        if (!indicator) return;
+
+                        if (col === currentSort.col) {
+                            indicator.textContent = currentSort.dir === "asc" ? "↑" : "↓";
+                        } else {
+                            indicator.textContent = "";
+                        }
+                    });
+                }
+
+                function sortBy(col, type, dir) {
+                    const rows = Array.from(tbody.querySelectorAll("tr"));
+                    rows.sort((a, b) => {
+                        const va = valueFor(a, col, type);
+                        const vb = valueFor(b, col, type);
+
+                        if (type === "number") {
+                            return dir === "asc" ? va - vb : vb - va;
+                        }
+
+                        return dir === "asc"
+                            ? va.localeCompare(vb)
+                            : vb.localeCompare(va);
+                    });
+
+                    rows.forEach((row) => tbody.appendChild(row));
+                    currentSort = { col, dir };
+                    updateIndicators();
+                }
+
+                headers.forEach((header) => {
+                    header.addEventListener("click", () => {
+                        const col = Number(header.dataset.col);
+                        const type = header.dataset.type || "text";
+                        const dir =
+                            currentSort.col === col && currentSort.dir === "asc"
+                                ? "desc"
+                                : "asc";
+                        sortBy(col, type, dir);
+                    });
+                });
+
+                sortBy(1, "number", "asc");
+            })();
+        </script>
     </body>
 </html>

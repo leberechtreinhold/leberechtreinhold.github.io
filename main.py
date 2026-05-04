@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -241,66 +241,32 @@ def format_troop_options(options):
 
 @app.route("/")
 def home():
-        sort_by = request.args.get("sort", "start_date")
-        sort_dir = request.args.get("dir", "asc")
-
-        allowed_sort_fields = {"army", "start_date", "end_date", "category"}
-        if sort_by not in allowed_sort_fields:
-                sort_by = "start_date"
-        if sort_dir not in {"asc", "desc"}:
-                sort_dir = "asc"
-
-        reverse = sort_dir == "desc"
-
-        def date_value(item, field_name):
-                return item.get("derivedData", {}).get(field_name)
-
-        if sort_by == "army":
-                sorted_army_lists = sorted(
-                        ARMY_LISTS,
-                        key=lambda item: str(item.get("name", "")).strip().lower(),
-                        reverse=reverse,
-                )
-        elif sort_by == "category":
-                def category_sort_key(item):
-                        army_id = str(item.get("id", ""))
-                        category_text = ", ".join(CATEGORY_NAMES_BY_ARMY_ID.get(army_id, []))
-                        return category_text.lower() if category_text else "~"
-
-                sorted_army_lists = sorted(
-                        ARMY_LISTS,
-                        key=category_sort_key,
-                        reverse=reverse,
-                )
-        else:
-                date_field = "listStartDate" if sort_by == "start_date" else "listEndDate"
-
-                with_date = [item for item in ARMY_LISTS if date_value(item, date_field) is not None]
-                without_date = [item for item in ARMY_LISTS if date_value(item, date_field) is None]
-
-                with_date.sort(key=lambda item: date_value(item, date_field), reverse=reverse)
-                sorted_army_lists = with_date + without_date
+        sorted_army_lists = sorted(
+                ARMY_LISTS,
+                key=lambda item: item.get("derivedData", {}).get("listStartDate", float("inf")),
+        )
 
         army_rows = [
                 {
                         "army_id": str(item.get("id", "")),
                         "army": str(item.get("name", "Unknown Army")).strip(),
+                        "army_sort": str(item.get("name", "Unknown Army")).strip().lower(),
                         "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
+                        "start_date_value": item.get("derivedData", {}).get("listStartDate"),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
+                        "end_date_value": item.get("derivedData", {}).get("listEndDate"),
                         "category": ", ".join(
                                 CATEGORY_NAMES_BY_ARMY_ID.get(str(item.get("id", "")), [])
                         )
                         or "-",
+                        "category_sort": ", ".join(
+                                CATEGORY_NAMES_BY_ARMY_ID.get(str(item.get("id", "")), [])
+                        ).lower(),
                 }
                 for item in sorted_army_lists
         ]
 
-        return render_template(
-                "triumph_db.html",
-                army_rows=army_rows,
-                sort_by=sort_by,
-                sort_dir=sort_dir,
-        )
+        return render_template("triumph_db.html", army_rows=army_rows)
 
 
 @app.route("/army/<army_id>")
