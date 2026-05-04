@@ -258,7 +258,7 @@ def home():
         if sort_by == "army":
                 sorted_army_lists = sorted(
                         ARMY_LISTS,
-                        key=lambda item: str(item.get("name", "")).lower(),
+                        key=lambda item: str(item.get("name", "")).strip().lower(),
                         reverse=reverse,
                 )
         elif sort_by == "category":
@@ -284,7 +284,7 @@ def home():
         army_rows = [
                 {
                         "army_id": str(item.get("id", "")),
-                        "army": item.get("name", "Unknown Army"),
+                        "army": str(item.get("name", "Unknown Army")).strip(),
                         "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
                         "category": ", ".join(
