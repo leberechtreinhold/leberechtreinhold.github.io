@@ -1,0 +1,269 @@
+from pathlib import Path
+import json
+
+from flask import Flask, render_template
+
+
+BASE_DIR = Path(__file__).resolve().parent
+
+
+def load_json(filename: str):
+        with (BASE_DIR / "db" / filename).open("r", encoding="utf-8") as file:
+                return json.load(file)
+
+
+ARMY_LISTS = load_json("armyLists.json")
+TROOP_TYPES = load_json("troopTypes.json")
+BATTLE_CARDS = load_json("battleCards.json")
+TROOP_TYPE_DISPLAY_BY_CODE = {
+        troop.get("permanentCode"): troop.get("displayName", troop.get("permanentCode", ""))
+        for troop in TROOP_TYPES
+        if troop.get("permanentCode")
+}
+TROOP_TYPE_COST_BY_CODE = {
+        troop.get("permanentCode"): troop.get("cost")
+        for troop in TROOP_TYPES
+        if troop.get("permanentCode")
+}
+BATTLE_CARD_DISPLAY_BY_CODE = {
+        card.get("permanentCode"): card.get("displayName", card.get("permanentCode", ""))
+        for card in BATTLE_CARDS
+        if card.get("permanentCode")
+}
+
+app = Flask(__name__)
+
+
+def format_year(value):
+        if isinstance(value, int):
+                if value < 0:
+                        return f"{abs(value)} BC"
+                if value > 0:
+                        return f"{value} AD"
+                return "0"
+        return ""
+
+
+def find_army_by_id(army_id: str):
+        for item in ARMY_LISTS:
+                possible_ids = {
+                        str(item.get("listId", "")),
+                        str(item.get("sortId", "")),
+                        str(item.get("id", "")),
+                }
+                if army_id in possible_ids:
+                        return item
+        return None
+
+
+def format_rating_entries(ratings):
+        formatted = []
+        for rating in ratings or []:
+                value = rating.get("value")
+                if value is None:
+                        values = rating.get("values")
+                        if values:
+                                value = ", ".join(v.strip() for v in values if isinstance(v, str) and v.strip())
+                if value is None or value == "":
+                        continue
+                note = rating.get("note")
+                if note:
+                        formatted.append(f"{value} ({note})")
+                else:
+                        formatted.append(str(value))
+        return ", ".join(formatted) if formatted else "TBD"
+
+
+def format_battle_card_entries(entries):
+        if not entries:
+                return "None"
+
+        names = []
+        for entry in entries:
+                code = entry.get("battleCardCode")
+                if not code:
+                        continue
+
+                name = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
+                min_value = entry.get("min")
+                max_value = entry.get("max")
+                note = entry.get("note")
+
+                prefix = ""
+                if min_value is not None and max_value is not None:
+                        prefix = f"{min_value}-{max_value} "
+
+                suffix = f" ({note})" if note else ""
+                names.append(f"{prefix}{name}{suffix}")
+
+        return ", ".join(names) if names else "-"
+
+
+def format_general_troop_entries(entries_for_general):
+        if not entries_for_general:
+                return "None"
+
+        groups = []
+        for group in entries_for_general:
+                names = []
+                for entry in group.get("troopEntries", []):
+                        code = entry.get("troopTypeCode")
+                        if not code:
+                                continue
+
+                        name = TROOP_TYPE_DISPLAY_BY_CODE.get(code, code)
+                        note = entry.get("note")
+                        suffix = f" ({note})" if note else ""
+                        names.append(f"{name}{suffix}")
+
+                if names:
+                        groups.append(", ".join(names))
+
+        if not groups:
+                return "None"
+
+        if len(groups) == 1:
+                return groups[0]
+
+        fallback_parts = []
+        for index, group in enumerate(groups):
+                if index == 0:
+                        fallback_parts.append(f"If possible: {group}")
+                else:
+                        fallback_parts.append(f"otherwise: {group}")
+
+        return "; ".join(fallback_parts)
+
+
+def format_troop_entry_list(entries):
+        names = []
+        points = []
+        for entry in entries or []:
+                code = entry.get("troopTypeCode")
+                if not code:
+                        continue
+
+                name = TROOP_TYPE_DISPLAY_BY_CODE.get(code, code)
+                cost = TROOP_TYPE_COST_BY_CODE.get(code)
+                note = entry.get("note")
+                suffix = f" ({note})" if note else ""
+                names.append(f"{name}{suffix}")
+                points.append(str(cost) if cost is not None else "")
+
+        troops_text = ", ".join(names) if names else "None"
+        points_text = ", ".join(points) if points else ""
+        return troops_text, points_text
+
+
+def format_troop_options(options):
+        rows = []
+        for option in options or []:
+                troops, points = format_troop_entry_list(option.get("troopEntries"))
+
+                note_parts = []
+                option_note = option.get("note")
+                if option_note:
+                        note_parts.append(option_note)
+
+                date_ranges = option.get("dateRanges") or []
+                if date_ranges:
+                        formatted_ranges = []
+                        for date_range in date_ranges:
+                                start = format_year(date_range.get("startDate"))
+                                end = format_year(date_range.get("endDate"))
+                                if start and end:
+                                        formatted_ranges.append(f"{start} - {end}")
+                                elif start:
+                                        formatted_ranges.append(start)
+                                elif end:
+                                        formatted_ranges.append(end)
+
+                        if formatted_ranges:
+                                note_parts.append(f"Date ranges: {', '.join(formatted_ranges)}")
+
+                rows.append(
+                        {
+                                "min": option.get("min", ""),
+                                "max": option.get("max", ""),
+                                "battle_line": option.get("core", ""),
+                                "troops": troops,
+                                "description": option.get("description", ""),
+                                "note": " | ".join(note_parts),
+                                "battle_cards": format_battle_card_entries(option.get("battleCardEntries")),
+                                "points": points,
+                        }
+                )
+
+        def min_as_number(value):
+                if isinstance(value, (int, float)):
+                        return value
+                try:
+                        return int(value)
+                except (TypeError, ValueError):
+                        return float("-inf")
+
+        rows.sort(
+                key=lambda row: (
+                        not bool(str(row.get("battle_line", "")).strip()),
+                        -min_as_number(row.get("min")),
+                )
+        )
+
+        return rows
+
+
+@app.route("/")
+def home():
+        sorted_army_lists = sorted(
+                ARMY_LISTS,
+                key=lambda item: item.get("derivedData", {}).get("listStartDate", float("inf")),
+        )
+
+        army_rows = [
+                {
+                        "army_id": str(item.get("id", "")),
+                        "army": item.get("name", "Unknown Army"),
+                        "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
+                        "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
+                }
+                for item in sorted_army_lists
+        ]
+
+        return render_template("triumph_db.html", army_rows=army_rows)
+
+
+@app.route("/army/<army_id>")
+def army_detail(army_id):
+        army = find_army_by_id(army_id)
+
+        if army is None:
+                return render_template("army_detail.html", army=None, army_id=army_id), 404
+
+        start_date = format_year(army.get("derivedData", {}).get("listStartDate"))
+        end_date = format_year(army.get("derivedData", {}).get("listEndDate"))
+        invasion = format_rating_entries(army.get("invasionRatings"))
+        maneuver = format_rating_entries(army.get("maneuverRatings"))
+        home_topography = format_rating_entries(army.get("homeTopographies"))
+        general_troop_type = format_general_troop_entries(army.get("troopEntriesForGeneral"))
+        army_battle_cards = format_battle_card_entries(army.get("battleCardEntries"))
+        troop_rows = format_troop_options(army.get("troopOptions"))
+
+        return render_template(
+                "army_detail.html",
+                army={
+                        "name": army.get("name", "Unknown Army"),
+                        "start_date": start_date,
+                        "end_date": end_date,
+                        "invasion": invasion,
+                        "maneuver": maneuver,
+                        "home_topography": home_topography,
+                        "general_troop_type": general_troop_type,
+                        "army_battle_cards": army_battle_cards,
+                        "troop_rows": troop_rows,
+                },
+                army_id=army_id,
+        )
+
+
+if __name__ == "__main__":
+        app.run(debug=True)

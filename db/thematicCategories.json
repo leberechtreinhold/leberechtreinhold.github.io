@@ -1,0 +1,5118 @@
+[
+  {
+    "name": "Cradle of Civilization",
+    "id": "5fb1b71fe1af060017701922",
+    "armyLists": [
+      {
+        "id": "5fb1b9d8e1af0600177092b3",
+        "name": "Early Sumerian"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092b9",
+        "name": "Gilgamesh Era Sumerian"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092bf",
+        "name": "Great Revolt Sumerian"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092c5",
+        "name": "Akkadian"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092cb",
+        "name": "Dilmun, Yemeni Kingdoms, and Early Magan"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092d8",
+        "name": "Harappan and Pre-Vedic Indian"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092de",
+        "name": "Sumerian Successor States"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092e5",
+        "name": "Third Dynasty of Ur"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092ec",
+        "name": "Nomadic Amurru"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092f2",
+        "name": "Amurru and Early Aramaean"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092fa",
+        "name": "Proto-Elamite"
+      },
+      {
+        "id": "5fb1b9d8e1af060017709300",
+        "name": "Awan Dynasty Elamite"
+      },
+      {
+        "id": "5fb1b9d8e1af060017709306",
+        "name": "Early Elam"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709321",
+        "name": "Guti"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709327",
+        "name": "Early Bronze Age Highlanders"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770932f",
+        "name": "Early Syrian"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709335",
+        "name": "Early Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770933c",
+        "name": "Nubian"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709349",
+        "name": "Ancient Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770934f",
+        "name": "Early Nine Bows Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770935f",
+        "name": "Later Amorite"
+      }
+    ]
+  },
+  {
+    "name": "Chariot Supremacy",
+    "id": "5fb1b71fe1af060017701923",
+    "armyLists": [
+      {
+        "id": "5fb1b9d8e1af0600177092cb",
+        "name": "Dilmun, Yemeni Kingdoms, and Early Magan"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092d2",
+        "name": "Later Magan "
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092de",
+        "name": "Sumerian Successor States"
+      },
+      {
+        "id": "5fb1b9d8e1af0600177092f2",
+        "name": "Amurru and Early Aramaean"
+      },
+      {
+        "id": "5fb1b9d8e1af060017709306",
+        "name": "Early Elam"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770930d",
+        "name": "Middle Elam"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709313",
+        "name": "Early Kassites, Nairi, or Hurrians"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770931a",
+        "name": "Gasgans"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709327",
+        "name": "Early Bronze Age Highlanders"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709335",
+        "name": "Early Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770933c",
+        "name": "Nubian"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709343",
+        "name": "Viceroys of Kush"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770934f",
+        "name": "Early Nine Bows Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709357",
+        "name": "Later Nine Bows Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709366",
+        "name": "Hyksos"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770936c",
+        "name": "Hittite Old and Middle Kingdom"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709373",
+        "name": "Minoan and Early Mycenaean"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709379",
+        "name": "Mitanni"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770937f",
+        "name": "Syro-Canaanite and Ugaritic"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709386",
+        "name": "Kassite and Later Babylonian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770938e",
+        "name": "Early New Kingdom Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709395",
+        "name": "Ramesside New Kingdom Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770939c",
+        "name": "Early Hebrew"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093a4",
+        "name": "Midianites and Early Arabs"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093ad",
+        "name": "Hittite Empire"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093b4",
+        "name": "Sea Peoples"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093bb",
+        "name": "Later Mycenaean and Trojan War"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093c2",
+        "name": "Vedic Indian"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093c8",
+        "name": "Middle Assyrian and Early Neo-Assyrian"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093d1",
+        "name": "Early Philistine"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093d7",
+        "name": "Later Philistine"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093dd",
+        "name": "Early Syro-Hittite"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093e4",
+        "name": "Later Syro-Hittite"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093eb",
+        "name": "Later Hebrew"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709463",
+        "name": "Nile Princes"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770946a",
+        "name": "Libyan Egyptian"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709471",
+        "name": "Napata Kushite"
+      }
+    ]
+  },
+  {
+    "name": "Sea Peoples Invasions",
+    "id": "5fb1b720e1af060017701924",
+    "armyLists": [
+      {
+        "id": "5fb1b9d8e1af0600177092f2",
+        "name": "Amurru and Early Aramaean"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709313",
+        "name": "Early Kassites, Nairi, or Hurrians"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770931a",
+        "name": "Gasgans"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709327",
+        "name": "Early Bronze Age Highlanders"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709357",
+        "name": "Later Nine Bows Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770937f",
+        "name": "Syro-Canaanite and Ugaritic"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709386",
+        "name": "Kassite and Later Babylonian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770938e",
+        "name": "Early New Kingdom Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709395",
+        "name": "Ramesside New Kingdom Egyptian"
+      },
+      {
+        "id": "5fb1b9d9e1af06001770939c",
+        "name": "Early Hebrew"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093a4",
+        "name": "Midianites and Early Arabs"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093b4",
+        "name": "Sea Peoples"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093bb",
+        "name": "Later Mycenaean and Trojan War"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709491",
+        "name": "Urnfield Culture"
+      }
+    ]
+  },
+  {
+    "name": "Alexander and Successors",
+    "id": "5fb1b720e1af060017701925",
+    "armyLists": [
+      {
+        "id": "5fb1b9d9e1af0600177093a4",
+        "name": "Midianites and Early Arabs"
+      },
+      {
+        "id": "5fb1b9dae1af060017709430",
+        "name": "Kimmerian and Skythian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095c7",
+        "name": "Later Achaemenid Persian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095ce",
+        "name": "Early Atropatene"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095d5",
+        "name": "Early Macedonian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095dc",
+        "name": "Later Hoplite Spartan"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095e3",
+        "name": "Later Hoplite Athens"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095ea",
+        "name": "Later Hoplite Theban/Boiotian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095f1",
+        "name": "Later Hoplite Thessalian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095f8",
+        "name": "Later Hoplite Aitolian or Akarnanian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095ff",
+        "name": "Sacred War Phokian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709606",
+        "name": "Later Hoplite Italiot, Siciliot, or Tarentine"
+      },
+      {
+        "id": "5fb1b9dde1af06001770960e",
+        "name": "Later Hoplite Greek Minor Powers"
+      },
+      {
+        "id": "5fb1b9dde1af060017709617",
+        "name": "Lykian"
+      },
+      {
+        "id": "5fb1b9dde1af06001770961d",
+        "name": "Rise of Macedon"
+      },
+      {
+        "id": "5fb1b9dde1af060017709623",
+        "name": "Alexandrian Macedonian"
+      },
+      {
+        "id": "5fb1b9dde1af06001770962a",
+        "name": "Alexander Imperial"
+      },
+      {
+        "id": "5fb1b9dde1af060017709630",
+        "name": "Illyrian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709639",
+        "name": "Paeonian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709640",
+        "name": "Thracian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709649",
+        "name": "Thracian Lowland Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709652",
+        "name": "Bithynian"
+      },
+      {
+        "id": "5fb1b9dee1af060017709659",
+        "name": "Diadachoii in Macedon"
+      },
+      {
+        "id": "5fb1b9dee1af06001770965f",
+        "name": "Alketas"
+      },
+      {
+        "id": "5fb1b9dee1af060017709665",
+        "name": "Antigonid"
+      },
+      {
+        "id": "5fb1b9dee1af06001770966b",
+        "name": "Eumenes"
+      },
+      {
+        "id": "5fb1b9dee1af060017709671",
+        "name": "Lysimachid"
+      },
+      {
+        "id": "5fb1b9dee1af060017709677",
+        "name": "Pyrrhic"
+      },
+      {
+        "id": "5fb1b9dee1af06001770967e",
+        "name": "Hellenistic Boiotian"
+      },
+      {
+        "id": "5fb1b9dee1af06001770968b",
+        "name": "Hellenistic Aitolian"
+      },
+      {
+        "id": "5fb1b9dee1af06001770969e",
+        "name": "Hellenistic Minor States"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096a6",
+        "name": "Later Macedonian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ac",
+        "name": "Antigonos Gonatas"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096b3",
+        "name": "Early Galatian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ce",
+        "name": "Kingdom of Cappadocia"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096d6",
+        "name": "Later Skythian"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096de",
+        "name": "Early Rhoxolani Sarmatian"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096e6",
+        "name": "Hellenistic Bosporan"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096f4",
+        "name": "Sarmatian Tribes"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096fc",
+        "name": "Early Seleucid"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709702",
+        "name": "Seleucid"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770970f",
+        "name": "Early Ptolemaic"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709715",
+        "name": "Ptolemaic"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770974b",
+        "name": "Nabataean Kingdom"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709758",
+        "name": "Arabo-Aramaean Citystates"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770975f",
+        "name": "Later Pre-Islamic Arab Nomad"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709766",
+        "name": "Later Pre-Islamic Arab City"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770976e",
+        "name": "Later Pre-Islamic Arab Yemen"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709776",
+        "name": "Massagetae"
+      },
+      {
+        "id": "5fb1b9e0e1af06001770979e",
+        "name": "Classical Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097b1",
+        "name": "Republican Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097b8",
+        "name": "Mountain Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097f6",
+        "name": "Early Armenian and Gordyene"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709838",
+        "name": "Meroitic Kushite"
+      }
+    ]
+  },
+  {
+    "name": "Assyrian Empire",
+    "id": "5fb1b720e1af060017701926",
+    "armyLists": [
+      {
+        "id": "5fb1b9d9e1af060017709357",
+        "name": "Later Nine Bows Libyan"
+      },
+      {
+        "id": "5fb1b9d9e1af060017709386",
+        "name": "Kassite and Later Babylonian"
+      },
+      {
+        "id": "5fb1b9d9e1af0600177093a4",
+        "name": "Midianites and Early Arabs"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093c8",
+        "name": "Middle Assyrian and Early Neo-Assyrian"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093dd",
+        "name": "Early Syro-Hittite"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093e4",
+        "name": "Later Syro-Hittite"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093eb",
+        "name": "Later Hebrew"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093f2",
+        "name": "Early Cypriot and Phoenician"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093f9",
+        "name": "Middle Cypriot and Phoenician"
+      },
+      {
+        "id": "5fb1b9dae1af06001770940c",
+        "name": "Later Bronze Age Highlanders"
+      },
+      {
+        "id": "5fb1b9dae1af060017709412",
+        "name": "Urartian"
+      },
+      {
+        "id": "5fb1b9dae1af060017709418",
+        "name": "Phrygian"
+      },
+      {
+        "id": "5fb1b9dae1af06001770941e",
+        "name": "Early Medes"
+      },
+      {
+        "id": "5fb1b9dae1af060017709424",
+        "name": "Median Kingdom"
+      },
+      {
+        "id": "5fb1b9dae1af06001770942a",
+        "name": "Neo-Elamite"
+      },
+      {
+        "id": "5fb1b9dae1af060017709430",
+        "name": "Kimmerian and Skythian"
+      },
+      {
+        "id": "5fb1b9dae1af060017709438",
+        "name": "Early Neo-Babylonian"
+      },
+      {
+        "id": "5fb1b9dae1af06001770943e",
+        "name": "Later Neo-Babylonian"
+      },
+      {
+        "id": "5fb1b9dae1af060017709450",
+        "name": "Neo-Assyrian Empire"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709457",
+        "name": "Later Sargonid Assyrian"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770945d",
+        "name": "Lydian"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709463",
+        "name": "Nile Princes"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770946a",
+        "name": "Libyan Egyptian"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709471",
+        "name": "Napata Kushite"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709478",
+        "name": "Kushite Egyptian"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770947f",
+        "name": "Saitic Egyptian"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770950e",
+        "name": "Kyrenean Greek"
+      },
+      {
+        "id": "5fb1b9dce1af060017709581",
+        "name": "Later Libyan"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709838",
+        "name": "Meroitic Kushite"
+      }
+    ]
+  },
+  {
+    "name": "Birth of the West",
+    "id": "5fb1b720e1af060017701927",
+    "armyLists": [
+      {
+        "id": "5fb1b9dae1af0600177093f2",
+        "name": "Early Cypriot and Phoenician"
+      },
+      {
+        "id": "5fb1b9dae1af0600177093f9",
+        "name": "Middle Cypriot and Phoenician"
+      },
+      {
+        "id": "5fb1b9dae1af060017709400",
+        "name": "Later Phoenician"
+      },
+      {
+        "id": "5fb1b9dae1af060017709406",
+        "name": "Evagoras of Salamis"
+      },
+      {
+        "id": "5fb1b9dae1af060017709430",
+        "name": "Kimmerian and Skythian"
+      },
+      {
+        "id": "5fb1b9dae1af060017709444",
+        "name": "Neo-Babylonian Empire"
+      },
+      {
+        "id": "5fb1b9dae1af06001770944a",
+        "name": "Neo-Babylonian Revolts"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709485",
+        "name": "Saitic Egyptian Rebellions"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770948b",
+        "name": "Early Bronze Age North Europe"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709491",
+        "name": "Urnfield Culture"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709498",
+        "name": "Hallstat and La Tene Cultures"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770949e",
+        "name": "Greek Dark Ages"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094a4",
+        "name": "Early Villanovan Italian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094aa",
+        "name": "Later Villanovan Italian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094b0",
+        "name": "Sardinian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094b7",
+        "name": "Hellenized Sicels"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094bd",
+        "name": "Italian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094c4",
+        "name": "Iron Age Italian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094cb",
+        "name": "Umbrian Italian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094d1",
+        "name": "Latin"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094d7",
+        "name": "Etruscan League"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094dd",
+        "name": "Tullian Roman"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094e3",
+        "name": "Early Hoplite Theban"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094e9",
+        "name": "Early Hoplite Thessalian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094ef",
+        "name": "Early Hoplite Aitolian or Akarnanian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094f5",
+        "name": "Early Hoplite Siciliot, Italiot, or Ionian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094fb",
+        "name": "Early Hoplite Greek"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709502",
+        "name": "Early Hoplite Sparta"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709508",
+        "name": "Early Hoplite Athens"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770950e",
+        "name": "Kyrenean Greek"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709515",
+        "name": "Ptolemaic Kyrene"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770951c",
+        "name": "Early Achaemenid Persian"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709522",
+        "name": "Transitional Achaemenid Persian"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709528",
+        "name": "Early Carthaginian"
+      },
+      {
+        "id": "5fb1b9dbe1af06001770952e",
+        "name": "Campanian"
+      },
+      {
+        "id": "5fb1b9dce1af060017709534",
+        "name": "Romanized Campanian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770953b",
+        "name": "Apulian, Lucanian, or Bruttian"
+      },
+      {
+        "id": "5fb1b9dce1af060017709543",
+        "name": "Camillan Roman"
+      },
+      {
+        "id": "5fb1b9dce1af060017709549",
+        "name": "Samnite"
+      },
+      {
+        "id": "5fb1b9dce1af06001770954f",
+        "name": "Syracusan"
+      },
+      {
+        "id": "5fb1b9dce1af060017709557",
+        "name": "Massalian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770955e",
+        "name": "Later Carthaginian in Spain"
+      },
+      {
+        "id": "5fb1b9dce1af060017709565",
+        "name": "Later Carthaginian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770956c",
+        "name": "Hannibal in Italy"
+      },
+      {
+        "id": "5fb1b9dce1af060017709573",
+        "name": "Zama Campaign"
+      },
+      {
+        "id": "5fb1b9dce1af06001770957a",
+        "name": "Post-Zama Carthaginian"
+      },
+      {
+        "id": "5fb1b9dce1af060017709581",
+        "name": "Later Libyan"
+      },
+      {
+        "id": "5fb1b9dce1af060017709589",
+        "name": "Garamantes"
+      },
+      {
+        "id": "5fb1b9dce1af06001770959d",
+        "name": "Warlike Gallic"
+      },
+      {
+        "id": "5fb1b9dce1af0600177095ab",
+        "name": "Iberians"
+      },
+      {
+        "id": "5fb1b9dce1af0600177095b2",
+        "name": "Celtiberians"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095b9",
+        "name": "Lusitanians"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095c0",
+        "name": "Polybian Roman"
+      },
+      {
+        "id": "5fb1b9dde1af060017709630",
+        "name": "Illyrian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709639",
+        "name": "Paeonian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709640",
+        "name": "Thracian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709649",
+        "name": "Thracian Lowland Tribes"
+      },
+      {
+        "id": "5fb1b9dee1af060017709677",
+        "name": "Pyrrhic"
+      }
+    ]
+  },
+  {
+    "name": "Rise of Rome",
+    "id": "5fb1b720e1af060017701928",
+    "armyLists": [
+      {
+        "id": "5fb1b9dbe1af0600177094b0",
+        "name": "Sardinian"
+      },
+      {
+        "id": "5fb1b9dbe1af0600177094bd",
+        "name": "Italian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dbe1af060017709515",
+        "name": "Ptolemaic Kyrene"
+      },
+      {
+        "id": "5fb1b9dce1af060017709534",
+        "name": "Romanized Campanian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770953b",
+        "name": "Apulian, Lucanian, or Bruttian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770954f",
+        "name": "Syracusan"
+      },
+      {
+        "id": "5fb1b9dce1af060017709557",
+        "name": "Massalian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770955e",
+        "name": "Later Carthaginian in Spain"
+      },
+      {
+        "id": "5fb1b9dce1af060017709565",
+        "name": "Later Carthaginian"
+      },
+      {
+        "id": "5fb1b9dce1af06001770956c",
+        "name": "Hannibal in Italy"
+      },
+      {
+        "id": "5fb1b9dce1af060017709573",
+        "name": "Zama Campaign"
+      },
+      {
+        "id": "5fb1b9dce1af06001770957a",
+        "name": "Post-Zama Carthaginian"
+      },
+      {
+        "id": "5fb1b9dce1af060017709581",
+        "name": "Later Libyan"
+      },
+      {
+        "id": "5fb1b9dce1af060017709589",
+        "name": "Garamantes"
+      },
+      {
+        "id": "5fb1b9dce1af060017709591",
+        "name": "Numidian or Early Moorish"
+      },
+      {
+        "id": "5fb1b9dce1af060017709597",
+        "name": "Thapsus Campaign"
+      },
+      {
+        "id": "5fb1b9dce1af06001770959d",
+        "name": "Warlike Gallic"
+      },
+      {
+        "id": "5fb1b9dce1af0600177095a5",
+        "name": "Sedentary Gallic"
+      },
+      {
+        "id": "5fb1b9dce1af0600177095ab",
+        "name": "Iberians"
+      },
+      {
+        "id": "5fb1b9dce1af0600177095b2",
+        "name": "Celtiberians"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095b9",
+        "name": "Lusitanians"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095c0",
+        "name": "Polybian Roman"
+      },
+      {
+        "id": "5fb1b9dde1af060017709606",
+        "name": "Later Hoplite Italiot, Siciliot, or Tarentine"
+      },
+      {
+        "id": "5fb1b9dde1af060017709630",
+        "name": "Illyrian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709640",
+        "name": "Thracian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709649",
+        "name": "Thracian Lowland Tribes"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096c1",
+        "name": "Later Galatian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ce",
+        "name": "Kingdom of Cappadocia"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096de",
+        "name": "Early Rhoxolani Sarmatian"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096e6",
+        "name": "Hellenistic Bosporan"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096ee",
+        "name": "Roman Bosporan"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096f4",
+        "name": "Sarmatian Tribes"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770971d",
+        "name": "Cleopatran Ptolemaic"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709736",
+        "name": "Early Pontic"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770973d",
+        "name": "Mithradatic"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709744",
+        "name": "Pharnaces"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097c0",
+        "name": "Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097c8",
+        "name": "Parthian Subject Provinces"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097d0",
+        "name": "Suren Indo-Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097e8",
+        "name": "Early Commagene"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097ef",
+        "name": "Later Commagene"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097f6",
+        "name": "Early Armenian and Gordyene"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709806",
+        "name": "Tigranes"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770980d",
+        "name": "Marian Roman"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709813",
+        "name": "First Servile War"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709819",
+        "name": "Second Servile War"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770981f",
+        "name": "Spartacus"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709825",
+        "name": "Late Judaean"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770982b",
+        "name": "Jewish Revolt"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709831",
+        "name": "Early Imperial Roman"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709838",
+        "name": "Meroitic Kushite"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709842",
+        "name": "Dacian or Carpi"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709849",
+        "name": "Early German"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709851",
+        "name": "Early German Suebi"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709857",
+        "name": "Marcomanni under Maroboduus"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770985d",
+        "name": "Batavian Revolt"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709863",
+        "name": "Early German Cherusci or Batavian"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770986a",
+        "name": "Ancient British"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709871",
+        "name": "Cassivellaunus all mounted"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709877",
+        "name": "Caledonian"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770988c",
+        "name": "Scots-Irish"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709932",
+        "name": "Migration-Era Alan"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099cd",
+        "name": "Later Moorish"
+      }
+    ]
+  },
+  {
+    "name": "Sahel Africa",
+    "id": "5fb1b720e1af060017701929",
+    "armyLists": [
+      {
+        "id": "5fb1b9dce1af060017709589",
+        "name": "Garamantes"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b57",
+        "name": "Kanem-Bornu"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b5d",
+        "name": "Hausa States"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b69",
+        "name": "Songhai"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b6f",
+        "name": "Songhai Empire"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b75",
+        "name": "Sao City-States"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b7d",
+        "name": "Fante and Gold Coast Peoples"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b83",
+        "name": "Mali"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b89",
+        "name": "Empire of Mali"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b90",
+        "name": "Ghana"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b96",
+        "name": "Takrur and Wolof"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b9c",
+        "name": "Fulani"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709ba2",
+        "name": "Tuareg"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709ba8",
+        "name": "Almoravid"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709baf",
+        "name": "Almohades"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709bb6",
+        "name": "Islamic Berber"
+      }
+    ]
+  },
+  {
+    "name": "Hellenistic World",
+    "id": "5fb1b720e1af06001770192a",
+    "armyLists": [
+      {
+        "id": "5fb1b9dde1af0600177095ce",
+        "name": "Early Atropatene"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095dc",
+        "name": "Later Hoplite Spartan"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095e3",
+        "name": "Later Hoplite Athens"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095ea",
+        "name": "Later Hoplite Theban/Boiotian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095f1",
+        "name": "Later Hoplite Thessalian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095f8",
+        "name": "Later Hoplite Aitolian or Akarnanian"
+      },
+      {
+        "id": "5fb1b9dde1af0600177095ff",
+        "name": "Sacred War Phokian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709606",
+        "name": "Later Hoplite Italiot, Siciliot, or Tarentine"
+      },
+      {
+        "id": "5fb1b9dde1af06001770960e",
+        "name": "Later Hoplite Greek Minor Powers"
+      },
+      {
+        "id": "5fb1b9dde1af060017709630",
+        "name": "Illyrian"
+      },
+      {
+        "id": "5fb1b9dde1af060017709640",
+        "name": "Thracian Hill Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709649",
+        "name": "Thracian Lowland Tribes"
+      },
+      {
+        "id": "5fb1b9dde1af060017709652",
+        "name": "Bithynian"
+      },
+      {
+        "id": "5fb1b9dee1af06001770967e",
+        "name": "Hellenistic Boiotian"
+      },
+      {
+        "id": "5fb1b9dee1af060017709685",
+        "name": "Hellenistic Spartan"
+      },
+      {
+        "id": "5fb1b9dee1af06001770968b",
+        "name": "Hellenistic Aitolian"
+      },
+      {
+        "id": "5fb1b9dee1af060017709692",
+        "name": "Early Hellenistic Achaean"
+      },
+      {
+        "id": "5fb1b9dee1af060017709698",
+        "name": "Later Hellenistic Achaean"
+      },
+      {
+        "id": "5fb1b9dee1af06001770969e",
+        "name": "Hellenistic Minor States"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096a6",
+        "name": "Later Macedonian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ac",
+        "name": "Antigonos Gonatas"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096b3",
+        "name": "Early Galatian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ba",
+        "name": "Galatian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096c1",
+        "name": "Later Galatian"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096c8",
+        "name": "Attalid Pergamene"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096ce",
+        "name": "Kingdom of Cappadocia"
+      },
+      {
+        "id": "5fb1b9dee1af0600177096d6",
+        "name": "Later Skythian"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096de",
+        "name": "Early Rhoxolani Sarmatian"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096e6",
+        "name": "Hellenistic Bosporan"
+      },
+      {
+        "id": "5fb1b9dfe1af0600177096f4",
+        "name": "Sarmatian Tribes"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709702",
+        "name": "Seleucid"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709709",
+        "name": "Later Seleucid"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709715",
+        "name": "Ptolemaic"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770971d",
+        "name": "Cleopatran Ptolemaic"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709724",
+        "name": "Maccabean Jewish Trained Army"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770972a",
+        "name": "Maccabean Revolt and Maccabean Irregulars"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709730",
+        "name": "Hasmonean Jewish"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709736",
+        "name": "Early Pontic"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770973d",
+        "name": "Mithradatic"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709744",
+        "name": "Pharnaces"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770974b",
+        "name": "Nabataean Kingdom"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709752",
+        "name": "Kingdom of Hatra"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709758",
+        "name": "Arabo-Aramaean Citystates"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770975f",
+        "name": "Later Pre-Islamic Arab Nomad"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709766",
+        "name": "Later Pre-Islamic Arab City"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770976e",
+        "name": "Later Pre-Islamic Arab Yemen"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709776",
+        "name": "Massagetae"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770977d",
+        "name": "Early Greco-Bactrian"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709784",
+        "name": "Later Greco-Bactrian"
+      },
+      {
+        "id": "5fb1b9e0e1af06001770978b",
+        "name": "Indo-Greek Kingdom"
+      },
+      {
+        "id": "5fb1b9e0e1af06001770979e",
+        "name": "Classical Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097b8",
+        "name": "Mountain Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097c0",
+        "name": "Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097c8",
+        "name": "Parthian Subject Provinces"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097d0",
+        "name": "Suren Indo-Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097d8",
+        "name": "Early Kushan"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097e0",
+        "name": "Kushan Empire"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097e8",
+        "name": "Early Commagene"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097ef",
+        "name": "Later Commagene"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097f6",
+        "name": "Early Armenian and Gordyene"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709806",
+        "name": "Tigranes"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709838",
+        "name": "Meroitic Kushite"
+      }
+    ]
+  },
+  {
+    "name": "Pax Romana",
+    "id": "5fb1b720e1af06001770192b",
+    "armyLists": [
+      {
+        "id": "5fb1b9e0e1af0600177097f6",
+        "name": "Early Armenian and Gordyene"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097ff",
+        "name": "Roman Armenian"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709831",
+        "name": "Early Imperial Roman"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709838",
+        "name": "Meroitic Kushite"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709842",
+        "name": "Dacian or Carpi"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709849",
+        "name": "Early German"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709863",
+        "name": "Early German Cherusci or Batavian"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709877",
+        "name": "Caledonian"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770987e",
+        "name": "Severan Middle Imperial Roman"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709885",
+        "name": "Diocletian Middle Imperial Roman"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770988c",
+        "name": "Scots-Irish"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709895",
+        "name": "Pictish"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770989f",
+        "name": "Early Vandal"
+      },
+      {
+        "id": "5fb1b9e1e1af0600177098ae",
+        "name": "Tervingi or Early Visigoth"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098c7",
+        "name": "Greuthingi or Early Ostrogothic"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098fa",
+        "name": "Burgundi or Limigantes"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709902",
+        "name": "Gepid (all mounted)"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709909",
+        "name": "Gepid"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709910",
+        "name": "Old Saxon and related tribes"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770991b",
+        "name": "Early Frankish, Suebi, and related tribes"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709923",
+        "name": "Quadi"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770992a",
+        "name": "Alamanni"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709932",
+        "name": "Migration-Era Alan"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709942",
+        "name": "Palmyran"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709948",
+        "name": "Early Sassanid Persian"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099cd",
+        "name": "Later Moorish"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709eb9",
+        "name": "Desert Blemmye or Beja"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ec2",
+        "name": "Nobatia or Ballana"
+      }
+    ]
+  },
+  {
+    "name": "India and the Khyber Pass",
+    "id": "5fb1b720e1af06001770192c",
+    "armyLists": [
+      {
+        "id": "5fb1b9dee1af0600177096d6",
+        "name": "Later Skythian"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770977d",
+        "name": "Early Greco-Bactrian"
+      },
+      {
+        "id": "5fb1b9dfe1af060017709784",
+        "name": "Later Greco-Bactrian"
+      },
+      {
+        "id": "5fb1b9e0e1af06001770978b",
+        "name": "Indo-Greek Kingdom"
+      },
+      {
+        "id": "5fb1b9e0e1af060017709792",
+        "name": "Sangam Era Tamil"
+      },
+      {
+        "id": "5fb1b9e0e1af060017709798",
+        "name": "Sangam Era Sinhalese"
+      },
+      {
+        "id": "5fb1b9e0e1af06001770979e",
+        "name": "Classical Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097ab",
+        "name": "Guptas"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097b1",
+        "name": "Republican Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097b8",
+        "name": "Mountain Indian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097c0",
+        "name": "Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097d0",
+        "name": "Suren Indo-Parthian"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097d8",
+        "name": "Early Kushan"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097e0",
+        "name": "Kushan Empire"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770995d",
+        "name": "Hun Kingdoms in India"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709964",
+        "name": "Sabir"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770996c",
+        "name": "Chionites and Western Hepthalites"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a025",
+        "name": "Timurid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a07a",
+        "name": "Ghaznavid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a082",
+        "name": "Ghurid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a089",
+        "name": "Arab Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a093",
+        "name": "Early Sultanate of Delhi"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a09b",
+        "name": "Later Muslim Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0a3",
+        "name": "Kannauj Empire"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0ab",
+        "name": "Rajput Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0b4",
+        "name": "Medieval Hindu Kingdoms "
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0bc",
+        "name": "Vijayanagar Empire"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0c4",
+        "name": "Later Tamil Indian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0cd",
+        "name": "Later Sinhalese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0d5",
+        "name": "Burmese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0dd",
+        "name": "Tibetan"
+      }
+    ]
+  },
+  {
+    "name": "Fall of Rome",
+    "id": "5fb1b720e1af06001770192d",
+    "armyLists": [
+      {
+        "id": "5fb1b9e0e1af0600177097ff",
+        "name": "Roman Armenian"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770988c",
+        "name": "Scots-Irish"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709895",
+        "name": "Pictish"
+      },
+      {
+        "id": "5fb1b9e1e1af06001770989f",
+        "name": "Early Vandal"
+      },
+      {
+        "id": "5fb1b9e1e1af0600177098a7",
+        "name": "Late Imperial Roman West"
+      },
+      {
+        "id": "5fb1b9e1e1af0600177098ae",
+        "name": "Tervingi or Early Visigoth"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098b5",
+        "name": "Adrianople Campaign Visigoth"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098bb",
+        "name": "Visigoths under Alaric as Magister Militum"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098c1",
+        "name": "Visigoths under Alaric and Successors"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098c7",
+        "name": "Greuthingi or Early Ostrogothic"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098cf",
+        "name": "Battle of Marcianople"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098d5",
+        "name": "Army of Radagaisus"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098db",
+        "name": "Early Sub-Roman British"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098e1",
+        "name": "Later Sub-Roman British"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098e7",
+        "name": "Early Patrician Roman West except Africa"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098ee",
+        "name": "Early Patrician Roman West: Africa"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098f4",
+        "name": "Later Patrician Roman West"
+      },
+      {
+        "id": "5fb1b9e2e1af0600177098fa",
+        "name": "Burgundi or Limigantes"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709902",
+        "name": "Gepid (all mounted)"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709909",
+        "name": "Gepid"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709910",
+        "name": "Old Saxon and related tribes"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770991b",
+        "name": "Early Frankish, Suebi, and related tribes"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709923",
+        "name": "Quadi"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770992a",
+        "name": "Alamanni"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709932",
+        "name": "Migration-Era Alan"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770993a",
+        "name": "Late Imperial Roman East"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709948",
+        "name": "Early Sassanid Persian"
+      },
+      {
+        "id": "5fb1b9e2e1af06001770994f",
+        "name": "Middle Sassanid Persian"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709956",
+        "name": "Late Sassanid Persian"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770995d",
+        "name": "Hun Kingdoms in India"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709964",
+        "name": "Sabir"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770996c",
+        "name": "Chionites and Western Hepthalites"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709974",
+        "name": "Western Hunnic"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770997a",
+        "name": "Army of Attila"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709980",
+        "name": "Early Patrician Roman East"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709986",
+        "name": "Later Patrician Roman East"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770998c",
+        "name": "Later Visigoth"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709995",
+        "name": "Alf\u00f6ld Early Lombard"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770999c",
+        "name": "Early Lombard in Italy"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099a3",
+        "name": "Italian Ostrogothic"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099aa",
+        "name": "Merovingian Frankish: Austrasia"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099b1",
+        "name": "Merovingian Frankish: Burgundy"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099b8",
+        "name": "Merovingian Frankish: Provence"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099bf",
+        "name": "Merovingian Frankish: Neustria or Aquitaine"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099c6",
+        "name": "African Vandal"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099cd",
+        "name": "Later Moorish"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709eb9",
+        "name": "Desert Blemmye or Beja"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ec2",
+        "name": "Nobatia or Ballana"
+      }
+    ]
+  },
+  {
+    "name": "Dark Ages",
+    "id": "5fb1b720e1af06001770192e",
+    "armyLists": [
+      {
+        "id": "5fb1b9e1e1af06001770988c",
+        "name": "Scots-Irish"
+      },
+      {
+        "id": "5fb1b9e1e1af060017709895",
+        "name": "Pictish"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709910",
+        "name": "Old Saxon and related tribes"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770998c",
+        "name": "Later Visigoth"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709995",
+        "name": "Alf\u00f6ld Early Lombard"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770999c",
+        "name": "Early Lombard in Italy"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099a3",
+        "name": "Italian Ostrogothic"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099aa",
+        "name": "Merovingian Frankish: Austrasia"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099b1",
+        "name": "Merovingian Frankish: Burgundy"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099b8",
+        "name": "Merovingian Frankish: Provence"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099bf",
+        "name": "Merovingian Frankish: Neustria or Aquitaine"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099d7",
+        "name": "Justinian Byzantine"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099de",
+        "name": "Justinian Decline"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099e5",
+        "name": "Early Slav"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099eb",
+        "name": "Slav or Wend"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099f5",
+        "name": "Avar"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099fc",
+        "name": "Old Great Bulgaria"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a03",
+        "name": "Early Danube Bulgar"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a0a",
+        "name": "Danube Bulgar"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a11",
+        "name": "First Bulgar Empire"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a18",
+        "name": "Maurikian Byzantine"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a21",
+        "name": "Early Serbian or Croatian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a28",
+        "name": "Feudal Croatian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a2f",
+        "name": "Feudal Serbian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a36",
+        "name": "Italian Lombard"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a3d",
+        "name": "Carolingian Italy"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a44",
+        "name": "Carolingian Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a4c",
+        "name": "Breton"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a95",
+        "name": "Pre-Viking Scandinavian"
+      }
+    ]
+  },
+  {
+    "name": "Viking Seas",
+    "id": "5fb1b720e1af06001770192f",
+    "armyLists": [
+      {
+        "id": "5fb1b9e1e1af060017709895",
+        "name": "Pictish"
+      },
+      {
+        "id": "5fb1b9e2e1af060017709910",
+        "name": "Old Saxon and related tribes"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099eb",
+        "name": "Slav or Wend"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a44",
+        "name": "Carolingian Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a4c",
+        "name": "Breton"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a53",
+        "name": "West Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a59",
+        "name": "Norman Conquest"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a5f",
+        "name": "East Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a66",
+        "name": "Ottonian Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a6e",
+        "name": "Frisian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a75",
+        "name": "Viking West Frisia"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a7c",
+        "name": "West Frisia"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a83",
+        "name": "Western Slav"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a89",
+        "name": "Early Magyar"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a8f",
+        "name": "Later Magyar"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a95",
+        "name": "Pre-Viking Scandinavian"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a9f",
+        "name": "Scandinavian Leidang"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709aa8",
+        "name": "Viking Raiders"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709aae",
+        "name": "Viking"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ab6",
+        "name": "Dublin or Manx Vikings"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709abd",
+        "name": "Dark Ages Welsh"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ac3",
+        "name": "Kingdoms of Britons"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ac9",
+        "name": "Early Northumbria or Mercia"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709acf",
+        "name": "Middle Anglo-Saxon"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ad5",
+        "name": "Anglo-Danish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709adc",
+        "name": "Pre-Feudal Scots"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ae2",
+        "name": "Norse Irish"
+      }
+    ]
+  },
+  {
+    "name": "Spread of Islam",
+    "id": "5fb1b720e1af060017701930",
+    "armyLists": [
+      {
+        "id": "5fb1b9dfe1af060017709766",
+        "name": "Later Pre-Islamic Arab City"
+      },
+      {
+        "id": "5fb1b9dfe1af06001770976e",
+        "name": "Later Pre-Islamic Arab Yemen"
+      },
+      {
+        "id": "5fb1b9e3e1af060017709956",
+        "name": "Late Sassanid Persian"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770998c",
+        "name": "Later Visigoth"
+      },
+      {
+        "id": "5fb1b9e3e1af0600177099cd",
+        "name": "Later Moorish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a18",
+        "name": "Maurikian Byzantine"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709bbd",
+        "name": "Early Muslim North Africa and Sicily"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bc4",
+        "name": "Muslim North Africa and Sicily"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bcb",
+        "name": "Zirid Emirate of Mahdia"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bd2",
+        "name": "Berber Invasions of Iberia"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709be0",
+        "name": "Andalusian"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bee",
+        "name": "Early Feudal Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bf6",
+        "name": "Feudal Spanish"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e25",
+        "name": "Thematic Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e2c",
+        "name": "Thematic Byzantine (in Italy)"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e33",
+        "name": "Rshtuni Armenian"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e3a",
+        "name": "Rshtuni Armenian (all mounted)"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709eb9",
+        "name": "Desert Blemmye or Beja"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ec9",
+        "name": "Axumite Empire"
+      },
+      {
+        "id": "5fb1b9ece1af060017709edd",
+        "name": "Christian Nubian"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ee4",
+        "name": "Arab Conquest under Muhammad"
+      },
+      {
+        "id": "5fb1b9ece1af060017709eec",
+        "name": "Early Arab Conquest"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ef4",
+        "name": "Arab Conquest Expansion"
+      },
+      {
+        "id": "5fb1b9ece1af060017709efc",
+        "name": "Khawarij Rebellions"
+      },
+      {
+        "id": "5fb1b9ece1af060017709f04",
+        "name": "Umayyad Arab"
+      }
+    ]
+  },
+  {
+    "name": "Glorious Byzantium",
+    "id": "5fb1b720e1af060017701931",
+    "armyLists": [
+      {
+        "id": "5fb1b9e3e1af0600177099cd",
+        "name": "Later Moorish"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099eb",
+        "name": "Slav or Wend"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099f5",
+        "name": "Avar"
+      },
+      {
+        "id": "5fb1b9e4e1af0600177099fc",
+        "name": "Old Great Bulgaria"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a03",
+        "name": "Early Danube Bulgar"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a0a",
+        "name": "Danube Bulgar"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a11",
+        "name": "First Bulgar Empire"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a21",
+        "name": "Early Serbian or Croatian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a28",
+        "name": "Feudal Croatian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a2f",
+        "name": "Feudal Serbian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a36",
+        "name": "Italian Lombard"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a3d",
+        "name": "Carolingian Italy"
+      },
+      {
+        "id": "5fb1b9eae1af060017709ddd",
+        "name": "Kievan Rus"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dfa",
+        "name": "Early Khazar"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e02",
+        "name": "Khazar Empire"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e09",
+        "name": "Khazar Decline"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e10",
+        "name": "Volga Bulgar"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e17",
+        "name": "Pecheneg"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e1e",
+        "name": "Cuman"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e25",
+        "name": "Thematic Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e2c",
+        "name": "Thematic Byzantine (in Italy)"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e33",
+        "name": "Rshtuni Armenian"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e3a",
+        "name": "Rshtuni Armenian (all mounted)"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e41",
+        "name": "Bagratid Armenian"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e47",
+        "name": "Nikephorian Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e53",
+        "name": "Konstantinian Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e4d",
+        "name": "Romanus IV campaigns in Anatolia"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e5a",
+        "name": "Komnenan Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e63",
+        "name": "Reformed Komnenan Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e6b",
+        "name": "Later Bulgar"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e78",
+        "name": "Serbian Kingdom"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ee4",
+        "name": "Arab Conquest under Muhammad"
+      },
+      {
+        "id": "5fb1b9ece1af060017709eec",
+        "name": "Early Arab Conquest"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ef4",
+        "name": "Arab Conquest Expansion"
+      },
+      {
+        "id": "5fb1b9ece1af060017709efc",
+        "name": "Khawarij Rebellions"
+      },
+      {
+        "id": "5fb1b9ece1af060017709f04",
+        "name": "Umayyad Arab"
+      },
+      {
+        "id": "5fb1b9ece1af060017709f0d",
+        "name": "Abbasid Revolt"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f14",
+        "name": "Early Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f1b",
+        "name": "Middle Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f22",
+        "name": "Later Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f60",
+        "name": "Fatimid Egyptian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f67",
+        "name": "Early Crusader"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f72",
+        "name": "Great Seljuk or Seljuks of Rum"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f7b",
+        "name": "Seljuk Eastern Sultanates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f83",
+        "name": "Medieval Alan"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f8b",
+        "name": "Early Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f93",
+        "name": "Later Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f9c",
+        "name": "Syrian Caliphate of Baghdad"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fa5",
+        "name": "Syrian Arab-ruled Citystates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fad",
+        "name": "Zengid Dynasties in Syria"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fb6",
+        "name": "Later Crusader"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fc9",
+        "name": "Ayyubid Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fd2",
+        "name": "Lusignan Cypriot"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fdb",
+        "name": "Cilician Armenian"
+      }
+    ]
+  },
+  {
+    "name": "Scimitar and Crescent",
+    "id": "5fb1b720e1af060017701932",
+    "armyLists": [
+      {
+        "id": "5fb1b9e4e1af060017709a18",
+        "name": "Maurikian Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709eb9",
+        "name": "Desert Blemmye or Beja"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ec9",
+        "name": "Axumite Empire"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ed1",
+        "name": "Horn of Africa smaller states"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ed7",
+        "name": "Solomonic Ethiopia"
+      },
+      {
+        "id": "5fb1b9ece1af060017709edd",
+        "name": "Christian Nubian"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ee4",
+        "name": "Arab Conquest under Muhammad"
+      },
+      {
+        "id": "5fb1b9ece1af060017709eec",
+        "name": "Early Arab Conquest"
+      },
+      {
+        "id": "5fb1b9ece1af060017709ef4",
+        "name": "Arab Conquest Expansion"
+      },
+      {
+        "id": "5fb1b9ece1af060017709efc",
+        "name": "Khawarij Rebellions"
+      },
+      {
+        "id": "5fb1b9ece1af060017709f04",
+        "name": "Umayyad Arab"
+      },
+      {
+        "id": "5fb1b9ece1af060017709f0d",
+        "name": "Abbasid Revolt"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f14",
+        "name": "Early Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f1b",
+        "name": "Middle Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f22",
+        "name": "Later Abbasid"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f29",
+        "name": "Zanj Revolt"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f2f",
+        "name": "Tulunid Egyptian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f35",
+        "name": "Iqshidid Egyptian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f3b",
+        "name": "Early Hamdanids of Aleppo"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f41",
+        "name": "Hamdanid Dynasties"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f47",
+        "name": " Dynastic Bedouin"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f4e",
+        "name": "Qaramita"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f54",
+        "name": "Dynastic Kurdish"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f5a",
+        "name": "Buyid and Daylami Dynasties"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f60",
+        "name": "Fatimid Egyptian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f67",
+        "name": "Early Crusader"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f72",
+        "name": "Great Seljuk or Seljuks of Rum"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f7b",
+        "name": "Seljuk Eastern Sultanates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f83",
+        "name": "Medieval Alan"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f8b",
+        "name": "Early Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f93",
+        "name": "Later Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f9c",
+        "name": "Syrian Caliphate of Baghdad"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fa5",
+        "name": "Syrian Arab-ruled Citystates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fad",
+        "name": "Zengid Dynasties in Syria"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fb6",
+        "name": "Later Crusader"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fc1",
+        "name": "Khwarizmian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fc9",
+        "name": "Ayyubid Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fd2",
+        "name": "Lusignan Cypriot"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fdb",
+        "name": "Cilician Armenian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fe4",
+        "name": "Genoese in Cyprus"
+      },
+      {
+        "id": "5fb1b9eee1af060017709feb",
+        "name": "Early Ottoman"
+      },
+      {
+        "id": "5fb1b9eee1af060017709ff3",
+        "name": "Ottoman Empire"
+      },
+      {
+        "id": "5fb1b9eee1af060017709ffb",
+        "name": "Anatolian Turkoman"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a004",
+        "name": "Mamluk Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a00c",
+        "name": "Order of St. John"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a014",
+        "name": "Trapezuntine Byzantine"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a01c",
+        "name": "Golden Horde and Successors"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a025",
+        "name": "Timurid"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a02e",
+        "name": "Black and White Sheep Turkoman"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a035",
+        "name": "Ilkhanid"
+      }
+    ]
+  },
+  {
+    "name": "Italy and Balkans",
+    "id": "5fb1b720e1af060017701933",
+    "armyLists": [
+      {
+        "id": "5fb1b9e4e1af060017709a5f",
+        "name": "East Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a66",
+        "name": "Ottonian Frankish"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d04",
+        "name": "Early Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d0d",
+        "name": "Later Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d15",
+        "name": "Early Renaissance Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d1e",
+        "name": "Sicilio-Norman"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d25",
+        "name": "Hohenstaufen Sicilian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d2b",
+        "name": "Early Communal Italian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d31",
+        "name": "Later Communal Italian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d37",
+        "name": "Early Papal Italian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d3d",
+        "name": "Later Papal Italian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d43",
+        "name": "Medieval Sicilian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d49",
+        "name": "Early Italian Condotta"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d51",
+        "name": "Later Italian Condotta"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d5b",
+        "name": "Albanian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d62",
+        "name": "Early Hungarian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d76",
+        "name": "Later Hungarian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d7d",
+        "name": "Crusade of Nicopolis"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d84",
+        "name": "Corvinus Hungarian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d8c",
+        "name": "Wallachian or Moldavian"
+      }
+    ]
+  },
+  {
+    "name": "Holy Roman Empire",
+    "id": "5fb1b720e1af060017701934",
+    "armyLists": [
+      {
+        "id": "5fb1b9e4e1af060017709a66",
+        "name": "Ottonian Frankish"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a6e",
+        "name": "Frisian"
+      },
+      {
+        "id": "5fb1b9e4e1af060017709a75",
+        "name": "Viking West Frisia"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a7c",
+        "name": "West Frisia"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c7f",
+        "name": "Early Low Countries"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c86",
+        "name": "Later Low Countries"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c8d",
+        "name": "Early Burgundian"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c95",
+        "name": "Burgundian Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c9d",
+        "name": "Hapsburg Burgundian"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709ca5",
+        "name": "Feudal German Kings or Emperors"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cac",
+        "name": "Feudal German Princes and Clerics"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cb4",
+        "name": "Konradin at Tagliacozzo"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cbb",
+        "name": "Feudal German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cc3",
+        "name": "German Peasant Republics"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cca",
+        "name": "Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cd3",
+        "name": "Later Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cdd",
+        "name": "Early Renaissance German Citystates"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709ce7",
+        "name": "Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cf0",
+        "name": "Later Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cfa",
+        "name": "Early Renaissance German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d04",
+        "name": "Early Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d0d",
+        "name": "Later Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d15",
+        "name": "Early Renaissance Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d62",
+        "name": "Early Hungarian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d69",
+        "name": "Early Hussite"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d6f",
+        "name": "Hussite"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d76",
+        "name": "Later Hungarian"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d7d",
+        "name": "Crusade of Nicopolis"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d84",
+        "name": "Corvinus Hungarian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d93",
+        "name": "Early Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d9b",
+        "name": "Later Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db9",
+        "name": "Teutonic Orders"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dc2",
+        "name": "Early Medieval Scandinavian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dca",
+        "name": "Medieval Danish and Kalmar Union"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dd4",
+        "name": "Medieval Swedish"
+      }
+    ]
+  },
+  {
+    "name": "Silk Road",
+    "id": "5fb1b720e1af060017701935",
+    "armyLists": [
+      {
+        "id": "5fb1b9e3e1af060017709964",
+        "name": "Sabir"
+      },
+      {
+        "id": "5fb1b9e3e1af06001770996c",
+        "name": "Chionites and Western Hepthalites"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fc1",
+        "name": "Khwarizmian"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a025",
+        "name": "Timurid"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a02e",
+        "name": "Black and White Sheep Turkoman"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a035",
+        "name": "Ilkhanid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a03e",
+        "name": "Jalayarid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a044",
+        "name": "Islamic Persian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a04a",
+        "name": "Safavids"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a050",
+        "name": "Tahirid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a056",
+        "name": "Saffarid or Samanid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a05c",
+        "name": "Qara Khitan"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a062",
+        "name": "Qocho Uyghur Kingdom"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a068",
+        "name": "Central Asian Turkish"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a06e",
+        "name": "Sogdians"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a074",
+        "name": "Tarim Basin Citystates"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a07a",
+        "name": "Ghaznavid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a082",
+        "name": "Ghurid"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a089",
+        "name": "Arab Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a093",
+        "name": "Early Sultanate of Delhi"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a09b",
+        "name": "Later Muslim Indian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0dd",
+        "name": "Tibetan"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a29a",
+        "name": "Mongol Conquest"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2a2",
+        "name": "Western Xia"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2a9",
+        "name": "Western Xia (all mounted)"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2e1",
+        "name": "Yuan in the North"
+      }
+    ]
+  },
+  {
+    "name": "Embattled Isle",
+    "id": "5fb1b720e1af060017701936",
+    "armyLists": [
+      {
+        "id": "5fb1b9e5e1af060017709aae",
+        "name": "Viking"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ab6",
+        "name": "Dublin or Manx Vikings"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ae2",
+        "name": "Norse Irish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709ae9",
+        "name": "Scots Isles and Highlands"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709aef",
+        "name": "Edward Bruce in Ireland"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709af5",
+        "name": "Medieval Irish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709afc",
+        "name": "Norman Irish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709b02",
+        "name": "Anglo-Irish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709b08",
+        "name": "Anglo-Norman"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709b0e",
+        "name": "Scots Common"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b16",
+        "name": "South Welsh"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b1c",
+        "name": "North Welsh"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b22",
+        "name": "Feudal English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b2a",
+        "name": "Early Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b32",
+        "name": "Middle Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b3a",
+        "name": "Later Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b42",
+        "name": "Wars of the Roses English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b49",
+        "name": "Tudor English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b50",
+        "name": "Lambert Simnel's Rebellion"
+      }
+    ]
+  },
+  {
+    "name": "Flower of Chivalry",
+    "id": "5fb1b720e1af060017701937",
+    "armyLists": [
+      {
+        "id": "5fb1b9e6e1af060017709b22",
+        "name": "Feudal English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b2a",
+        "name": "Early Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b32",
+        "name": "Middle Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b3a",
+        "name": "Later Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c33",
+        "name": "Early Feudal French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c3a",
+        "name": "Feudal French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c43",
+        "name": "Early Medieval French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c4b",
+        "name": "Medieval French"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c53",
+        "name": "French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c5b",
+        "name": "Later French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c63",
+        "name": "Jacquerie"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c6a",
+        "name": "Free Company"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c71",
+        "name": "Armagnac"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c78",
+        "name": "Franco-Scottish"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c7f",
+        "name": "Early Low Countries"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c86",
+        "name": "Later Low Countries"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c8d",
+        "name": "Early Burgundian"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c95",
+        "name": "Burgundian Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c9d",
+        "name": "Hapsburg Burgundian"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709ca5",
+        "name": "Feudal German Kings or Emperors"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cac",
+        "name": "Feudal German Princes and Clerics"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cb4",
+        "name": "Konradin at Tagliacozzo"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cbb",
+        "name": "Feudal German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cca",
+        "name": "Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cd3",
+        "name": "Later Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cdd",
+        "name": "Early Renaissance German Citystates"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709ce7",
+        "name": "Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cf0",
+        "name": "Later Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cfa",
+        "name": "Early Renaissance German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d04",
+        "name": "Early Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d0d",
+        "name": "Later Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d15",
+        "name": "Early Renaissance Swiss"
+      }
+    ]
+  },
+  {
+    "name": "Medieval Western Europe",
+    "id": "5fb1b720e1af060017701938",
+    "armyLists": [
+      {
+        "id": "5fb1b9e6e1af060017709b2a",
+        "name": "Early Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b32",
+        "name": "Middle Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b3a",
+        "name": "Later Hundred-Years War English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709ba8",
+        "name": "Almoravid"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709baf",
+        "name": "Almohades"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709bb6",
+        "name": "Islamic Berber"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709bbd",
+        "name": "Early Muslim North Africa and Sicily"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bc4",
+        "name": "Muslim North Africa and Sicily"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bcb",
+        "name": "Zirid Emirate of Mahdia"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bd2",
+        "name": "Berber Invasions of Iberia"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709be0",
+        "name": "Andalusian"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709be7",
+        "name": "Emirate of Granada"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bee",
+        "name": "Early Feudal Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bf6",
+        "name": "Feudal Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bfd",
+        "name": "Medieval Portuguese"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c04",
+        "name": "Castile"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c0b",
+        "name": "Aragon"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c12",
+        "name": "Combined Spain"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c19",
+        "name": "Transitional Renaissance Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c20",
+        "name": "League of Cambrai Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c27",
+        "name": "Navarrese"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c33",
+        "name": "Early Feudal French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c3a",
+        "name": "Feudal French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c43",
+        "name": "Early Medieval French"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c4b",
+        "name": "Medieval French"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c53",
+        "name": "French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c5b",
+        "name": "Later French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c63",
+        "name": "Jacquerie"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c6a",
+        "name": "Free Company"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c71",
+        "name": "Armagnac"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c78",
+        "name": "Franco-Scottish"
+      }
+    ]
+  },
+  {
+    "name": "Plate and Handgonne",
+    "id": "5fb1b720e1af060017701939",
+    "armyLists": [
+      {
+        "id": "5fb1b9e5e1af060017709af5",
+        "name": "Medieval Irish"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709b0e",
+        "name": "Scots Common"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b42",
+        "name": "Wars of the Roses English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b49",
+        "name": "Tudor English"
+      },
+      {
+        "id": "5fb1b9e6e1af060017709b50",
+        "name": "Lambert Simnel's Rebellion"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709be7",
+        "name": "Emirate of Granada"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709bfd",
+        "name": "Medieval Portuguese"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c04",
+        "name": "Castile"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c0b",
+        "name": "Aragon"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c12",
+        "name": "Combined Spain"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c19",
+        "name": "Transitional Renaissance Spanish"
+      },
+      {
+        "id": "5fb1b9e7e1af060017709c20",
+        "name": "League of Cambrai Spanish"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c53",
+        "name": "French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c5b",
+        "name": "Later French Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c95",
+        "name": "Burgundian Ordonnance"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709c9d",
+        "name": "Hapsburg Burgundian"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cc3",
+        "name": "German Peasant Republics"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cd3",
+        "name": "Later Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cdd",
+        "name": "Early Renaissance German Citystates"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cf0",
+        "name": "Later Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cfa",
+        "name": "Early Renaissance German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d15",
+        "name": "Early Renaissance Swiss"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d51",
+        "name": "Later Italian Condotta"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d84",
+        "name": "Corvinus Hungarian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d9b",
+        "name": "Later Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db9",
+        "name": "Teutonic Orders"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dca",
+        "name": "Medieval Danish and Kalmar Union"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dd4",
+        "name": "Medieval Swedish"
+      }
+    ]
+  },
+  {
+    "name": "Baltic Powers",
+    "id": "5fb1b720e1af06001770193a",
+    "armyLists": [
+      {
+        "id": "5fb1b9e4e1af0600177099eb",
+        "name": "Slav or Wend"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709a9f",
+        "name": "Scandinavian Leidang"
+      },
+      {
+        "id": "5fb1b9e5e1af060017709aae",
+        "name": "Viking"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cca",
+        "name": "Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cd3",
+        "name": "Later Medieval German Citystates"
+      },
+      {
+        "id": "5fb1b9e8e1af060017709cdd",
+        "name": "Early Renaissance German Citystates"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709ce7",
+        "name": "Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cf0",
+        "name": "Later Medieval German Princes"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709cfa",
+        "name": "Early Renaissance German Princes"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d93",
+        "name": "Early Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d9b",
+        "name": "Later Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709da4",
+        "name": "Estonian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dab",
+        "name": "St. George's Night Uprising"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db2",
+        "name": "Prussian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db9",
+        "name": "Teutonic Orders"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dc2",
+        "name": "Early Medieval Scandinavian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dca",
+        "name": "Medieval Danish and Kalmar Union"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dd4",
+        "name": "Medieval Swedish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709ddd",
+        "name": "Kievan Rus"
+      },
+      {
+        "id": "5fb1b9eae1af060017709de5",
+        "name": "Early Russian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dec",
+        "name": "Lithuanian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709df3",
+        "name": "Post Mongol Russian"
+      },
+      {
+        "id": "68c07ec85c431f0015cf13ea",
+        "name": "Renaissance Russian"
+      }
+    ]
+  },
+  {
+    "name": "Byzantium in Decay",
+    "id": "5fb1b720e1af06001770193b",
+    "armyLists": [
+      {
+        "id": "5fb1b9e7e1af060017709c2d",
+        "name": "Navarrese Company in Greece"
+      },
+      {
+        "id": "5fb1b9e9e1af060017709d5b",
+        "name": "Albanian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d8c",
+        "name": "Wallachian or Moldavian"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e6b",
+        "name": "Later Bulgar"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e72",
+        "name": "Ivaylo's Uprising"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e78",
+        "name": "Serbian Kingdom"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e7f",
+        "name": "Serbian Empire"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e85",
+        "name": "Nikaian Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e8c",
+        "name": "Romanian Frankish"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e93",
+        "name": "Epirote Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e99",
+        "name": "Palaiologan Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709ea0",
+        "name": "Morean Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709ea6",
+        "name": "Catalan Company"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709ead",
+        "name": "Early Venetian Domini da Mar"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709eb3",
+        "name": "Later Venetian Domini da Mar"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f72",
+        "name": "Great Seljuk or Seljuks of Rum"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f83",
+        "name": "Medieval Alan"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f93",
+        "name": "Later Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f9c",
+        "name": "Syrian Caliphate of Baghdad"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fad",
+        "name": "Zengid Dynasties in Syria"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fb6",
+        "name": "Later Crusader"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fc9",
+        "name": "Ayyubid Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fd2",
+        "name": "Lusignan Cypriot"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fdb",
+        "name": "Cilician Armenian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fe4",
+        "name": "Genoese in Cyprus"
+      },
+      {
+        "id": "5fb1b9eee1af060017709feb",
+        "name": "Early Ottoman"
+      },
+      {
+        "id": "5fb1b9eee1af060017709ff3",
+        "name": "Ottoman Empire"
+      },
+      {
+        "id": "5fb1b9eee1af060017709ffb",
+        "name": "Anatolian Turkoman"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a00c",
+        "name": "Order of St. John"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a014",
+        "name": "Trapezuntine Byzantine"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a01c",
+        "name": "Golden Horde and Successors"
+      }
+    ]
+  },
+  {
+    "name": "Crusader Kingdoms",
+    "id": "5fb1b720e1af06001770193c",
+    "armyLists": [
+      {
+        "id": "5fb1b9ebe1af060017709e5a",
+        "name": "Komnenan Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e63",
+        "name": "Reformed Komnenan Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e85",
+        "name": "Nikaian Byzantine"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e8c",
+        "name": "Romanian Frankish"
+      },
+      {
+        "id": "5fb1b9ebe1af060017709e99",
+        "name": "Palaiologan Byzantine"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f47",
+        "name": " Dynastic Bedouin"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f67",
+        "name": "Early Crusader"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f72",
+        "name": "Great Seljuk or Seljuks of Rum"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f7b",
+        "name": "Seljuk Eastern Sultanates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f8b",
+        "name": "Early Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f93",
+        "name": "Later Georgian"
+      },
+      {
+        "id": "5fb1b9ede1af060017709f9c",
+        "name": "Syrian Caliphate of Baghdad"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fa5",
+        "name": "Syrian Arab-ruled Citystates"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fad",
+        "name": "Zengid Dynasties in Syria"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fb6",
+        "name": "Later Crusader"
+      },
+      {
+        "id": "5fb1b9ede1af060017709fc1",
+        "name": "Khwarizmian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fc9",
+        "name": "Ayyubid Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fd2",
+        "name": "Lusignan Cypriot"
+      },
+      {
+        "id": "5fb1b9eee1af060017709fdb",
+        "name": "Cilician Armenian"
+      },
+      {
+        "id": "5fb1b9eee1af060017709feb",
+        "name": "Early Ottoman"
+      },
+      {
+        "id": "5fb1b9eee1af060017709ffb",
+        "name": "Anatolian Turkoman"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a004",
+        "name": "Mamluk Egyptian"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a00c",
+        "name": "Order of St. John"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a014",
+        "name": "Trapezuntine Byzantine"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a035",
+        "name": "Ilkhanid"
+      }
+    ]
+  },
+  {
+    "name": "Monsoon Region",
+    "id": "5fb1b720e1af06001770193d",
+    "armyLists": [
+      {
+        "id": "5fb1b9efe1af06001770a089",
+        "name": "Arab Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a093",
+        "name": "Early Sultanate of Delhi"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a09b",
+        "name": "Later Muslim Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0a3",
+        "name": "Kannauj Empire"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0ab",
+        "name": "Rajput Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0b4",
+        "name": "Medieval Hindu Kingdoms "
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0bc",
+        "name": "Vijayanagar Empire"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0c4",
+        "name": "Later Tamil Indian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0cd",
+        "name": "Later Sinhalese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0d5",
+        "name": "Burmese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0dd",
+        "name": "Tibetan"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0e9",
+        "name": "Khmer"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0f0",
+        "name": "Cham"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0f7",
+        "name": "Nanzhao and Dali"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a100",
+        "name": "Malay or Sumatran"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a107",
+        "name": "Javanese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a10e",
+        "name": "Small State Indonesian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a115",
+        "name": "Siamese Kingdoms"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a11c",
+        "name": "Siamese Minor States"
+      }
+    ]
+  },
+  {
+    "name": "Southeast Asia",
+    "id": "5fb1b720e1af06001770193e",
+    "armyLists": [
+      {
+        "id": "5fb1b9efe1af06001770a0a3",
+        "name": "Kannauj Empire"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0ab",
+        "name": "Rajput Indian"
+      },
+      {
+        "id": "5fb1b9efe1af06001770a0b4",
+        "name": "Medieval Hindu Kingdoms "
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0bc",
+        "name": "Vijayanagar Empire"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0c4",
+        "name": "Later Tamil Indian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0cd",
+        "name": "Later Sinhalese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0d5",
+        "name": "Burmese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0dd",
+        "name": "Tibetan"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0e9",
+        "name": "Khmer"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0f0",
+        "name": "Cham"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0f7",
+        "name": "Nanzhao and Dali"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a100",
+        "name": "Malay or Sumatran"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a107",
+        "name": "Javanese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a10e",
+        "name": "Small State Indonesian"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a115",
+        "name": "Siamese Kingdoms"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a11c",
+        "name": "Siamese Minor States"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a17c",
+        "name": "Early Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a195",
+        "name": "Later Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1a9",
+        "name": "Dian and Kunming"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1d7",
+        "name": "Early Vietnamese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1df",
+        "name": "Nanyue"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1e6",
+        "name": "Chinese-Dominated Vietnamese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a1ee",
+        "name": "Mai Thuc Loan's revolt"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a255",
+        "name": "Sui Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a25f",
+        "name": "Early Tang Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a26d",
+        "name": "Late Tang and Ten Kingdoms Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a274",
+        "name": "Later Liang or Later Zhou"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a27b",
+        "name": "Medieval Vietnamese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2be",
+        "name": "Northern Song Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2c7",
+        "name": "Southern Song Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2f4",
+        "name": "Yuan in Japan and S.E. Asia"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a302",
+        "name": "Early Ming Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a30a",
+        "name": "Later Ming Chinese"
+      }
+    ]
+  },
+  {
+    "name": "Middle Kingdom",
+    "id": "5fb1b720e1af06001770193f",
+    "armyLists": [
+      {
+        "id": "5fb1b9f0e1af06001770a0dd",
+        "name": "Tibetan"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a0f7",
+        "name": "Nanzhao and Dali"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a215",
+        "name": "Nomadic Xianbei and pre-Mongolian Tribes"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a21d",
+        "name": "Tuyuhun"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a255",
+        "name": "Sui Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a25f",
+        "name": "Early Tang Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a267",
+        "name": "Tang Mounted Expeditions to the Steppe "
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a26d",
+        "name": "Late Tang and Ten Kingdoms Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a274",
+        "name": "Later Liang or Later Zhou"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a27b",
+        "name": "Medieval Vietnamese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a282",
+        "name": "Shatuo Turkish"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a288",
+        "name": "Shatuo Governate of Shanxi"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a28e",
+        "name": "Shatuo Chinese Dynasties"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a294",
+        "name": "Tribal Mongolian"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a29a",
+        "name": "Mongol Conquest"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2a2",
+        "name": "Western Xia"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2a9",
+        "name": "Western Xia (all mounted)"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2b0",
+        "name": "Khitan Liao (all mounted)"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2b7",
+        "name": "Khitan Liao"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2be",
+        "name": "Northern Song Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2c7",
+        "name": "Southern Song Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2ce",
+        "name": "Jurchen Jin Rebellion"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2d4",
+        "name": "Jurchen Jin"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2da",
+        "name": "Later Jurchen Jin"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2e1",
+        "name": "Yuan in the North"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2e8",
+        "name": "Early Yuan in China"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2ee",
+        "name": "Later Yuan in China"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2f4",
+        "name": "Yuan in Japan and S.E. Asia"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2fc",
+        "name": "Later Nomadic Mongol"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a302",
+        "name": "Early Ming Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a30a",
+        "name": "Later Ming Chinese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a325",
+        "name": "Baekje and Gaya Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a32e",
+        "name": "Goguryo Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a336",
+        "name": "Silla Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a33e",
+        "name": "Balhae"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a363",
+        "name": "Goryeo Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a377",
+        "name": "Yi Dynasty Korean"
+      }
+    ]
+  },
+  {
+    "name": "Mandate of Heaven",
+    "id": "5fb1b720e1af060017701940",
+    "armyLists": [
+      {
+        "id": "5fb1b9e0e1af0600177097d8",
+        "name": "Early Kushan"
+      },
+      {
+        "id": "5fb1b9e0e1af0600177097e0",
+        "name": "Kushan Empire"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a123",
+        "name": "Xia Chinese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a129",
+        "name": "Shang Chinese"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a12f",
+        "name": "Guifang and Xianyun"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a135",
+        "name": "Beidi"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a13b",
+        "name": "Xirong"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a142",
+        "name": "Dongyi"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a149",
+        "name": "Nanman"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a152",
+        "name": "Western Zhou"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a158",
+        "name": "Early Spring and Autumn Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a162",
+        "name": "Later Spring and Autumn: Wu or Yue"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a168",
+        "name": "Later Spring and Autumn: Northern States"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a16f",
+        "name": "Later Spring and Autumn: Chu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a175",
+        "name": "Early Hu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a17c",
+        "name": "Early Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a187",
+        "name": "Qin Kingdom"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a18e",
+        "name": "Qin Collapse"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a195",
+        "name": "Later Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1a9",
+        "name": "Dian and Kunming"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1b2",
+        "name": "Qiang and Di"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1ba",
+        "name": "Former Qin"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1c1",
+        "name": "Xiongnu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1c9",
+        "name": "Rouran"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1d0",
+        "name": "Southern Xiongnu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1d7",
+        "name": "Early Vietnamese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1df",
+        "name": "Nanyue"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1e6",
+        "name": "Chinese-Dominated Vietnamese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a1ee",
+        "name": "Mai Thuc Loan's revolt"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a1f5",
+        "name": "Han Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a1fb",
+        "name": "Han Mounted Expeditions to the Steppe"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a201",
+        "name": "Han Chinese under Yang Xuan"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a207",
+        "name": "Xianbei Kingdoms"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a215",
+        "name": "Nomadic Xianbei and pre-Mongolian Tribes"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a21d",
+        "name": "Tuyuhun"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a226",
+        "name": "Three Kingdoms and Western Jin Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a231",
+        "name": "Liang rebels under Ma Teng or Ma Chao"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a238",
+        "name": "Western Jin Invasion of Wu in 279 AD"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a23f",
+        "name": "Chinese Northern Dynasties"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a247",
+        "name": "Chinese Southern Dynasties"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a24e",
+        "name": "Eastern Jin Dynasty and Liu Yu"
+      }
+    ]
+  },
+  {
+    "name": "Warring States",
+    "id": "5fb1b720e1af060017701941",
+    "armyLists": [
+      {
+        "id": "5fb1b9f0e1af06001770a13b",
+        "name": "Xirong"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a142",
+        "name": "Dongyi"
+      },
+      {
+        "id": "5fb1b9f0e1af06001770a149",
+        "name": "Nanman"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a175",
+        "name": "Early Hu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a17c",
+        "name": "Early Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a187",
+        "name": "Qin Kingdom"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a18e",
+        "name": "Qin Collapse"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a195",
+        "name": "Later Warring States Chinese"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1a9",
+        "name": "Dian and Kunming"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1b2",
+        "name": "Qiang and Di"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1c1",
+        "name": "Xiongnu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1d7",
+        "name": "Early Vietnamese"
+      }
+    ]
+  },
+  {
+    "name": "Dark Ages China",
+    "id": "5fb1b720e1af060017701942",
+    "armyLists": [
+      {
+        "id": "5fb1b9f1e1af06001770a1b2",
+        "name": "Qiang and Di"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1ba",
+        "name": "Former Qin"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1c1",
+        "name": "Xiongnu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1c9",
+        "name": "Rouran"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1d0",
+        "name": "Southern Xiongnu"
+      },
+      {
+        "id": "5fb1b9f1e1af06001770a1e6",
+        "name": "Chinese-Dominated Vietnamese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a207",
+        "name": "Xianbei Kingdoms"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a215",
+        "name": "Nomadic Xianbei and pre-Mongolian Tribes"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a21d",
+        "name": "Tuyuhun"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a226",
+        "name": "Three Kingdoms and Western Jin Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a231",
+        "name": "Liang rebels under Ma Teng or Ma Chao"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a238",
+        "name": "Western Jin Invasion of Wu in 279 AD"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a23f",
+        "name": "Chinese Northern Dynasties"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a247",
+        "name": "Chinese Southern Dynasties"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a24e",
+        "name": "Eastern Jin Dynasty and Liu Yu"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a255",
+        "name": "Sui Chinese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a325",
+        "name": "Baekje and Gaya Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a32e",
+        "name": "Goguryo Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a336",
+        "name": "Silla Korean"
+      }
+    ]
+  },
+  {
+    "name": "Korea and Japan",
+    "id": "5fb1b720e1af060017701943",
+    "armyLists": [
+      {
+        "id": "5fb1b9f2e1af06001770a226",
+        "name": "Three Kingdoms and Western Jin Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a23f",
+        "name": "Chinese Northern Dynasties"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a255",
+        "name": "Sui Chinese"
+      },
+      {
+        "id": "5fb1b9f2e1af06001770a25f",
+        "name": "Early Tang Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2b0",
+        "name": "Khitan Liao (all mounted)"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2b7",
+        "name": "Khitan Liao"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2be",
+        "name": "Northern Song Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a2f4",
+        "name": "Yuan in Japan and S.E. Asia"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a302",
+        "name": "Early Ming Chinese"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a30a",
+        "name": "Later Ming Chinese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a313",
+        "name": "Yayoi Japanese "
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a319",
+        "name": "Early Kofun Japanese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a31f",
+        "name": "Later Kofun and Asuka Japanese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a325",
+        "name": "Baekje and Gaya Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a32e",
+        "name": "Goguryo Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a336",
+        "name": "Silla Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a33e",
+        "name": "Balhae"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a345",
+        "name": "Pre-Samurai Japanese"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a34b",
+        "name": "Early Emishi"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a351",
+        "name": "Later Emishi"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a357",
+        "name": "Early Samurai"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a35d",
+        "name": "Later Heian and Kamakura Samurai"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a363",
+        "name": "Goryeo Korean"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a36b",
+        "name": "Post Mongol Samurai"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a371",
+        "name": "Sengoku Samurai"
+      },
+      {
+        "id": "5fb1b9f4e1af06001770a377",
+        "name": "Yi Dynasty Korean"
+      }
+    ]
+  },
+  {
+    "name": "Russian Princes",
+    "id": "5fb1b720e1af060017701944",
+    "armyLists": [
+      {
+        "id": "5fb1b9eae1af060017709d8c",
+        "name": "Wallachian or Moldavian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d93",
+        "name": "Early Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709d9b",
+        "name": "Later Polish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709da4",
+        "name": "Estonian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dab",
+        "name": "St. George's Night Uprising"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db2",
+        "name": "Prussian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709db9",
+        "name": "Teutonic Orders"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dc2",
+        "name": "Early Medieval Scandinavian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dca",
+        "name": "Medieval Danish and Kalmar Union"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dd4",
+        "name": "Medieval Swedish"
+      },
+      {
+        "id": "5fb1b9eae1af060017709ddd",
+        "name": "Kievan Rus"
+      },
+      {
+        "id": "5fb1b9eae1af060017709de5",
+        "name": "Early Russian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dec",
+        "name": "Lithuanian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709df3",
+        "name": "Post Mongol Russian"
+      },
+      {
+        "id": "68c07ec85c431f0015cf13ea",
+        "name": "Renaissance Russian"
+      },
+      {
+        "id": "5fb1b9eae1af060017709dfa",
+        "name": "Early Khazar"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e02",
+        "name": "Khazar Empire"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e09",
+        "name": "Khazar Decline"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e10",
+        "name": "Volga Bulgar"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e17",
+        "name": "Pecheneg"
+      },
+      {
+        "id": "5fb1b9eae1af060017709e1e",
+        "name": "Cuman"
+      },
+      {
+        "id": "5fb1b9eee1af06001770a01c",
+        "name": "Golden Horde and Successors"
+      },
+      {
+        "id": "5fb1b9f3e1af06001770a29a",
+        "name": "Mongol Conquest"
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "id": "5fb1b720e1af060017701945",
+    "armyLists": [
+      {
+        "id": "5fb1b9f4e1af06001770a37e",
+        "name": "Olmec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a385",
+        "name": "Early Settled Meso-American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a38c",
+        "name": "Early Nomadic Meso-American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a393",
+        "name": "Minor Mexican City-States"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a39a",
+        "name": "Oaxaca"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3a3",
+        "name": "Preclassic Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3aa",
+        "name": "Early Classic Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3b1",
+        "name": "Classic Period Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3b8",
+        "name": "Toltec-ruled Mayan Citystates"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3bf",
+        "name": "Late Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3c6",
+        "name": "Teotihuacan Rise"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3cd",
+        "name": "Teotihuacan Empire"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3d4",
+        "name": "Teotihuacan Decline"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3db",
+        "name": "Early West Mexican"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3e9",
+        "name": "West Mexican"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3f0",
+        "name": "Xicalanca City States and Tilantongo Mixtec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3f7",
+        "name": "Proto-Toltec and Proto-Aztec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3fe",
+        "name": "Chichimec and Pueblo Cultures"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a405",
+        "name": "Toltec Empire"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a40c",
+        "name": "Mixtec or Zapotec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a414",
+        "name": "Later Mixtec or Zapotec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a41c",
+        "name": "Chinantec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a423",
+        "name": "Tarascan, Tlaxcalan, or Toltec-Chichimec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a42a",
+        "name": "Aztec"
+      }
+    ]
+  },
+  {
+    "name": "New World",
+    "id": "5fb1b720e1af060017701946",
+    "armyLists": [
+      {
+        "id": "5fb1b9f4e1af06001770a37e",
+        "name": "Olmec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a385",
+        "name": "Early Settled Meso-American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a38c",
+        "name": "Early Nomadic Meso-American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a393",
+        "name": "Minor Mexican City-States"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a39a",
+        "name": "Oaxaca"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3a3",
+        "name": "Preclassic Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3aa",
+        "name": "Early Classic Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3b1",
+        "name": "Classic Period Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3b8",
+        "name": "Toltec-ruled Mayan Citystates"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3bf",
+        "name": "Late Maya"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3c6",
+        "name": "Teotihuacan Rise"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3cd",
+        "name": "Teotihuacan Empire"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3d4",
+        "name": "Teotihuacan Decline"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3db",
+        "name": "Early West Mexican"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3e9",
+        "name": "West Mexican"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3f0",
+        "name": "Xicalanca City States and Tilantongo Mixtec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3f7",
+        "name": "Proto-Toltec and Proto-Aztec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a3fe",
+        "name": "Chichimec and Pueblo Cultures"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a405",
+        "name": "Toltec Empire"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a40c",
+        "name": "Mixtec or Zapotec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a414",
+        "name": "Later Mixtec or Zapotec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a41c",
+        "name": "Chinantec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a423",
+        "name": "Tarascan, Tlaxcalan, or Toltec-Chichimec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a42a",
+        "name": "Aztec"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a431",
+        "name": "Mound Builder American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a438",
+        "name": "Eastern Forest American"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a446",
+        "name": "Maori"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a44c",
+        "name": "Outer Polynesian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a452",
+        "name": "Central Polynesian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a458",
+        "name": "Hawaii"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a45e",
+        "name": "Melanesian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4aa",
+        "name": "Caribbean Indians: Arawaks"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4b2",
+        "name": "Caribbean Indians: Igneri"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4b9",
+        "name": "Caribbean Indians: Ciboney"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4c0",
+        "name": "Caribbean Indians: Ciguayo"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4c7",
+        "name": "Caribbean Indians: Caribs"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1aa6",
+        "name": "North Maritime First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1aaf",
+        "name": "Central Maritime First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1ab6",
+        "name": "Coastal Mountain First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1abd",
+        "name": "Lower Columbia First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1ac4",
+        "name": "Central Plateau First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1acb",
+        "name": "California Coastal First Nations"
+      }
+    ]
+  },
+  {
+    "name": "Andes and Amazon",
+    "id": "5fb1b720e1af060017701947",
+    "armyLists": [
+      {
+        "id": "5fb1b9f6e1af06001770a464",
+        "name": "Tallanes Coastal Peruvian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a46a",
+        "name": "Chimu Empire"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a470",
+        "name": "Chanca and Ca\u00f1ari"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a476",
+        "name": "Quechua or Aymara"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a47d",
+        "name": "Inca"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a484",
+        "name": "Vilcabamba Neo-Inca"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a48a",
+        "name": "Mapuche"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a490",
+        "name": "Araucanian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a496",
+        "name": "Shuar"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a49c",
+        "name": "Amazonian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4a3",
+        "name": "Tupi"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4aa",
+        "name": "Caribbean Indians: Arawaks"
+      }
+    ]
+  },
+  {
+    "name": "North America",
+    "id": "5fb1b720e1af060017701948",
+    "armyLists": [
+      {
+        "id": "5fb1b9f5e1af06001770a431",
+        "name": "Mound Builder American"
+      },
+      {
+        "id": "5fb1b9f5e1af06001770a438",
+        "name": "Eastern Forest American"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1aa6",
+        "name": "North Maritime First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1aaf",
+        "name": "Central Maritime First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1ab6",
+        "name": "Coastal Mountain First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1abd",
+        "name": "Lower Columbia First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1ac4",
+        "name": "Central Plateau First Nations"
+      },
+      {
+        "id": "68c07ed65c431f0015cf1acb",
+        "name": "California Coastal First Nations"
+      }
+    ]
+  },
+  {
+    "name": "Caribbean",
+    "id": "5fb1b720e1af060017701949",
+    "armyLists": [
+      {
+        "id": "5fb1b9f6e1af06001770a49c",
+        "name": "Amazonian"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4a3",
+        "name": "Tupi"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4aa",
+        "name": "Caribbean Indians: Arawaks"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4b2",
+        "name": "Caribbean Indians: Igneri"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4b9",
+        "name": "Caribbean Indians: Ciboney"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4c0",
+        "name": "Caribbean Indians: Ciguayo"
+      },
+      {
+        "id": "5fb1b9f6e1af06001770a4c7",
+        "name": "Caribbean Indians: Caribs"
+      }
+    ]
+  }
+]
