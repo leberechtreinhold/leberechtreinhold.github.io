@@ -15,6 +15,10 @@ def load_json(filename: str):
 ARMY_LISTS = load_json("armyLists.json")
 TROOP_TYPES = load_json("troopTypes.json")
 BATTLE_CARDS = load_json("battleCards.json")
+try:
+        THEMATIC_CATEGORIES = load_json("thematicCategories.json")
+except FileNotFoundError:
+        THEMATIC_CATEGORIES = []
 TROOP_TYPE_DISPLAY_BY_CODE = {
         troop.get("permanentCode"): troop.get("displayName", troop.get("permanentCode", ""))
         for troop in TROOP_TYPES
@@ -30,6 +34,29 @@ BATTLE_CARD_DISPLAY_BY_CODE = {
         for card in BATTLE_CARDS
         if card.get("permanentCode")
 }
+
+
+def build_category_names_by_army_id(categories):
+        by_army_id = {}
+
+        for category in categories or []:
+                category_name = str(category.get("name", "")).strip()
+                if not category_name:
+                        continue
+
+                for army in category.get("armyLists", []) or []:
+                        army_id = str(army.get("id", "")).strip()
+                        if not army_id:
+                                continue
+                        by_army_id.setdefault(army_id, set()).add(category_name)
+
+        return {
+                army_id: sorted(category_names)
+                for army_id, category_names in by_army_id.items()
+        }
+
+
+CATEGORY_NAMES_BY_ARMY_ID = build_category_names_by_army_id(THEMATIC_CATEGORIES)
 
 app = Flask(__name__)
 
@@ -217,7 +244,7 @@ def home():
         sort_by = request.args.get("sort", "start_date")
         sort_dir = request.args.get("dir", "asc")
 
-        allowed_sort_fields = {"army", "start_date", "end_date"}
+        allowed_sort_fields = {"army", "start_date", "end_date", "category"}
         if sort_by not in allowed_sort_fields:
                 sort_by = "start_date"
         if sort_dir not in {"asc", "desc"}:
@@ -232,6 +259,17 @@ def home():
                 sorted_army_lists = sorted(
                         ARMY_LISTS,
                         key=lambda item: str(item.get("name", "")).lower(),
+                        reverse=reverse,
+                )
+        elif sort_by == "category":
+                def category_sort_key(item):
+                        army_id = str(item.get("id", ""))
+                        category_text = ", ".join(CATEGORY_NAMES_BY_ARMY_ID.get(army_id, []))
+                        return category_text.lower() if category_text else "~"
+
+                sorted_army_lists = sorted(
+                        ARMY_LISTS,
+                        key=category_sort_key,
                         reverse=reverse,
                 )
         else:
@@ -249,6 +287,10 @@ def home():
                         "army": item.get("name", "Unknown Army"),
                         "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
+                        "category": ", ".join(
+                                CATEGORY_NAMES_BY_ARMY_ID.get(str(item.get("id", "")), [])
+                        )
+                        or "-",
                 }
                 for item in sorted_army_lists
         ]

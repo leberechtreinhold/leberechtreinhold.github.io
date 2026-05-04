@@ -118,6 +118,11 @@
                                             End Date{% if sort_by == 'end_date' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
                                         </a>
                                     </th>
+                                    <th>
+                                        <a href="{{ url_for('home', sort='category', dir='desc' if sort_by == 'category' and sort_dir == 'asc' else 'asc') }}">
+                                            Category{% if sort_by == 'category' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
+                                        </a>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -126,6 +131,7 @@
                                         <td><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
                                         <td>{{ row.start_date }}</td>
                                         <td>{{ row.end_date }}</td>
+                                        <td>{{ row.category }}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
