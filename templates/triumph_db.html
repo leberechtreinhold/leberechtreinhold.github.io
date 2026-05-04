@@ -64,6 +64,16 @@
                 color: #ffffff !important;
             }
 
+            .table thead th a {
+                color: #ffffff !important;
+                text-decoration: none;
+                font-weight: 700;
+            }
+
+            .table thead th a:hover {
+                text-decoration: underline;
+            }
+
             .table tbody tr:hover td {
                 background: #86d8cb !important;
                 color: #ffffff !important;
@@ -93,9 +103,21 @@
                         <table class="table is-striped is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
-                                    <th>Army</th>
-                                    <th>Start Date</th>
-                                    <th>End Date</th>
+                                    <th>
+                                        <a href="{{ url_for('home', sort='army', dir='desc' if sort_by == 'army' and sort_dir == 'asc' else 'asc') }}">
+                                            Army{% if sort_by == 'army' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
+                                        </a>
+                                    </th>
+                                    <th>
+                                        <a href="{{ url_for('home', sort='start_date', dir='desc' if sort_by == 'start_date' and sort_dir == 'asc' else 'asc') }}">
+                                            Start Date{% if sort_by == 'start_date' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
+                                        </a>
+                                    </th>
+                                    <th>
+                                        <a href="{{ url_for('home', sort='end_date', dir='desc' if sort_by == 'end_date' and sort_dir == 'asc' else 'asc') }}">
+                                            End Date{% if sort_by == 'end_date' %} {{ '↑' if sort_dir == 'asc' else '↓' }}{% endif %}
+                                        </a>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
