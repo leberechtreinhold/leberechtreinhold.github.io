@@ -150,8 +150,8 @@ def format_troop_entry_list(entries):
                 names.append(f"{name}{suffix}")
                 points.append(str(cost) if cost is not None else "")
 
-        troops_text = ", ".join(names) if names else "None"
-        points_text = ", ".join(points) if points else ""
+        troops_text = " or ".join(names) if names else "None"
+        points_text = " or ".join(points) if points else ""
         return troops_text, points_text
 
 
