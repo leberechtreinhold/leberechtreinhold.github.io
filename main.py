@@ -15,10 +15,17 @@ def load_json(filename: str):
 ARMY_LISTS = load_json("armyLists.json")
 TROOP_TYPES = load_json("troopTypes.json")
 BATTLE_CARDS = load_json("battleCards.json")
+with (BASE_DIR / "translation.json").open("r", encoding="utf-8") as file:
+        TRANSLATIONS = json.load(file)
 try:
         THEMATIC_CATEGORIES = load_json("thematicCategories.json")
 except FileNotFoundError:
         THEMATIC_CATEGORIES = []
+TRANSLATION_ES_BY_KEY = {
+        entry.get("key"): entry.get("lang_es", "")
+        for entry in TRANSLATIONS
+        if isinstance(entry, dict) and isinstance(entry.get("key"), str)
+}
 TROOP_TYPE_DISPLAY_BY_CODE = {
         troop.get("permanentCode"): troop.get("displayName", troop.get("permanentCode", ""))
         for troop in TROOP_TYPES
@@ -249,8 +256,9 @@ def home():
         army_rows = [
                 {
                         "army_id": str(item.get("id", "")),
-                        "army": str(item.get("name", "Unknown Army")).strip(),
-                        "army_sort": str(item.get("name", "Unknown Army")).strip().lower(),
+                        "army": army_name,
+                        "army_lang_es": TRANSLATION_ES_BY_KEY.get(army_name, ""),
+                        "army_sort": army_name.lower(),
                         "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
                         "start_date_value": item.get("derivedData", {}).get("listStartDate"),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
@@ -264,6 +272,7 @@ def home():
                         ).lower(),
                 }
                 for item in sorted_army_lists
+                for army_name in [str(item.get("name", "Unknown Army")).strip()]
         ]
 
         return render_template("triumph_db.html", army_rows=army_rows)

@@ -40,6 +40,29 @@
                 margin-bottom: 0;
             }
 
+            .language-switcher {
+                position: fixed;
+                top: 1rem;
+                right: 1rem;
+                z-index: 20;
+            }
+
+            .language-switcher select {
+                border: 1px solid rgba(255, 255, 255, 0.45);
+                border-radius: 999px;
+                background: rgba(255, 255, 255, 0.16);
+                color: #ffffff;
+                font-size: 1.1rem;
+                line-height: 1;
+                padding: 0.45rem 0.45rem 0.45rem 0.65rem;
+                cursor: pointer;
+            }
+
+            .language-switcher select option {
+                color: var(--theme-text);
+                background: #ffffff;
+            }
+
             .box {
                 background: #ffffff !important;
                 color: var(--theme-text) !important;
@@ -97,6 +120,13 @@
         </style>
     </head>
     <body>
+        <div class="language-switcher">
+            <label for="language-select" class="is-sr-only">Language</label>
+            <select id="language-select" aria-label="Language selector">
+                <option value="en">🇬🇧</option>
+                <option value="es">🇪🇸</option>
+            </select>
+        </div>
         <section class="hero is-triumph">
             <div class="hero-body">
                     <h1 class="title">Triumph! Army Lists</h1>
@@ -127,7 +157,7 @@
                             <tbody>
                                 {% for row in army_rows %}
                                     <tr>
-                                        <td data-sort-value="{{ row.army_sort }}"><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
+                                        <td data-sort-value="{{ row.army_sort }}" data-lang-en="{{ row.army }}" data-lang-es="{{ row.army_lang_es }}"><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
                                         <td data-sort-value="{{ row.start_date_value if row.start_date_value is not none else '' }}">{{ row.start_date }}</td>
                                         <td data-sort-value="{{ row.end_date_value if row.end_date_value is not none else '' }}">{{ row.end_date }}</td>
                                         <td data-sort-value="{{ row.category_sort }}">{{ row.category }}</td>
@@ -143,11 +173,28 @@
         <script>
             (() => {
                 const table = document.getElementById("army-table");
+                const languageSelect = document.getElementById("language-select");
                 if (!table) return;
 
                 const tbody = table.querySelector("tbody");
                 const headers = Array.from(table.querySelectorAll("thead th.sortable"));
                 let currentSort = { col: 1, dir: "asc" };
+
+                function applyLanguage(language) {
+                    const cells = tbody.querySelectorAll("tr td:first-child");
+
+                    cells.forEach((cell) => {
+                        const link = cell.querySelector("a");
+                        if (!link) return;
+
+                        const value =
+                            language === "es"
+                                ? cell.dataset.langEs || ""
+                                : cell.dataset.langEn || "";
+
+                        link.textContent = value;
+                    });
+                }
 
                 function valueFor(row, col, type) {
                     const cell = row.cells[col];
@@ -208,7 +255,14 @@
                     });
                 });
 
+                if (languageSelect) {
+                    languageSelect.addEventListener("change", (event) => {
+                        applyLanguage(event.target.value);
+                    });
+                }
+
                 sortBy(1, "number", "asc");
+                applyLanguage(languageSelect ? languageSelect.value : "en");
             })();
         </script>
     </body>
