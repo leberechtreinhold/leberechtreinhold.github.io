@@ -10,6 +10,36 @@ ENDPOINTS = {
 
 DB_DIR = Path(__file__).resolve().parent / "db"
 DB_DIR.mkdir(exist_ok=True)
+TRANSLATION_FILE = Path(__file__).resolve().parent / "translation.json"
+
+
+def sync_translation_with_army_lists(army_lists_data) -> None:
+	if not isinstance(army_lists_data, list):
+		return
+
+	if TRANSLATION_FILE.exists():
+		with TRANSLATION_FILE.open("r", encoding="utf-8") as file:
+			translations = json.load(file)
+	else:
+		translations = []
+
+	existing_keys = {
+		entry.get("key")
+		for entry in translations
+		if isinstance(entry, dict) and isinstance(entry.get("key"), str)
+	}
+
+	updated = False
+	for army in army_lists_data:
+		name = army.get("name") if isinstance(army, dict) else None
+		if isinstance(name, str) and name not in existing_keys:
+			translations.append({"key": name, "lang_es": ""})
+			existing_keys.add(name)
+			updated = True
+
+	if updated:
+		with TRANSLATION_FILE.open("w", encoding="utf-8") as file:
+			json.dump(translations, file, indent=4, ensure_ascii=False)
 
 
 def fetch_to_file(output_file: str, url: str) -> None:
@@ -19,6 +49,9 @@ def fetch_to_file(output_file: str, url: str) -> None:
 
 	with (DB_DIR / output_file).open("w", encoding="utf-8") as file:
 		json.dump(data, file, indent=2)
+
+	if output_file == "armyLists.json":
+		sync_translation_with_army_lists(data)
 
 
 # Fetch the basic endpoints

@@ -1,0 +1,2626 @@
+[
+    {
+        "key": "Early Sumerian",
+        "lang_es": "Sumerios Tempranos"
+    },
+    {
+        "key": "Gilgamesh Era Sumerian",
+        "lang_es": ""
+    },
+    {
+        "key": "Great Revolt Sumerian",
+        "lang_es": ""
+    },
+    {
+        "key": "Akkadian",
+        "lang_es": ""
+    },
+    {
+        "key": "Dilmun, Yemeni Kingdoms, and Early Magan",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Magan ",
+        "lang_es": ""
+    },
+    {
+        "key": "Harappan and Pre-Vedic Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Sumerian Successor States",
+        "lang_es": ""
+    },
+    {
+        "key": "Third Dynasty of Ur",
+        "lang_es": ""
+    },
+    {
+        "key": "Nomadic Amurru",
+        "lang_es": ""
+    },
+    {
+        "key": "Amurru and Early Aramaean",
+        "lang_es": ""
+    },
+    {
+        "key": "Proto-Elamite",
+        "lang_es": ""
+    },
+    {
+        "key": "Awan Dynasty Elamite",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Elam",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Elam",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Kassites, Nairi, or Hurrians",
+        "lang_es": ""
+    },
+    {
+        "key": "Gasgans",
+        "lang_es": ""
+    },
+    {
+        "key": "Guti",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Bronze Age Highlanders",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Syrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Nubian",
+        "lang_es": ""
+    },
+    {
+        "key": "Viceroys of Kush",
+        "lang_es": ""
+    },
+    {
+        "key": "Ancient Libyan",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Nine Bows Libyan",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Nine Bows Libyan",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Amorite",
+        "lang_es": ""
+    },
+    {
+        "key": "Hyksos",
+        "lang_es": ""
+    },
+    {
+        "key": "Hittite Old and Middle Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Minoan and Early Mycenaean",
+        "lang_es": ""
+    },
+    {
+        "key": "Mitanni",
+        "lang_es": ""
+    },
+    {
+        "key": "Syro-Canaanite and Ugaritic",
+        "lang_es": ""
+    },
+    {
+        "key": "Kassite and Later Babylonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early New Kingdom Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Ramesside New Kingdom Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hebrew",
+        "lang_es": ""
+    },
+    {
+        "key": "Midianites and Early Arabs",
+        "lang_es": ""
+    },
+    {
+        "key": "Hittite Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Sea Peoples",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Mycenaean and Trojan War",
+        "lang_es": ""
+    },
+    {
+        "key": "Vedic Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Assyrian and Early Neo-Assyrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Philistine",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Philistine",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Syro-Hittite",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Syro-Hittite",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hebrew",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Cypriot and Phoenician",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Cypriot and Phoenician",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Phoenician",
+        "lang_es": ""
+    },
+    {
+        "key": "Evagoras of Salamis",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Bronze Age Highlanders",
+        "lang_es": ""
+    },
+    {
+        "key": "Urartian",
+        "lang_es": ""
+    },
+    {
+        "key": "Phrygian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Medes",
+        "lang_es": ""
+    },
+    {
+        "key": "Median Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Neo-Elamite",
+        "lang_es": ""
+    },
+    {
+        "key": "Kimmerian and Skythian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Neo-Babylonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Neo-Babylonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Neo-Babylonian Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Neo-Babylonian Revolts",
+        "lang_es": ""
+    },
+    {
+        "key": "Neo-Assyrian Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Sargonid Assyrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Lydian",
+        "lang_es": ""
+    },
+    {
+        "key": "Nile Princes",
+        "lang_es": ""
+    },
+    {
+        "key": "Libyan Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Napata Kushite",
+        "lang_es": ""
+    },
+    {
+        "key": "Kushite Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Saitic Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Saitic Egyptian Rebellions",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Bronze Age North Europe",
+        "lang_es": ""
+    },
+    {
+        "key": "Urnfield Culture",
+        "lang_es": ""
+    },
+    {
+        "key": "Hallstat and La Tene Cultures",
+        "lang_es": ""
+    },
+    {
+        "key": "Greek Dark Ages",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Villanovan Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Villanovan Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Sardinian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenized Sicels",
+        "lang_es": ""
+    },
+    {
+        "key": "Italian Hill Tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Iron Age Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Umbrian Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Latin",
+        "lang_es": ""
+    },
+    {
+        "key": "Etruscan League",
+        "lang_es": ""
+    },
+    {
+        "key": "Tullian Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Theban",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Thessalian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Aitolian or Akarnanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Siciliot, Italiot, or Ionian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Greek",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Sparta",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hoplite Athens",
+        "lang_es": ""
+    },
+    {
+        "key": "Kyrenean Greek",
+        "lang_es": ""
+    },
+    {
+        "key": "Ptolemaic Kyrene",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Achaemenid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Transitional Achaemenid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Carthaginian",
+        "lang_es": ""
+    },
+    {
+        "key": "Campanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Romanized Campanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Apulian, Lucanian, or Bruttian",
+        "lang_es": ""
+    },
+    {
+        "key": "Camillan Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Samnite",
+        "lang_es": ""
+    },
+    {
+        "key": "Syracusan",
+        "lang_es": ""
+    },
+    {
+        "key": "Massalian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Carthaginian in Spain",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Carthaginian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hannibal in Italy",
+        "lang_es": ""
+    },
+    {
+        "key": "Zama Campaign",
+        "lang_es": ""
+    },
+    {
+        "key": "Post-Zama Carthaginian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Libyan",
+        "lang_es": ""
+    },
+    {
+        "key": "Garamantes",
+        "lang_es": ""
+    },
+    {
+        "key": "Numidian or Early Moorish",
+        "lang_es": ""
+    },
+    {
+        "key": "Thapsus Campaign",
+        "lang_es": ""
+    },
+    {
+        "key": "Warlike Gallic",
+        "lang_es": ""
+    },
+    {
+        "key": "Sedentary Gallic",
+        "lang_es": ""
+    },
+    {
+        "key": "Iberians",
+        "lang_es": ""
+    },
+    {
+        "key": "Celtiberians",
+        "lang_es": ""
+    },
+    {
+        "key": "Lusitanians",
+        "lang_es": ""
+    },
+    {
+        "key": "Polybian Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Achaemenid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Atropatene",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Macedonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Spartan",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Athens",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Theban/Boiotian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Thessalian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Aitolian or Akarnanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Sacred War Phokian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Italiot, Siciliot, or Tarentine",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hoplite Greek Minor Powers",
+        "lang_es": ""
+    },
+    {
+        "key": "Lykian",
+        "lang_es": ""
+    },
+    {
+        "key": "Rise of Macedon",
+        "lang_es": ""
+    },
+    {
+        "key": "Alexandrian Macedonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Alexander Imperial",
+        "lang_es": ""
+    },
+    {
+        "key": "Illyrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Paeonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Thracian Hill Tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Thracian Lowland Tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Bithynian",
+        "lang_es": ""
+    },
+    {
+        "key": "Diadachoii in Macedon",
+        "lang_es": ""
+    },
+    {
+        "key": "Alketas",
+        "lang_es": ""
+    },
+    {
+        "key": "Antigonid",
+        "lang_es": ""
+    },
+    {
+        "key": "Eumenes",
+        "lang_es": ""
+    },
+    {
+        "key": "Lysimachid",
+        "lang_es": ""
+    },
+    {
+        "key": "Pyrrhic",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenistic Boiotian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenistic Spartan",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenistic Aitolian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hellenistic Achaean",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hellenistic Achaean",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenistic Minor States",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Macedonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Antigonos Gonatas",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Galatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Galatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Galatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Attalid Pergamene",
+        "lang_es": ""
+    },
+    {
+        "key": "Kingdom of Cappadocia",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Skythian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Rhoxolani Sarmatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hellenistic Bosporan",
+        "lang_es": ""
+    },
+    {
+        "key": "Roman Bosporan",
+        "lang_es": ""
+    },
+    {
+        "key": "Sarmatian Tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Seleucid",
+        "lang_es": ""
+    },
+    {
+        "key": "Seleucid",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Seleucid",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Ptolemaic",
+        "lang_es": ""
+    },
+    {
+        "key": "Ptolemaic",
+        "lang_es": ""
+    },
+    {
+        "key": "Cleopatran Ptolemaic",
+        "lang_es": ""
+    },
+    {
+        "key": "Maccabean Jewish Trained Army",
+        "lang_es": ""
+    },
+    {
+        "key": "Maccabean Revolt and Maccabean Irregulars",
+        "lang_es": ""
+    },
+    {
+        "key": "Hasmonean Jewish",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Pontic",
+        "lang_es": ""
+    },
+    {
+        "key": "Mithradatic",
+        "lang_es": ""
+    },
+    {
+        "key": "Pharnaces",
+        "lang_es": ""
+    },
+    {
+        "key": "Nabataean Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Kingdom of Hatra",
+        "lang_es": ""
+    },
+    {
+        "key": "Arabo-Aramaean Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Pre-Islamic Arab Nomad",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Pre-Islamic Arab City",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Pre-Islamic Arab Yemen",
+        "lang_es": ""
+    },
+    {
+        "key": "Massagetae",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Greco-Bactrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Greco-Bactrian",
+        "lang_es": ""
+    },
+    {
+        "key": "Indo-Greek Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Sangam Era Tamil",
+        "lang_es": ""
+    },
+    {
+        "key": "Sangam Era Sinhalese",
+        "lang_es": ""
+    },
+    {
+        "key": "Classical Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Guptas",
+        "lang_es": ""
+    },
+    {
+        "key": "Republican Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Mountain Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Parthian",
+        "lang_es": ""
+    },
+    {
+        "key": "Parthian Subject Provinces",
+        "lang_es": ""
+    },
+    {
+        "key": "Suren Indo-Parthian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Kushan",
+        "lang_es": ""
+    },
+    {
+        "key": "Kushan Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Commagene",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Commagene",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Armenian and Gordyene",
+        "lang_es": ""
+    },
+    {
+        "key": "Roman Armenian",
+        "lang_es": ""
+    },
+    {
+        "key": "Tigranes",
+        "lang_es": ""
+    },
+    {
+        "key": "Marian Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "First Servile War",
+        "lang_es": ""
+    },
+    {
+        "key": "Second Servile War",
+        "lang_es": ""
+    },
+    {
+        "key": "Spartacus",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Judaean",
+        "lang_es": ""
+    },
+    {
+        "key": "Jewish Revolt",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Imperial Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Meroitic Kushite",
+        "lang_es": ""
+    },
+    {
+        "key": "Dacian or Carpi",
+        "lang_es": ""
+    },
+    {
+        "key": "Early German",
+        "lang_es": ""
+    },
+    {
+        "key": "Early German Suebi",
+        "lang_es": ""
+    },
+    {
+        "key": "Marcomanni under Maroboduus",
+        "lang_es": ""
+    },
+    {
+        "key": "Batavian Revolt",
+        "lang_es": ""
+    },
+    {
+        "key": "Early German Cherusci or Batavian",
+        "lang_es": ""
+    },
+    {
+        "key": "Ancient British",
+        "lang_es": ""
+    },
+    {
+        "key": "Cassivellaunus all mounted",
+        "lang_es": ""
+    },
+    {
+        "key": "Caledonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Severan Middle Imperial Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Diocletian Middle Imperial Roman",
+        "lang_es": ""
+    },
+    {
+        "key": "Scots-Irish",
+        "lang_es": ""
+    },
+    {
+        "key": "Pictish",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Vandal",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Imperial Roman West",
+        "lang_es": ""
+    },
+    {
+        "key": "Tervingi or Early Visigoth",
+        "lang_es": ""
+    },
+    {
+        "key": "Adrianople Campaign Visigoth",
+        "lang_es": ""
+    },
+    {
+        "key": "Visigoths under Alaric as Magister Militum",
+        "lang_es": ""
+    },
+    {
+        "key": "Visigoths under Alaric and Successors",
+        "lang_es": ""
+    },
+    {
+        "key": "Greuthingi or Early Ostrogothic",
+        "lang_es": ""
+    },
+    {
+        "key": "Battle of Marcianople",
+        "lang_es": ""
+    },
+    {
+        "key": "Army of Radagaisus",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Sub-Roman British",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Sub-Roman British",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Patrician Roman West except Africa",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Patrician Roman West: Africa",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Patrician Roman West",
+        "lang_es": ""
+    },
+    {
+        "key": "Burgundi or Limigantes",
+        "lang_es": ""
+    },
+    {
+        "key": "Gepid (all mounted)",
+        "lang_es": ""
+    },
+    {
+        "key": "Gepid",
+        "lang_es": ""
+    },
+    {
+        "key": "Old Saxon and related tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Frankish, Suebi, and related tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Quadi",
+        "lang_es": ""
+    },
+    {
+        "key": "Alamanni",
+        "lang_es": ""
+    },
+    {
+        "key": "Migration-Era Alan",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Imperial Roman East",
+        "lang_es": ""
+    },
+    {
+        "key": "Palmyran",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Sassanid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Sassanid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Sassanid Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hun Kingdoms in India",
+        "lang_es": ""
+    },
+    {
+        "key": "Sabir",
+        "lang_es": ""
+    },
+    {
+        "key": "Chionites and Western Hepthalites",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Hunnic",
+        "lang_es": ""
+    },
+    {
+        "key": "Army of Attila",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Patrician Roman East",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Patrician Roman East",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Visigoth",
+        "lang_es": ""
+    },
+    {
+        "key": "Alföld Early Lombard",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Lombard in Italy",
+        "lang_es": ""
+    },
+    {
+        "key": "Italian Ostrogothic",
+        "lang_es": ""
+    },
+    {
+        "key": "Merovingian Frankish: Austrasia",
+        "lang_es": ""
+    },
+    {
+        "key": "Merovingian Frankish: Burgundy",
+        "lang_es": ""
+    },
+    {
+        "key": "Merovingian Frankish: Provence",
+        "lang_es": ""
+    },
+    {
+        "key": "Merovingian Frankish: Neustria or Aquitaine",
+        "lang_es": ""
+    },
+    {
+        "key": "African Vandal",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Moorish",
+        "lang_es": ""
+    },
+    {
+        "key": "Justinian Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Justinian Decline",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Slav",
+        "lang_es": ""
+    },
+    {
+        "key": "Slav or Wend",
+        "lang_es": ""
+    },
+    {
+        "key": "Avar",
+        "lang_es": ""
+    },
+    {
+        "key": "Old Great Bulgaria",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Danube Bulgar",
+        "lang_es": ""
+    },
+    {
+        "key": "Danube Bulgar",
+        "lang_es": ""
+    },
+    {
+        "key": "First Bulgar Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Maurikian Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Serbian or Croatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal Croatian",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal Serbian",
+        "lang_es": ""
+    },
+    {
+        "key": "Italian Lombard",
+        "lang_es": ""
+    },
+    {
+        "key": "Carolingian Italy",
+        "lang_es": ""
+    },
+    {
+        "key": "Carolingian Frankish",
+        "lang_es": ""
+    },
+    {
+        "key": "Breton",
+        "lang_es": ""
+    },
+    {
+        "key": "West Frankish",
+        "lang_es": ""
+    },
+    {
+        "key": "Norman Conquest",
+        "lang_es": ""
+    },
+    {
+        "key": "East Frankish",
+        "lang_es": ""
+    },
+    {
+        "key": "Ottonian Frankish",
+        "lang_es": ""
+    },
+    {
+        "key": "Frisian",
+        "lang_es": ""
+    },
+    {
+        "key": "Viking West Frisia",
+        "lang_es": ""
+    },
+    {
+        "key": "West Frisia",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Slav",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Magyar",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Magyar",
+        "lang_es": ""
+    },
+    {
+        "key": "Pre-Viking Scandinavian",
+        "lang_es": ""
+    },
+    {
+        "key": "Scandinavian Leidang",
+        "lang_es": ""
+    },
+    {
+        "key": "Viking Raiders",
+        "lang_es": ""
+    },
+    {
+        "key": "Viking",
+        "lang_es": ""
+    },
+    {
+        "key": "Dublin or Manx Vikings",
+        "lang_es": ""
+    },
+    {
+        "key": "Dark Ages Welsh",
+        "lang_es": ""
+    },
+    {
+        "key": "Kingdoms of Britons",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Northumbria or Mercia",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Anglo-Saxon",
+        "lang_es": ""
+    },
+    {
+        "key": "Anglo-Danish",
+        "lang_es": ""
+    },
+    {
+        "key": "Pre-Feudal Scots",
+        "lang_es": ""
+    },
+    {
+        "key": "Norse Irish",
+        "lang_es": ""
+    },
+    {
+        "key": "Scots Isles and Highlands",
+        "lang_es": ""
+    },
+    {
+        "key": "Edward Bruce in Ireland",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Irish",
+        "lang_es": ""
+    },
+    {
+        "key": "Norman Irish",
+        "lang_es": ""
+    },
+    {
+        "key": "Anglo-Irish",
+        "lang_es": ""
+    },
+    {
+        "key": "Anglo-Norman",
+        "lang_es": ""
+    },
+    {
+        "key": "Scots Common",
+        "lang_es": ""
+    },
+    {
+        "key": "South Welsh",
+        "lang_es": ""
+    },
+    {
+        "key": "North Welsh",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal English",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hundred-Years War English",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Hundred-Years War English",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hundred-Years War English",
+        "lang_es": ""
+    },
+    {
+        "key": "Wars of the Roses English",
+        "lang_es": ""
+    },
+    {
+        "key": "Tudor English",
+        "lang_es": ""
+    },
+    {
+        "key": "Lambert Simnel's Rebellion",
+        "lang_es": ""
+    },
+    {
+        "key": "Kanem-Bornu",
+        "lang_es": ""
+    },
+    {
+        "key": "Hausa States",
+        "lang_es": ""
+    },
+    {
+        "key": "Songhai",
+        "lang_es": ""
+    },
+    {
+        "key": "Songhai Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Sao City-States",
+        "lang_es": ""
+    },
+    {
+        "key": "Fante and Gold Coast Peoples",
+        "lang_es": ""
+    },
+    {
+        "key": "Mali",
+        "lang_es": ""
+    },
+    {
+        "key": "Empire of Mali",
+        "lang_es": ""
+    },
+    {
+        "key": "Ghana",
+        "lang_es": ""
+    },
+    {
+        "key": "Takrur and Wolof",
+        "lang_es": ""
+    },
+    {
+        "key": "Fulani",
+        "lang_es": ""
+    },
+    {
+        "key": "Tuareg",
+        "lang_es": ""
+    },
+    {
+        "key": "Almoravid",
+        "lang_es": ""
+    },
+    {
+        "key": "Almohades",
+        "lang_es": ""
+    },
+    {
+        "key": "Islamic Berber",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Muslim North Africa and Sicily",
+        "lang_es": ""
+    },
+    {
+        "key": "Muslim North Africa and Sicily",
+        "lang_es": ""
+    },
+    {
+        "key": "Zirid Emirate of Mahdia",
+        "lang_es": ""
+    },
+    {
+        "key": "Berber Invasions of Iberia",
+        "lang_es": ""
+    },
+    {
+        "key": "Andalusian",
+        "lang_es": ""
+    },
+    {
+        "key": "Emirate of Granada",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Feudal Spanish",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal Spanish",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Portuguese",
+        "lang_es": ""
+    },
+    {
+        "key": "Castile",
+        "lang_es": ""
+    },
+    {
+        "key": "Aragon",
+        "lang_es": ""
+    },
+    {
+        "key": "Combined Spain",
+        "lang_es": ""
+    },
+    {
+        "key": "Transitional Renaissance Spanish",
+        "lang_es": ""
+    },
+    {
+        "key": "League of Cambrai Spanish",
+        "lang_es": ""
+    },
+    {
+        "key": "Navarrese",
+        "lang_es": ""
+    },
+    {
+        "key": "Navarrese Company in Greece",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Feudal French",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal French",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Medieval French",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval French",
+        "lang_es": ""
+    },
+    {
+        "key": "French Ordonnance",
+        "lang_es": ""
+    },
+    {
+        "key": "Later French Ordonnance",
+        "lang_es": ""
+    },
+    {
+        "key": "Jacquerie",
+        "lang_es": ""
+    },
+    {
+        "key": "Free Company",
+        "lang_es": ""
+    },
+    {
+        "key": "Armagnac",
+        "lang_es": ""
+    },
+    {
+        "key": "Franco-Scottish",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Low Countries",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Low Countries",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Burgundian",
+        "lang_es": ""
+    },
+    {
+        "key": "Burgundian Ordonnance",
+        "lang_es": ""
+    },
+    {
+        "key": "Hapsburg Burgundian",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal German Kings or Emperors",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal German Princes and Clerics",
+        "lang_es": ""
+    },
+    {
+        "key": "Konradin at Tagliacozzo",
+        "lang_es": ""
+    },
+    {
+        "key": "Feudal German Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "German Peasant Republics",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval German Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Medieval German Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Renaissance German Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval German Princes",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Medieval German Princes",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Renaissance German Princes",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Swiss",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Swiss",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Renaissance Swiss",
+        "lang_es": ""
+    },
+    {
+        "key": "Sicilio-Norman",
+        "lang_es": ""
+    },
+    {
+        "key": "Hohenstaufen Sicilian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Communal Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Communal Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Papal Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Papal Italian",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Sicilian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Italian Condotta",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Italian Condotta",
+        "lang_es": ""
+    },
+    {
+        "key": "Albanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hungarian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hussite",
+        "lang_es": ""
+    },
+    {
+        "key": "Hussite",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Hungarian",
+        "lang_es": ""
+    },
+    {
+        "key": "Crusade of Nicopolis",
+        "lang_es": ""
+    },
+    {
+        "key": "Corvinus Hungarian",
+        "lang_es": ""
+    },
+    {
+        "key": "Wallachian or Moldavian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Polish",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Polish",
+        "lang_es": ""
+    },
+    {
+        "key": "Estonian",
+        "lang_es": ""
+    },
+    {
+        "key": "St. George's Night Uprising",
+        "lang_es": ""
+    },
+    {
+        "key": "Prussian",
+        "lang_es": ""
+    },
+    {
+        "key": "Teutonic Orders",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Medieval Scandinavian",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Danish and Kalmar Union",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Swedish",
+        "lang_es": ""
+    },
+    {
+        "key": "Kievan Rus",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Russian",
+        "lang_es": ""
+    },
+    {
+        "key": "Lithuanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Post Mongol Russian",
+        "lang_es": ""
+    },
+    {
+        "key": "Renaissance Russian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Khazar",
+        "lang_es": ""
+    },
+    {
+        "key": "Khazar Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Khazar Decline",
+        "lang_es": ""
+    },
+    {
+        "key": "Volga Bulgar",
+        "lang_es": ""
+    },
+    {
+        "key": "Pecheneg",
+        "lang_es": ""
+    },
+    {
+        "key": "Cuman",
+        "lang_es": ""
+    },
+    {
+        "key": "Thematic Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Thematic Byzantine (in Italy)",
+        "lang_es": ""
+    },
+    {
+        "key": "Rshtuni Armenian",
+        "lang_es": ""
+    },
+    {
+        "key": "Rshtuni Armenian (all mounted)",
+        "lang_es": ""
+    },
+    {
+        "key": "Bagratid Armenian",
+        "lang_es": ""
+    },
+    {
+        "key": "Nikephorian Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Konstantinian Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Romanus IV campaigns in Anatolia",
+        "lang_es": ""
+    },
+    {
+        "key": "Komnenan Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Reformed Komnenan Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Bulgar",
+        "lang_es": ""
+    },
+    {
+        "key": "Ivaylo's Uprising",
+        "lang_es": ""
+    },
+    {
+        "key": "Serbian Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Serbian Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Nikaian Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Romanian Frankish",
+        "lang_es": ""
+    },
+    {
+        "key": "Epirote Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Palaiologan Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Morean Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Catalan Company",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Venetian Domini da Mar",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Venetian Domini da Mar",
+        "lang_es": ""
+    },
+    {
+        "key": "Desert Blemmye or Beja",
+        "lang_es": ""
+    },
+    {
+        "key": "Nobatia or Ballana",
+        "lang_es": ""
+    },
+    {
+        "key": "Axumite Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Horn of Africa smaller states",
+        "lang_es": ""
+    },
+    {
+        "key": "Solomonic Ethiopia",
+        "lang_es": ""
+    },
+    {
+        "key": "Christian Nubian",
+        "lang_es": ""
+    },
+    {
+        "key": "Arab Conquest under Muhammad",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Arab Conquest",
+        "lang_es": ""
+    },
+    {
+        "key": "Arab Conquest Expansion",
+        "lang_es": ""
+    },
+    {
+        "key": "Khawarij Rebellions",
+        "lang_es": ""
+    },
+    {
+        "key": "Umayyad Arab",
+        "lang_es": ""
+    },
+    {
+        "key": "Abbasid Revolt",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Abbasid",
+        "lang_es": ""
+    },
+    {
+        "key": "Middle Abbasid",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Abbasid",
+        "lang_es": ""
+    },
+    {
+        "key": "Zanj Revolt",
+        "lang_es": ""
+    },
+    {
+        "key": "Tulunid Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Iqshidid Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hamdanids of Aleppo",
+        "lang_es": ""
+    },
+    {
+        "key": "Hamdanid Dynasties",
+        "lang_es": ""
+    },
+    {
+        "key": " Dynastic Bedouin",
+        "lang_es": ""
+    },
+    {
+        "key": "Qaramita",
+        "lang_es": ""
+    },
+    {
+        "key": "Dynastic Kurdish",
+        "lang_es": ""
+    },
+    {
+        "key": "Buyid and Daylami Dynasties",
+        "lang_es": ""
+    },
+    {
+        "key": "Fatimid Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Crusader",
+        "lang_es": ""
+    },
+    {
+        "key": "Great Seljuk or Seljuks of Rum",
+        "lang_es": ""
+    },
+    {
+        "key": "Seljuk Eastern Sultanates",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Alan",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Georgian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Georgian",
+        "lang_es": ""
+    },
+    {
+        "key": "Syrian Caliphate of Baghdad",
+        "lang_es": ""
+    },
+    {
+        "key": "Syrian Arab-ruled Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Zengid Dynasties in Syria",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Crusader",
+        "lang_es": ""
+    },
+    {
+        "key": "Khwarizmian",
+        "lang_es": ""
+    },
+    {
+        "key": "Ayyubid Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Lusignan Cypriot",
+        "lang_es": ""
+    },
+    {
+        "key": "Cilician Armenian",
+        "lang_es": ""
+    },
+    {
+        "key": "Genoese in Cyprus",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Ottoman",
+        "lang_es": ""
+    },
+    {
+        "key": "Ottoman Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Anatolian Turkoman",
+        "lang_es": ""
+    },
+    {
+        "key": "Mamluk Egyptian",
+        "lang_es": ""
+    },
+    {
+        "key": "Order of St. John",
+        "lang_es": ""
+    },
+    {
+        "key": "Trapezuntine Byzantine",
+        "lang_es": ""
+    },
+    {
+        "key": "Golden Horde and Successors",
+        "lang_es": ""
+    },
+    {
+        "key": "Timurid",
+        "lang_es": ""
+    },
+    {
+        "key": "Black and White Sheep Turkoman",
+        "lang_es": ""
+    },
+    {
+        "key": "Ilkhanid",
+        "lang_es": ""
+    },
+    {
+        "key": "Jalayarid",
+        "lang_es": ""
+    },
+    {
+        "key": "Islamic Persian",
+        "lang_es": ""
+    },
+    {
+        "key": "Safavids",
+        "lang_es": ""
+    },
+    {
+        "key": "Tahirid",
+        "lang_es": ""
+    },
+    {
+        "key": "Saffarid or Samanid",
+        "lang_es": ""
+    },
+    {
+        "key": "Qara Khitan",
+        "lang_es": ""
+    },
+    {
+        "key": "Qocho Uyghur Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Central Asian Turkish",
+        "lang_es": ""
+    },
+    {
+        "key": "Sogdians",
+        "lang_es": ""
+    },
+    {
+        "key": "Tarim Basin Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Ghaznavid",
+        "lang_es": ""
+    },
+    {
+        "key": "Ghurid",
+        "lang_es": ""
+    },
+    {
+        "key": "Arab Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Sultanate of Delhi",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Muslim Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Kannauj Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Rajput Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Hindu Kingdoms ",
+        "lang_es": ""
+    },
+    {
+        "key": "Vijayanagar Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Tamil Indian",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Sinhalese",
+        "lang_es": ""
+    },
+    {
+        "key": "Burmese",
+        "lang_es": ""
+    },
+    {
+        "key": "Tibetan",
+        "lang_es": ""
+    },
+    {
+        "key": "Khmer",
+        "lang_es": ""
+    },
+    {
+        "key": "Cham",
+        "lang_es": ""
+    },
+    {
+        "key": "Nanzhao and Dali",
+        "lang_es": ""
+    },
+    {
+        "key": "Malay or Sumatran",
+        "lang_es": ""
+    },
+    {
+        "key": "Javanese",
+        "lang_es": ""
+    },
+    {
+        "key": "Small State Indonesian",
+        "lang_es": ""
+    },
+    {
+        "key": "Siamese Kingdoms",
+        "lang_es": ""
+    },
+    {
+        "key": "Siamese Minor States",
+        "lang_es": ""
+    },
+    {
+        "key": "Xia Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Shang Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Guifang and Xianyun",
+        "lang_es": ""
+    },
+    {
+        "key": "Beidi",
+        "lang_es": ""
+    },
+    {
+        "key": "Xirong",
+        "lang_es": ""
+    },
+    {
+        "key": "Dongyi",
+        "lang_es": ""
+    },
+    {
+        "key": "Nanman",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Zhou",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Spring and Autumn Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Spring and Autumn: Wu or Yue",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Spring and Autumn: Northern States",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Spring and Autumn: Chu",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Hu",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Warring States Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Qin Kingdom",
+        "lang_es": ""
+    },
+    {
+        "key": "Qin Collapse",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Warring States Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Dian and Kunming",
+        "lang_es": ""
+    },
+    {
+        "key": "Qiang and Di",
+        "lang_es": ""
+    },
+    {
+        "key": "Former Qin",
+        "lang_es": ""
+    },
+    {
+        "key": "Xiongnu",
+        "lang_es": ""
+    },
+    {
+        "key": "Rouran",
+        "lang_es": ""
+    },
+    {
+        "key": "Southern Xiongnu",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Vietnamese",
+        "lang_es": ""
+    },
+    {
+        "key": "Nanyue",
+        "lang_es": ""
+    },
+    {
+        "key": "Chinese-Dominated Vietnamese",
+        "lang_es": ""
+    },
+    {
+        "key": "Mai Thuc Loan's revolt",
+        "lang_es": ""
+    },
+    {
+        "key": "Han Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Han Mounted Expeditions to the Steppe",
+        "lang_es": ""
+    },
+    {
+        "key": "Han Chinese under Yang Xuan",
+        "lang_es": ""
+    },
+    {
+        "key": "Xianbei Kingdoms",
+        "lang_es": ""
+    },
+    {
+        "key": "Nomadic Xianbei and pre-Mongolian Tribes",
+        "lang_es": ""
+    },
+    {
+        "key": "Tuyuhun",
+        "lang_es": ""
+    },
+    {
+        "key": "Three Kingdoms and Western Jin Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Liang rebels under Ma Teng or Ma Chao",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Jin Invasion of Wu in 279 AD",
+        "lang_es": ""
+    },
+    {
+        "key": "Chinese Northern Dynasties",
+        "lang_es": ""
+    },
+    {
+        "key": "Chinese Southern Dynasties",
+        "lang_es": ""
+    },
+    {
+        "key": "Eastern Jin Dynasty and Liu Yu",
+        "lang_es": ""
+    },
+    {
+        "key": "Sui Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Tang Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Tang Mounted Expeditions to the Steppe ",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Tang and Ten Kingdoms Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Liang or Later Zhou",
+        "lang_es": ""
+    },
+    {
+        "key": "Medieval Vietnamese",
+        "lang_es": ""
+    },
+    {
+        "key": "Shatuo Turkish",
+        "lang_es": ""
+    },
+    {
+        "key": "Shatuo Governate of Shanxi",
+        "lang_es": ""
+    },
+    {
+        "key": "Shatuo Chinese Dynasties",
+        "lang_es": ""
+    },
+    {
+        "key": "Tribal Mongolian",
+        "lang_es": ""
+    },
+    {
+        "key": "Mongol Conquest",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Xia",
+        "lang_es": ""
+    },
+    {
+        "key": "Western Xia (all mounted)",
+        "lang_es": ""
+    },
+    {
+        "key": "Khitan Liao (all mounted)",
+        "lang_es": ""
+    },
+    {
+        "key": "Khitan Liao",
+        "lang_es": ""
+    },
+    {
+        "key": "Northern Song Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Southern Song Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Jurchen Jin Rebellion",
+        "lang_es": ""
+    },
+    {
+        "key": "Jurchen Jin",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Jurchen Jin",
+        "lang_es": ""
+    },
+    {
+        "key": "Yuan in the North",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Yuan in China",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Yuan in China",
+        "lang_es": ""
+    },
+    {
+        "key": "Yuan in Japan and S.E. Asia",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Nomadic Mongol",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Ming Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Ming Chinese",
+        "lang_es": ""
+    },
+    {
+        "key": "Yayoi Japanese ",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Kofun Japanese",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Kofun and Asuka Japanese",
+        "lang_es": ""
+    },
+    {
+        "key": "Baekje and Gaya Korean",
+        "lang_es": ""
+    },
+    {
+        "key": "Goguryo Korean",
+        "lang_es": ""
+    },
+    {
+        "key": "Silla Korean",
+        "lang_es": ""
+    },
+    {
+        "key": "Balhae",
+        "lang_es": ""
+    },
+    {
+        "key": "Pre-Samurai Japanese",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Emishi",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Emishi",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Samurai",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Heian and Kamakura Samurai",
+        "lang_es": ""
+    },
+    {
+        "key": "Goryeo Korean",
+        "lang_es": ""
+    },
+    {
+        "key": "Post Mongol Samurai",
+        "lang_es": ""
+    },
+    {
+        "key": "Sengoku Samurai",
+        "lang_es": ""
+    },
+    {
+        "key": "Yi Dynasty Korean",
+        "lang_es": ""
+    },
+    {
+        "key": "Olmec",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Settled Meso-American",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Nomadic Meso-American",
+        "lang_es": ""
+    },
+    {
+        "key": "Minor Mexican City-States",
+        "lang_es": ""
+    },
+    {
+        "key": "Oaxaca",
+        "lang_es": ""
+    },
+    {
+        "key": "Preclassic Maya",
+        "lang_es": ""
+    },
+    {
+        "key": "Early Classic Maya",
+        "lang_es": ""
+    },
+    {
+        "key": "Classic Period Maya",
+        "lang_es": ""
+    },
+    {
+        "key": "Toltec-ruled Mayan Citystates",
+        "lang_es": ""
+    },
+    {
+        "key": "Late Maya",
+        "lang_es": ""
+    },
+    {
+        "key": "Teotihuacan Rise",
+        "lang_es": ""
+    },
+    {
+        "key": "Teotihuacan Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Teotihuacan Decline",
+        "lang_es": ""
+    },
+    {
+        "key": "Early West Mexican",
+        "lang_es": ""
+    },
+    {
+        "key": "West Mexican",
+        "lang_es": ""
+    },
+    {
+        "key": "Xicalanca City States and Tilantongo Mixtec",
+        "lang_es": ""
+    },
+    {
+        "key": "Proto-Toltec and Proto-Aztec",
+        "lang_es": ""
+    },
+    {
+        "key": "Chichimec and Pueblo Cultures",
+        "lang_es": ""
+    },
+    {
+        "key": "Toltec Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Mixtec or Zapotec",
+        "lang_es": ""
+    },
+    {
+        "key": "Later Mixtec or Zapotec",
+        "lang_es": ""
+    },
+    {
+        "key": "Chinantec",
+        "lang_es": ""
+    },
+    {
+        "key": "Tarascan, Tlaxcalan, or Toltec-Chichimec",
+        "lang_es": ""
+    },
+    {
+        "key": "Aztec",
+        "lang_es": ""
+    },
+    {
+        "key": "Mound Builder American",
+        "lang_es": ""
+    },
+    {
+        "key": "Eastern Forest American",
+        "lang_es": ""
+    },
+    {
+        "key": "Maori",
+        "lang_es": ""
+    },
+    {
+        "key": "Outer Polynesian",
+        "lang_es": ""
+    },
+    {
+        "key": "Central Polynesian",
+        "lang_es": ""
+    },
+    {
+        "key": "Hawaii",
+        "lang_es": ""
+    },
+    {
+        "key": "Melanesian",
+        "lang_es": ""
+    },
+    {
+        "key": "Tallanes Coastal Peruvian",
+        "lang_es": ""
+    },
+    {
+        "key": "Chimu Empire",
+        "lang_es": ""
+    },
+    {
+        "key": "Chanca and Cañari",
+        "lang_es": ""
+    },
+    {
+        "key": "Quechua or Aymara",
+        "lang_es": ""
+    },
+    {
+        "key": "Inca",
+        "lang_es": ""
+    },
+    {
+        "key": "Vilcabamba Neo-Inca",
+        "lang_es": ""
+    },
+    {
+        "key": "Mapuche",
+        "lang_es": ""
+    },
+    {
+        "key": "Araucanian",
+        "lang_es": ""
+    },
+    {
+        "key": "Shuar",
+        "lang_es": ""
+    },
+    {
+        "key": "Amazonian",
+        "lang_es": ""
+    },
+    {
+        "key": "Tupi",
+        "lang_es": ""
+    },
+    {
+        "key": "Caribbean Indians: Arawaks",
+        "lang_es": ""
+    },
+    {
+        "key": "Caribbean Indians: Igneri",
+        "lang_es": ""
+    },
+    {
+        "key": "Caribbean Indians: Ciboney",
+        "lang_es": ""
+    },
+    {
+        "key": "Caribbean Indians: Ciguayo",
+        "lang_es": ""
+    },
+    {
+        "key": "Caribbean Indians: Caribs",
+        "lang_es": ""
+    },
+    {
+        "key": "North Maritime First Nations",
+        "lang_es": ""
+    },
+    {
+        "key": "Central Maritime First Nations",
+        "lang_es": ""
+    },
+    {
+        "key": "Coastal Mountain First Nations",
+        "lang_es": ""
+    },
+    {
+        "key": "Lower Columbia First Nations",
+        "lang_es": ""
+    },
+    {
+        "key": "Central Plateau First Nations",
+        "lang_es": ""
+    },
+    {
+        "key": "California Coastal First Nations",
+        "lang_es": ""
+    }
+]
