@@ -1,3 +1,4 @@
 ﻿.python-version
 __pycache__/main.cpython-313.pyc
 README.md
+env_vars.bat
