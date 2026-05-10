@@ -13,8 +13,8 @@ DB_DIR.mkdir(exist_ok=True)
 TRANSLATION_FILE = Path(__file__).resolve().parent / "translation.json"
 
 
-def sync_translations(army_lists_data, thematic_categories_data) -> None:
-	"""Sync translation.json with names from both armyLists and thematicCategories"""
+def sync_translations(army_lists_data, thematic_categories_data, troop_types_data) -> None:
+	"""Sync translation.json with names from armyLists, thematicCategories, and troopTypes"""
 	if TRANSLATION_FILE.exists():
 		with TRANSLATION_FILE.open("r", encoding="utf-8") as file:
 			translations = json.load(file)
@@ -55,8 +55,30 @@ def sync_translations(army_lists_data, thematic_categories_data) -> None:
 					translations.append({"key": army_name, "lang_es": ""})
 					existing_keys.add(army_name)
 					updated = True
+	
+	# Add troop type displayName and description
+	if isinstance(troop_types_data, list):
+		for troop in troop_types_data:
+			if not isinstance(troop, dict):
+				continue
+			
+			# Add displayName
+			display_name = troop.get("displayName")
+			if isinstance(display_name, str) and display_name not in existing_keys:
+				translations.append({"key": display_name, "lang_es": ""})
+				existing_keys.add(display_name)
+				updated = True
+			
+			# Add description
+			description = troop.get("description")
+			if isinstance(description, str) and description not in existing_keys:
+				translations.append({"key": description, "lang_es": ""})
+				existing_keys.add(description)
+				updated = True
 
 	if updated:
+		# Sort translations by key for consistency
+		translations.sort(key=lambda x: x.get("key", "") if isinstance(x, dict) else "")
 		with TRANSLATION_FILE.open("w", encoding="utf-8") as file:
 			json.dump(translations, file, indent=4, ensure_ascii=False)
 
@@ -74,10 +96,13 @@ def fetch_to_file(output_file: str, url: str) -> None:
 
 # Fetch the basic endpoints
 army_lists = None
+troop_types = None
 for output_file, url in ENDPOINTS.items():
 	data = fetch_to_file(output_file, url)
 	if output_file == "armyLists.json":
 		army_lists = data
+	elif output_file == "troopTypes.json":
+		troop_types = data
 
 # Fetch thematic categories with their army lists
 response = requests.get("https://meshwesh.wgcwar.com/api/v1/thematicCategories")
@@ -107,5 +132,5 @@ for category in thematic_categories:
 with (DB_DIR / "thematicCategories.json").open("w", encoding="utf-8") as file:
 	json.dump(thematic_categories, file, indent=2)
 
-# Sync translations with both army lists and thematic categories
-sync_translations(army_lists, thematic_categories)
+# Sync translations with army lists, thematic categories, and troop types
+sync_translations(army_lists, thematic_categories, troop_types)

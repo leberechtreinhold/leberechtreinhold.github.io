@@ -4,6 +4,10 @@
         "lang_es": " Beduinos dinásticos"
     },
     {
+        "key": "A combination formation where a large body of long-distance missile troops are stiffened with a few front ranks of spear or pike, often with the large shield called (in the Middle Ages) a pavise, or similar. As such the formation retained the long-range missile capability of Archers, but with greater ability to hold off enemy mounted and foot. These formations were effective in good going, but performed poorly when the thin front ranks were unable to maintain close formation in bad terrain. Examples are Byzantine kontaratoi, Achaemenid Persian sparabara and the Babylonian formations they inherited from, many formations of the Chinese Warring States period, and Italian Medieval pavisiers.",
+        "lang_es": "Una formación combinada en la que un gran contingente de tropas de proyectiles de largo alcance se refuerza con unas pocas filas delanteras de lanzas o picas, a menudo equipadas con el gran escudo denominado (en la Edad Media) «pavise», o similar. De este modo, la formación conservaba la capacidad de proyectiles de largo alcance de los arqueros, pero con mayor capacidad para contener a la caballería y la infantería enemigas. Estas formaciones eran eficaces en terrenos favorables, pero rendían mal cuando las delgadas primeras filas eran incapaces de mantener una formación cerrada en terrenos difíciles. Ejemplos de ello son los kontaratoi bizantinos, los sparabara persas aqueménidas y las formaciones babilónicas de las que heredaron su estructura, muchas formaciones del periodo de los Reinos Combatientes chino y los paviseros medievales italianos."
+    },
+    {
         "key": "Abbasid Revolt",
         "lang_es": "La revuelta de los abasíes"
     },
@@ -46,6 +50,10 @@
     {
         "key": "Alketas",
         "lang_es": "Alketas"
+    },
+    {
+        "key": "All chariots with bow-armed crew and plentiful ammunition; also other chariots equipped with very long weapons like early Mycenaeans and some Chinese armies who remained in a moving chariot to fight. The premier mounted arm from the first development of the technology around 1600 BC until the development of large quantities of capable foot and the availability of much cheaper effective mounted arms with larger horses overtook them around the 6th through 4th century BC in the Middle East and after 200 BC in China. Examples include Egyptian, Assyrian, Classical Indian, and Warring States Chinese chariots.",
+        "lang_es": "Todos los carros con tripulaciones armadas con arcos y munición abundante; también otros carros equipados con armas muy largas, como los de los primeros micénicos y algunos ejércitos chinos, que permanecían en el carro en movimiento para luchar. La principal fuerza montada desde los inicios de esta tecnología, alrededor del 1600 a. C., hasta que el desarrollo de grandes contingentes de infantería competente y la disponibilidad de fuerzas montadas mucho más baratas y eficaces, con caballos de mayor tamaño, las sustituyeron entre los siglos VI y IV a. C. en Oriente Medio y después del 200 a. C. en China. Entre los ejemplos se incluyen los carros egipcios, asirios, de la India clásica y de los Reinos Combatientes chinos."
     },
     {
         "key": "Almohades",
@@ -132,6 +140,10 @@
         "lang_es": "araucano"
     },
     {
+        "key": "Archers",
+        "lang_es": "Arqueros"
+    },
+    {
         "key": "Armagnac",
         "lang_es": "Armagnac"
     },
@@ -142,6 +154,10 @@
     {
         "key": "Army of Radagaisus",
         "lang_es": "Ejército de Radagaisus"
+    },
+    {
+        "key": "Artillery",
+        "lang_es": "Artillería"
     },
     {
         "key": "Assyrian Empire",
@@ -172,6 +188,10 @@
         "lang_es": "azteca"
     },
     {
+        "key": "Bad Horse",
+        "lang_es": "Bad Horse"
+    },
+    {
         "key": "Baekje and Gaya Korean",
         "lang_es": "Baekje y Gaya (Corea)"
     },
@@ -192,8 +212,16 @@
         "lang_es": "La revuelta de los batavos"
     },
     {
+        "key": "Battle Taxi",
+        "lang_es": "Taxi de combate"
+    },
+    {
         "key": "Battle of Marcianople",
         "lang_es": "Batalla de Marcianópolis"
+    },
+    {
+        "key": "Battlefield artillery, whether stone-throwing (often portable counterweight models crewed by men pulling ropes, a technique used for thousands of years), bolt-throwing, or early gunpowder weapons. Much longer effective range than anything else on the battlefield, but with a slow reload time they were vulnerable to any enemy group that could get to them. Armies that used artillery include Romans, Alexander the Great, Byzantines, Mongols, and many Medieval armies.",
+        "lang_es": "La artillería de campaña, ya fuera de lanzamiento de piedras (a menudo modelos portátiles con contrapeso manejados por hombres que tiraban de cuerdas, una técnica utilizada desde hacía miles de años), de lanzamiento de proyectiles o las primeras armas de pólvora. Tenían un alcance efectivo mucho mayor que cualquier otra arma en el campo de batalla, pero, debido a su lento tiempo de recarga, eran vulnerables a cualquier grupo enemigo que pudiera acercarse a ellas. Entre los ejércitos que utilizaban artillería se encuentran los romanos, Alejandro Magno, los bizantinos, los mongoles y muchos ejércitos medievales."
     },
     {
         "key": "Beidi",
@@ -214,6 +242,10 @@
     {
         "key": "Black and White Sheep Turkoman",
         "lang_es": "Oveja turcomana blanca y negra"
+    },
+    {
+        "key": "Bow Levy",
+        "lang_es": "Bow Levy"
     },
     {
         "key": "Breton",
@@ -300,6 +332,22 @@
         "lang_es": "Empresa catalana"
     },
     {
+        "key": "Cataphracts",
+        "lang_es": "Catafractos"
+    },
+    {
+        "key": "Cavalry equipped with bow and lance, equipped and trained to fight in melee or with short-range missile fire. Many elite cavalry elements were also equipped with horse armor or barding. Examples are Mamluk and Ottoman heavy cavalry, Mongol heavy cavalry, Sassanid Asavaran, and Timurid heavy cavalry.",
+        "lang_es": "Caballería equipada con arco y lanza, preparada y entrenada para luchar en combate cuerpo a cuerpo o con proyectiles de corto alcance. Muchas unidades de caballería de élite también contaban con armaduras para caballos o bardas. Algunos ejemplos son la caballería pesada mameluca y otomana, la caballería pesada mongola, los asavaran sasánidas y la caballería pesada timúrida."
+    },
+    {
+        "key": "Cavalry fighting with bows from horseback, usually with large ammo supplies. Effective against other horse; less effective against foot but at almost no risk from them because of the ability to engage from out of thrown-weapon range. Examples are Skythians, Huns, Magyars, most Mongols, and many more.",
+        "lang_es": "Cavalería que combate con arcos desde a caballo, normalmente con grandes reservas de munición. Eficaz contra otros jinetes; menos eficaz contra la infantería, pero sin correr prácticamente ningún riesgo frente a ella, gracias a su capacidad para atacar desde fuera del alcance de las armas arrojadizas. Algunos ejemplos son los escitas, los hunos, los magiares, la mayoría de los mongoles y muchos otros."
+    },
+    {
+        "key": "Cavalry fighting with javelins from horseback. Forced to get into thrown-weapon range to engage foes, which make them more effective against foot but also at more risk from them. Outmatched by any mounted using bows due to range and ammo limitations. At grave risk from Knights, but often effective in bringing them into a charge too deep into a foe where they can be swarmed or attacked when dispersed or tired. Examples include Andalusian and Spanish jinetes, various Saracen and Arab light cavalry, and many Greek, Roman, and Gallic horsemen before the advent of the Huns.",
+        "lang_es": "Caballería que combate con jabalinas desde a caballo. Se ven obligados a acercarse al alcance de las armas arrojadizas para enfrentarse a los enemigos, lo que los hace más eficaces contra la infantería, pero también los expone a un mayor riesgo por parte de esta. Superados por cualquier unidad montada que utilice arcos debido a las limitaciones de alcance y munición. Corren un grave riesgo frente a los caballeros, pero a menudo son eficaces para atraerlos a una carga demasiado profunda en el campo enemigo, donde pueden ser rodeados o atacados cuando se dispersan o se cansan. Algunos ejemplos son los jinetes andaluces y españoles, diversas caballerías ligeras sarracenas y árabes, y muchos jinetes griegos, romanos y galos antes de la llegada de los hunos."
+    },
+    {
         "key": "Celtiberians",
         "lang_es": "celtíberos"
     },
@@ -328,8 +376,16 @@
         "lang_es": "Chanca and Cañari"
     },
     {
+        "key": "Charging cavalry who attempt at all costs to get into melee with the foe and sweep away enemies by the force of their charge. Examples including Macedonian Companions, Sarmatians, Goths and many Dark Ages Germanic cavalry, Xystophoroi, Norman Knights, and the major mounted component of most Western European medieval armies.",
+        "lang_es": "Caballería de carga que intenta a toda costa entrar en combate cuerpo a cuerpo con el enemigo y barrerlo con la fuerza de su embestida. Entre los ejemplos se incluyen los Compañeros de Macedonia, los sármatas, los godos y gran parte de la caballería germánica de la Edad Media, los xistophoroi, los caballeros normandos y el principal componente ecuestre de la mayoría de los ejércitos medievales de Europa occidental."
+    },
+    {
         "key": "Chariot Supremacy",
         "lang_es": "La supremacía de los carros"
+    },
+    {
+        "key": "Chariots",
+        "lang_es": "Carritos"
     },
     {
         "key": "Chichimec and Pueblo Cultures",
@@ -378,6 +434,14 @@
     {
         "key": "Cleopatran Ptolemaic",
         "lang_es": "Cleopatra, de la dinastía ptolemaica"
+    },
+    {
+        "key": "Close-order foot fighting with long spears in a static formation specifically adopted to resist mounted enemies. Spears as a primary weapon are insufficient evidence (taken alone) to classify troop types as “Spear,” as every troop type includes foot fighting with a spear among its various historical examples. Examples include Rus, and many Medieval spearmen, but not Anglo-Danes or Vikings who fought with shorter spears and had little or no experience resisting mounted foes.",
+        "lang_es": "Combate a pie en formación cerrada con lanzas largas, en una disposición estática adoptada específicamente para resistir a enemigos a caballo. El uso de la lanza como arma principal no es prueba suficiente (por sí solo) para clasificar a un tipo de tropa como «lanzada», ya que todos los tipos de tropas incluyen el combate a pie con lanza entre sus diversos ejemplos históricos. Entre los ejemplos se incluyen los rus y muchos lanceros medievales, pero no los anglo-daneses ni los vikingos, que luchaban con lanzas más cortas y tenían poca o ninguna experiencia en resistir a enemigos a caballo."
+    },
+    {
+        "key": "Close-order foot specialized and experienced in fighting against enemy foot, with armor and effective melee weapons. Examples include Spartan and Theban hoplites, Roman legionaries, dismounted Medieval knights, Viking huscarles, armored men with bill or halberd, and the like.",
+        "lang_es": "Infantería de formación cerrada especializada y con experiencia en el combate contra la infantería enemiga, equipada con armadura y armas blancas eficaces. Entre los ejemplos se incluyen los hoplitas espartanos y tebanos, los legionarios romanos, los caballeros medievales desmontados, los huscarls vikingos, los hombres acorazados armados con pica o alabarda, y similares."
     },
     {
         "key": "Coastal Mountain First Nations",
@@ -864,6 +928,22 @@
         "lang_es": "Edward Bruce en Irlanda"
     },
     {
+        "key": "Elephants",
+        "lang_es": "Elefantes"
+    },
+    {
+        "key": "Elephants trained and used massed in warfare, with a variety of crews and possible escorting attached light infantry. The Asian elephant and African forest elephant were domesticated and used this way; the larger African bush elephant was never domesticated. This was the premier arm of warfare in India and South-East Asia for a very long time, and a very important part of war in the eastern and southern Mediterranean from the initial spread of the technology through Alexander’s successors until the failure of Carthage, Pyrrhus, and the Seleucids to cope with the rise of Rome.",
+        "lang_es": "Los elefantes se adiestraban y utilizaban en masa en la guerra, con diversas tripulaciones y, en ocasiones, escoltados por infantería ligera. El elefante asiático y el elefante africano de bosque fueron domesticados y utilizados de esta manera; el elefante africano de sabana, de mayor tamaño, nunca fue domesticado. Esta fue la principal arma de guerra en la India y el sudeste asiático durante mucho tiempo, y una parte muy importante de la guerra en el Mediterráneo oriental y meridional desde la difusión inicial de la tecnología a través de los sucesores de Alejandro hasta el fracaso de Cartago, Pirro y los seléucidas a la hora de hacer frente al auge de Roma."
+    },
+    {
+        "key": "Elite Cavalry",
+        "lang_es": "Caballería de élite"
+    },
+    {
+        "key": "Elite Foot",
+        "lang_es": "Elite Foot"
+    },
+    {
         "key": "Embattled Isle",
         "lang_es": "La isla asediada"
     },
@@ -902,6 +982,10 @@
     {
         "key": "Fante and Gold Coast Peoples",
         "lang_es": "Los fante y los pueblos de Gold Coast"
+    },
+    {
+        "key": "Fast melee infantry who are better armed and trained and more willing to fight in close combat (with fewer javelins and throwing weapons) than Light Foot, and faster and better in bad going than Heavy or Elite Foot. Examples include Hellenistic thureophoroi and thorakitaii, Early Imperial Roman auxilia, Medieval Spanish sword-and-buckler men, Chinese “dare to die” troops, and early Viking raiders.",
+        "lang_es": "Infantería de combate cuerpo a cuerpo rápida, mejor armada y entrenada, y más dispuesta a luchar en combate cuerpo a cuerpo (con menos jabalinas y armas arrojadizas) que la infantería ligera, y más rápida y más eficaz en terrenos difíciles que la infantería pesada o de élite. Entre los ejemplos se incluyen los thureophoroi y thorakitai helenísticos, las tropas auxiliares de la Roma imperial temprana, los soldados medievales españoles armados con espada y broquel, las tropas chinas «dispuestas a morir» y los primeros invasores vikingos."
     },
     {
         "key": "Fatimid Egyptian",
@@ -1108,6 +1192,18 @@
         "lang_es": "Hawái"
     },
     {
+        "key": "Heavily armored cavalry (man and horse) who fight exclusively in melee but do not rely on the force of a dangerous and ferocious initial charge to create victory. Examples are catafractii and clibanarii from Parthian to Late Romans, some kataphraktoi of the Byzantines, and some deep-formation knights of the Holy Roman Empire in the late Medieval period.",
+        "lang_es": "Caballería fuertemente blindada (hombre y caballo) que combate exclusivamente en cuerpo a cuerpo, pero que no se basa en la fuerza de una carga inicial peligrosa y feroz para alcanzar la victoria. Algunos ejemplos son los catafractos y los clibanarios, desde la época partia hasta la tardorromana, algunos kataphraktoi bizantinos y algunos caballeros de formación cerrada del Sacro Imperio Romano Germánico en la Baja Edad Media."
+    },
+    {
+        "key": "Heavy Foot",
+        "lang_es": "Pie pesado"
+    },
+    {
+        "key": "Heavy foot with shields, melee weapons, and sometimes armor fighting in close order but without specific experience or weapons for resisting enemy mounted troops. Effective combatants in good going, especially against infantry. Examples include Anglo-Danes, poorer quality Roman legionaries (especially raw, mutinous, or recently recruited legions), and many Medieval town militias.",
+        "lang_es": "Infantería pesada equipada con escudos, armas cuerpo a cuerpo y, en ocasiones, armadura, que combate en formación cerrada, pero sin experiencia específica ni armamento para hacer frente a las tropas montadas enemigas. Son combatientes eficaces en terrenos fáciles, especialmente contra la infantería. Entre los ejemplos se incluyen los anglo-daneses, los legionarios romanos de menor calidad (sobre todo legiones sin experiencia, rebeldes o de reciente reclutamiento) y muchas milicias urbanas medievales."
+    },
+    {
         "key": "Hellenistic Aitolian",
         "lang_es": "Itolia helenística"
     },
@@ -1152,8 +1248,16 @@
         "lang_es": "Sacro Imperio Romano Germánico"
     },
     {
+        "key": "Horde",
+        "lang_es": "Horda"
+    },
+    {
         "key": "Horn of Africa smaller states",
         "lang_es": "Estados más pequeños del Cuerno de África"
+    },
+    {
+        "key": "Horse Bow",
+        "lang_es": "Arco para caballos"
     },
     {
         "key": "Hun Kingdoms in India",
@@ -1190,6 +1294,18 @@
     {
         "key": "Indo-Greek Kingdom",
         "lang_es": "Reino Indo-Griego"
+    },
+    {
+        "key": "Infantry armed with long-distance missile weapons, trained in volley fire, and supplied with large numbers of arrows, quarrels or darts.  Examples include Medieval bow and crossbowmen, English longbow, Nabataean archers, Chinese crossbow, Japanese samurai before the Sengoku-jidai, and many others.",
+        "lang_es": "Infantería armada con armas de proyectiles de largo alcance, entrenada en el fuego en salva y provista de grandes cantidades de flechas, dardos o jabalinas. Entre los ejemplos se incluyen los arqueros y ballesteros medievales, el arco largo inglés, los arqueros nabateos, la ballesta china, los samuráis japoneses anteriores al Sengoku-jidai y muchos otros."
+    },
+    {
+        "key": "Infantry closely related to Warrior in ability and function, but fighting in looser order. This makes them faster and less inhibited by terrain, but less capable in dense formations in the open. Examples include Ancient British, Dark Ages Welsh, some Early German tribes (Batavi and Cherusci in particular), Caledonians, Early Vandals, or early Tamil Indians.",
+        "lang_es": "Infantería muy similar a la de los guerreros en cuanto a habilidades y funciones, pero que combate en formaciones menos compactas. Esto les permite moverse con mayor rapidez y les limita menos el terreno, aunque son menos eficaces en formaciones densas en campo abierto. Entre los ejemplos se incluyen los antiguos británicos, los galeses de la Edad Media, algunas tribus germánicas primitivas (en particular los batavos y los queruscos), los caledonios, los primeros vándalos o los primeros indios tamiles."
+    },
+    {
+        "key": "Infantry relying on a fierce initial charge that can shatter close-order infantry. Their reliance on individual and group aggression means their attack peters out quickly if the enemy survives their initial charge. Warband is a closely related type, with Warrior preferring to fight in tighter formed units in the open. Examples include Gallic and Galatian foot, some Early German tribes, Saxons, Franks, Visigoths, Sumatrans, and others.",
+        "lang_es": "Infantería que se basa en una feroz carga inicial capaz de desintegrar a la infantería en formación cerrada. Su dependencia de la agresividad individual y colectiva hace que su ataque pierda fuerza rápidamente si el enemigo sobrevive a la carga inicial. La «banda de guerra» es un tipo muy similar, aunque los «guerreros» prefieren luchar en unidades más compactas en campo abierto. Entre los ejemplos se incluyen la infantería gala y galata, algunas tribus germánicas primitivas, los sajones, los francos, los visigodos, los sumatranos y otros."
     },
     {
         "key": "Iqshidid Egyptian",
@@ -1238,6 +1354,10 @@
     {
         "key": "Javanese",
         "lang_es": "javanés"
+    },
+    {
+        "key": "Javelin Cavalry",
+        "lang_es": "Caballería de lanzas"
     },
     {
         "key": "Jewish Revolt",
@@ -1318,6 +1438,10 @@
     {
         "key": "Kingdoms of Britons",
         "lang_es": "Reinos de los británicos"
+    },
+    {
+        "key": "Knights",
+        "lang_es": "Caballeros"
     },
     {
         "key": "Komnenan Byzantine",
@@ -1680,8 +1804,28 @@
         "lang_es": "libio-egipcio"
     },
     {
+        "key": "Light Foot",
+        "lang_es": "Pie ligero"
+    },
+    {
+        "key": "Light Spear",
+        "lang_es": "Lanza de luz"
+    },
+    {
         "key": "Lithuanian",
         "lang_es": "Lituano"
+    },
+    {
+        "key": "Loose order foot armed with long spears but no shields; capable of fighting in bad terrain but also fighting against mounted in the open when necessary. Examples include Medieval North Welsh foot, Mountain Indians, Ghurids, Frisian spearmen, or Hittite spear.",
+        "lang_es": "Formación de infantería dispersa, armada con lanzas largas pero sin escudos; capaz de luchar en terrenos difíciles, pero también de enfrentarse a la caballería en campo abierto cuando es necesario. Entre los ejemplos se incluyen la infantería medieval del norte de Gales, los indios de las montañas, los ghuríes, los lanceros frisones o la infantería con lanza hitita."
+    },
+    {
+        "key": "Loose order infantry with javelins, shields and a melee weapon, whether a stabbing spear or sword or other weapon. Loose order makes them weak against mounted, but excellent combatants in bad terrain. Examples are innumerable, but include Thracians, Irish kerns, Ancient Spanish, and Burmese foot.",
+        "lang_es": "Infantería en formación dispersa, equipada con jabalinas, escudos y un arma cuerpo a cuerpo, ya sea una lanza de empuñadura corta, una espada u otra arma. La formación dispersa los hace vulnerables frente a la caballería, pero son excelentes combatientes en terrenos difíciles. Los ejemplos son innumerables, pero entre ellos se incluyen los tracios, los kerns irlandeses, los antiguos españoles y la infantería birmana."
+    },
+    {
+        "key": "Loose order troops with long-range missile weapons, but used as individuals (not volley fire) and at short ranges (as close as can be done without personal risk), and with relatively limited ammo supplies. Effective irritants against enemy heavy foot and similar melee-focused infantry where their response of fleeing when overmatched and then regrouping and returning makes for a frustrating battle without good result for the heavy foot. Examples are Balearic slingers, Cretan archers, Medieval handgunners, and so on.",
+        "lang_es": "Tropas en formación dispersa equipadas con armas de proyectiles de largo alcance, pero que actúan de forma individual (no en salvas) y a corta distancia (lo más cerca posible sin poner en riesgo la vida de los soldados), y con reservas de munición relativamente limitadas. Eficaces para hostigar a la infantería pesada enemiga y a otras infanterías similares centradas en el combate cuerpo a cuerpo, ya que su respuesta de huir cuando se ven superadas y luego reagruparse y volver hace que la batalla resulte frustrante y sin buenos resultados para la infantería pesada. Ejemplos de ello son los honderos baleares, los arqueros cretenses, los tiradores de mano medievales, etc."
     },
     {
         "key": "Lower Columbia First Nations",
@@ -1928,6 +2072,10 @@
         "lang_es": "Indígena de las montañas"
     },
     {
+        "key": "Mounted missile troops with very slow reload rates and unwilling or incapable of sustained melee fighting, or other examples of poor or ineffective horse primarily useful for their mobility, not their striking power (against anything). Examples are Medieval mounted crossbow, Assyrian pethalle paired mounted archers, Anglo-Dane huscarles attempting to fight while mounted, late Byzantine poor-quality Stratiotai, Roman Equites Cohortales, poor Chinese cavalry, etc.",
+        "lang_es": "Tropas de proyectiles a caballo con velocidades de recarga muy lentas y poco dispuestas o incapaces de mantener combates cuerpo a cuerpo prolongados, u otros ejemplos de caballos de baja calidad o ineficaces, útiles principalmente por su movilidad, no por su poder de ataque (contra cualquier objetivo). Algunos ejemplos son los ballesteros a caballo de la Edad Media, los arqueros a caballo asirios emparejados con petalles, los huscarls anglo-daneses que intentaban luchar a caballo, los stratiotai bizantinos tardíos de mala calidad, los equites cohortales romanos, la deficiente caballería china, etc."
+    },
+    {
         "key": "Muslim North Africa and Sicily",
         "lang_es": "El norte de África musulmán y Sicilia"
     },
@@ -2092,6 +2240,10 @@
         "lang_es": "Provincias sujetas a Partia"
     },
     {
+        "key": "Pavisiers",
+        "lang_es": "Obreros de la construcción de carreteras"
+    },
+    {
         "key": "Pax Romana",
         "lang_es": "La paz romana"
     },
@@ -2112,12 +2264,32 @@
         "lang_es": "pict"
     },
     {
+        "key": "Pikes",
+        "lang_es": "Pikes"
+    },
+    {
         "key": "Plate and Handgonne",
         "lang_es": "Placa y pistola"
     },
     {
         "key": "Polybian Roman",
         "lang_es": "Polybian Roman"
+    },
+    {
+        "key": "Poorly trained infantry with long-distance missile weapons, untrained in volley fire, and smaller supplies of ammunition. Their long-range fire is weak and ineffective, and they would only use their relatively scarce supply of arrows when an enemy was quite close.  Examples are Elamite massed bowmen, Sicilio-Norman Saracen foot bow, and a wide variety of Biblical and Medieval massed archers without confidence or much training.",
+        "lang_es": "Infantería mal entrenada, equipada con armas de proyectiles de largo alcance, sin formación en el tiro en descarga y con escasas reservas de munición. Su fuego de largo alcance es débil e ineficaz, y solo utilizaban su relativamente escasa reserva de flechas cuando el enemigo se encontraba muy cerca. Algunos ejemplos son las formaciones de arqueros elamitas, los arqueros a pie sarracenos de origen siciliano-normando y una amplia variedad de formaciones de arqueros bíblicos y medievales que carecían de confianza y de un entrenamiento adecuado."
+    },
+    {
+        "key": "Poorly-trained or poorly armed infantry fighting in loose order. Effective enough in bad going, where their native loose order is no disadvantage, but badly outmatched fighting in the open against, well, almost anything. Examples include armed mobs, unshielded peasants throwing rocks or javelins, Libyan hordes, and the like.",
+        "lang_es": "Infantería mal entrenada o mal armada que combate en formación dispersa. Resulta bastante eficaz en terrenos difíciles, donde su formación dispersa natural no supone una desventaja, pero se ve totalmente superada cuando lucha a campo abierto contra, bueno, casi cualquier cosa. Algunos ejemplos son las turbas armadas, los campesinos desprotegidos que lanzan piedras o jabalinas, las hordas libias y similares."
+    },
+    {
+        "key": "Poorly-trained or unwilling infantry fighting in close order. Can be effective in a limited way in the open, for a while. Examples are the great fyrd of the Anglo-Saxons, dikut mati emergency levy of the Neo-Sargonid Assyrians, or conscript infantry of the Sui Chinese million-man army.",
+        "lang_es": "Infantería mal entrenada o poco motivada que combate en formación cerrada. Puede resultar eficaz de forma limitada en terreno abierto, durante un tiempo. Algunos ejemplos son el gran «fyrd» de los anglosajones, el «dikut mati» (reclutamiento de emergencia) de los asirios neosargónidas o la infantería de reclutas del ejército de un millón de hombres de la dinastía Sui china."
+    },
+    {
+        "key": "Portable fortified wagons with missile-armed crew and often light guns. Wagons were used as camp fortifications throughout history, but armies are only allowed war wagons as an element type when they were known to use the wagons in a mobile way during a battle, often as flank guards. Good examples of war wagons are the Hussites and Pechenegs.",
+        "lang_es": "Carros fortificados móviles con una tripulación armada con proyectiles y, a menudo, con armas ligeras. A lo largo de la historia, los carros se han utilizado como fortificaciones de campamento, pero a los ejércitos solo se les permite incluir los carros de guerra como tipo de unidad cuando se sabe que los utilizaban de forma móvil durante la batalla, a menudo como escolta de flancos. Buenos ejemplos de carros de guerra son los husitas y los pechenegos."
     },
     {
         "key": "Post Mongol Russian",
@@ -2202,6 +2374,14 @@
     {
         "key": "Quechua or Aymara",
         "lang_es": "Quechua o aimara"
+    },
+    {
+        "key": "Rabble",
+        "lang_es": "Chusma"
+    },
+    {
+        "key": "Raiders",
+        "lang_es": "Raiders"
     },
     {
         "key": "Rajput Indian",
@@ -2420,6 +2600,10 @@
         "lang_es": "Porque coreano"
     },
     {
+        "key": "Skirmishers",
+        "lang_es": "Escaramuzadores"
+    },
+    {
         "key": "Slav or Wend",
         "lang_es": "Eslavo o wendo"
     },
@@ -2464,6 +2648,10 @@
         "lang_es": "Espartaco"
     },
     {
+        "key": "Spear",
+        "lang_es": "Lanza"
+    },
+    {
         "key": "Spread of Islam",
         "lang_es": "La expansión del islam"
     },
@@ -2478,6 +2666,10 @@
     {
         "key": "Sumerian Successor States",
         "lang_es": "Estados sucesores de Sumeria"
+    },
+    {
+        "key": "Super-long spears used by men fighting in deep formations, allowing multiple ranks of soldiers to fight in a very limited area. This makes them by far the most effective troops in the open when their flanks are secure, but vulnerable to attacks from the flanks (even more than normal troops) and poor in bad going. Examples are Macedonian phalangites, Low Countries pikes, Scots schiltrons, Swiss pikemen, and many more.",
+        "lang_es": "Lanzas de gran longitud utilizadas por hombres que luchaban en formaciones densas, lo que permitía a múltiples filas de soldados combatir en un espacio muy reducido. Esto las convierte, con diferencia, en las tropas más eficaces en campo abierto cuando sus flancos están protegidos, pero las hace vulnerables a los ataques por los flancos (incluso más que las tropas normales) y poco eficaces en terrenos difíciles. Algunos ejemplos son los falangistas macedonios, los piqueros de los Países Bajos, los schiltrons escoceses, los piqueros suizos y muchos más."
     },
     {
         "key": "Suren Indo-Parthian",
@@ -2550,6 +2742,10 @@
     {
         "key": "Thapsus Campaign",
         "lang_es": "Campaña de Thapsus"
+    },
+    {
+        "key": "The other major path in chariot development, where chariots were used as transportation methods for elite warriors who would ride to battle, dismount individually (not as a group) to fight on foot, then get picked up again by their drivers to swoop somewhere else. Also used for any chariots who were crewed completely by crew armed with javelins and melee weapons, who necessarily would need to get to thrown-weapon range against any foe even if they did not dismount. Examples are Trojans and Achaeans, later Mycenaeans, Gallic and Early Romans, and a variety of cultures in the British Isles. They were outmatched by cavalry or bow-armed chariots, but stayed in use for a long time where such technology was not available or did not spread quickly, and were only abandoned in the Dark Ages in Scotland and Ireland.",
+        "lang_es": "La otra vía principal en el desarrollo de los carros de combate consistía en utilizarlos como medio de transporte para los guerreros de élite, que se desplazaban hasta el campo de batalla, desmontaban individualmente (y no en grupo) para luchar a pie, y luego eran recogidos de nuevo por sus conductores para dirigirse a otro lugar. También se utilizaba para cualquier carro cuya tripulación estuviera compuesta íntegramente por tripulantes armados con jabalinas y armas cuerpo a cuerpo, que necesariamente tendrían que situarse al alcance de las armas arrojadizas contra cualquier enemigo, incluso si no desmontaban. Algunos ejemplos son los troyanos y los aqueos, más tarde los micénicos, los galos y los primeros romanos, así como diversas culturas de las Islas Británicas. Fueron superados por la caballería o por los carros armados con arcos, pero se mantuvieron en uso durante mucho tiempo en lugares donde dicha tecnología no estaba disponible o no se extendió rápidamente, y solo se abandonaron en la Edad Media en Escocia e Irlanda."
     },
     {
         "key": "Thematic Byzantine",
@@ -2700,12 +2896,24 @@
         "lang_es": "valaco o moldavo"
     },
     {
+        "key": "War Wagons",
+        "lang_es": "Carros de guerra"
+    },
+    {
+        "key": "Warband",
+        "lang_es": "Banda de guerra"
+    },
+    {
         "key": "Warlike Gallic",
         "lang_es": "Galo belicoso"
     },
     {
         "key": "Warring States",
         "lang_es": "Estados Combatientes"
+    },
+    {
+        "key": "Warriors",
+        "lang_es": "Guerreros"
     },
     {
         "key": "Wars of the Roses English",
