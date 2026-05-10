@@ -176,16 +176,16 @@
                         <table id="army-table" class="table is-striped is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
-                                    <th class="sortable" data-col="0" data-type="text">
+                                    <th class="sortable" data-col="0" data-type="text" data-lang-en="Army" data-lang-es="Ejército">
                                         Army<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable" data-col="1" data-type="number">
+                                    <th class="sortable" data-col="1" data-type="number" data-lang-en="Start Date" data-lang-es="Fecha de Inicio">
                                         Start Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable" data-col="2" data-type="number">
+                                    <th class="sortable" data-col="2" data-type="number" data-lang-en="End Date" data-lang-es="Fecha de Fin">
                                         End Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable" data-col="3" data-type="text">
+                                    <th class="sortable" data-col="3" data-type="text" data-lang-en="Category" data-lang-es="Categorías">
                                         Category<span class="sort-indicator"></span>
                                     </th>
                                 </tr>
@@ -196,7 +196,7 @@
                                         <td data-sort-value="{{ row.army_sort }}" data-lang-en="{{ row.army }}" data-lang-es="{{ row.army_lang_es }}"><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
                                         <td data-sort-value="{{ row.start_date_value if row.start_date_value is not none else '' }}">{{ row.start_date }}</td>
                                         <td data-sort-value="{{ row.end_date_value if row.end_date_value is not none else '' }}">{{ row.end_date }}</td>
-                                        <td data-sort-value="{{ row.category_sort }}">{{ row.category }}</td>
+                                        <td data-sort-value="{{ row.category_sort }}" data-lang-en="{{ row.category }}" data-lang-es="{{ row.category_lang_es }}">{{ row.category }}</td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
@@ -217,18 +217,21 @@
                 let currentSort = { col: 1, dir: "asc" };
 
                 function applyLanguage(language) {
-                    const cells = tbody.querySelectorAll("tr td:first-child");
-
-                    cells.forEach((cell) => {
-                        const link = cell.querySelector("a");
-                        if (!link) return;
-
+                    // Update all elements with data-lang-en and data-lang-es attributes
+                    const elements = table.querySelectorAll("[data-lang-en][data-lang-es]");
+                    elements.forEach((element) => {
                         const value =
                             language === "es"
-                                ? cell.dataset.langEs || ""
-                                : cell.dataset.langEn || "";
+                                ? element.dataset.langEs || ""
+                                : element.dataset.langEn || "";
 
-                        link.textContent = value;
+                        // If element has a link, update the link text; otherwise update the cell text
+                        const link = element.querySelector("a");
+                        if (link) {
+                            link.textContent = value;
+                        } else {
+                            element.textContent = value;
+                        }
                     });
                 }
 

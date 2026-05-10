@@ -253,9 +253,19 @@ def home():
                 key=lambda item: item.get("derivedData", {}).get("listStartDate", float("inf")),
         )
 
-        army_rows = [
-                {
-                        "army_id": str(item.get("id", "")),
+        army_rows = []
+        for item in sorted_army_lists:
+                army_name = str(item.get("name", "Unknown Army")).strip()
+                army_id = str(item.get("id", ""))
+                category_names = CATEGORY_NAMES_BY_ARMY_ID.get(army_id, [])
+                
+                category_en = ", ".join(category_names) or "-"
+                category_es = ", ".join(
+                        TRANSLATION_ES_BY_KEY.get(cat, cat) for cat in category_names
+                ) or "-"
+                
+                army_rows.append({
+                        "army_id": army_id,
                         "army": army_name,
                         "army_lang_es": TRANSLATION_ES_BY_KEY.get(army_name, ""),
                         "army_sort": army_name.lower(),
@@ -263,17 +273,10 @@ def home():
                         "start_date_value": item.get("derivedData", {}).get("listStartDate"),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
                         "end_date_value": item.get("derivedData", {}).get("listEndDate"),
-                        "category": ", ".join(
-                                CATEGORY_NAMES_BY_ARMY_ID.get(str(item.get("id", "")), [])
-                        )
-                        or "-",
-                        "category_sort": ", ".join(
-                                CATEGORY_NAMES_BY_ARMY_ID.get(str(item.get("id", "")), [])
-                        ).lower(),
-                }
-                for item in sorted_army_lists
-                for army_name in [str(item.get("name", "Unknown Army")).strip()]
-        ]
+                        "category": category_en,
+                        "category_lang_es": category_es,
+                        "category_sort": category_en.lower(),
+                })
 
         return render_template("triumph_db.html", army_rows=army_rows)
 
