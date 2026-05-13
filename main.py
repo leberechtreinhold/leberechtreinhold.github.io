@@ -26,6 +26,11 @@ TRANSLATION_ES_BY_KEY = {
         for entry in TRANSLATIONS
         if isinstance(entry, dict) and isinstance(entry.get("key"), str)
 }
+TRANSLATION_ES_BY_KEY_STRIPPED = {
+        key.strip(): value
+        for key, value in TRANSLATION_ES_BY_KEY.items()
+        if isinstance(key, str) and key.strip()
+}
 TROOP_TYPE_DISPLAY_BY_CODE = {
         troop.get("permanentCode"): troop.get("displayName", troop.get("permanentCode", ""))
         for troop in TROOP_TYPES
@@ -78,6 +83,19 @@ def format_year(value):
         return ""
 
 
+def translate_to_es(value):
+        text = str(value or "")
+        translated = TRANSLATION_ES_BY_KEY.get(text)
+        if translated:
+                return translated
+
+        translated = TRANSLATION_ES_BY_KEY_STRIPPED.get(text.strip())
+        if translated:
+                return translated
+
+        return text
+
+
 def find_army_by_id(army_id: str):
         for item in ARMY_LISTS:
                 possible_ids = {
@@ -108,7 +126,7 @@ def format_rating_entries(ratings):
         return ", ".join(formatted) if formatted else "TBD"
 
 
-def format_battle_card_entries(entries):
+def format_battle_card_entries(entries, language="en"):
         if not entries:
                 return "-"
 
@@ -119,9 +137,13 @@ def format_battle_card_entries(entries):
                         continue
 
                 name = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
+                if language == "es":
+                        name = translate_to_es(name)
                 min_value = entry.get("min")
                 max_value = entry.get("max")
                 note = entry.get("note")
+                if language == "es" and note:
+                        note = translate_to_es(note)
 
                 prefix = ""
                 if min_value is not None and max_value is not None:
@@ -170,7 +192,8 @@ def format_general_troop_entries(entries_for_general):
 
 
 def format_troop_entry_list(entries):
-        names = []
+        names_en = []
+        names_es = []
         points = []
         for entry in entries or []:
                 code = entry.get("troopTypeCode")
@@ -178,26 +201,35 @@ def format_troop_entry_list(entries):
                         continue
 
                 name = TROOP_TYPE_DISPLAY_BY_CODE.get(code, code)
+                name_es = translate_to_es(name)
                 cost = TROOP_TYPE_COST_BY_CODE.get(code)
                 note = entry.get("note")
-                suffix = f" ({note})" if note else ""
-                names.append(f"{name}{suffix}")
+                note_es = translate_to_es(note) if note else ""
+
+                suffix_en = f" ({note})" if note else ""
+                suffix_es = f" ({note_es})" if note_es else ""
+
+                names_en.append(f"{name}{suffix_en}")
+                names_es.append(f"{name_es}{suffix_es}")
                 points.append(str(cost) if cost is not None else "")
 
-        troops_text = " or ".join(names) if names else "None"
+        troops_text = " or ".join(names_en) if names_en else "None"
+        troops_text_es = " o ".join(names_es) if names_es else translate_to_es("None")
         points_text = " or ".join(points) if points else ""
-        return troops_text, points_text
+        return troops_text, troops_text_es, points_text
 
 
 def format_troop_options(options):
         rows = []
         for option in options or []:
-                troops, points = format_troop_entry_list(option.get("troopEntries"))
+                troops, troops_es, points = format_troop_entry_list(option.get("troopEntries"))
 
                 note_parts = []
+                note_parts_es = []
                 option_note = option.get("note")
                 if option_note:
                         note_parts.append(option_note)
+                        note_parts_es.append(translate_to_es(option_note))
 
                 date_ranges = option.get("dateRanges") or []
                 if date_ranges:
@@ -214,16 +246,27 @@ def format_troop_options(options):
 
                         if formatted_ranges:
                                 note_parts.append(f"Date ranges: {', '.join(formatted_ranges)}")
+                                note_parts_es.append(f"Rango de fechas: {', '.join(formatted_ranges)}")
+
+                battle_line = option.get("core", "")
+                description = option.get("description", "")
+                note_text = " | ".join(note_parts)
+                note_text_es = " | ".join(note_parts_es)
 
                 rows.append(
                         {
                                 "min": option.get("min", ""),
                                 "max": option.get("max", ""),
-                                "battle_line": option.get("core", ""),
+                                "battle_line": battle_line,
+                                "battle_line_lang_es": translate_to_es(battle_line),
                                 "troops": troops,
-                                "description": option.get("description", ""),
-                                "note": " | ".join(note_parts),
+                                "troops_lang_es": troops_es,
+                                "description": description,
+                                "description_lang_es": translate_to_es(description),
+                                "note": note_text,
+                                "note_lang_es": note_text_es,
                                 "battle_cards": format_battle_card_entries(option.get("battleCardEntries")),
+                                "battle_cards_lang_es": format_battle_card_entries(option.get("battleCardEntries"), language="es"),
                                 "points": points,
                         }
                 )

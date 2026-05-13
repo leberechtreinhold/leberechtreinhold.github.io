@@ -32,11 +32,11 @@
             <div class="container">
                 {% if army %}
                     <div class="box content">
-                        <p><strong>Invasion:</strong> {{ army.invasion }}</p>
-                        <p><strong>Maneuver Rating:</strong> {{ army.maneuver }}</p>
-                        <p><strong>Home Topography:</strong> {{ army.home_topography }}</p>
-                        <p><strong>General's Troop Type:</strong> {{ army.general_troop_type }}</p>
-                        <p><strong>Army Battle Cards:</strong> {{ army.army_battle_cards }}</p>
+                        <p><strong data-lang-en="Invasion:" data-lang-es="Invasión:">Invasion:</strong> {{ army.invasion }}</p>
+                        <p><strong data-lang-en="Maneuver Rating:" data-lang-es="Maniobra:">Maneuver Rating:</strong> {{ army.maneuver }}</p>
+                        <p><strong data-lang-en="Home Topography:" data-lang-es="Topografía:">Home Topography:</strong> {{ army.home_topography }}</p>
+                        <p><strong data-lang-en="General's Troop Type:" data-lang-es="Tipo de Tropas del General:">General's Troop Type:</strong> {{ army.general_troop_type }}</p>
+                        <p><strong data-lang-en="Army Battle Cards:" data-lang-es="Cartas de Batalla del Ejército:">Army Battle Cards:</strong> {{ army.army_battle_cards }}</p>
                     </div>
 
                     <div class="box">
@@ -46,12 +46,12 @@
                                     <tr>
                                         <th>Min</th>
                                         <th>Max</th>
-                                        <th>BattleLine</th>
-                                        <th>Troops</th>
-                                        <th>Description</th>
-                                        <th>Note</th>
-                                        <th>Battle Cards</th>
-                                        <th>Points</th>
+                                        <th data-lang-en="BattleLine" data-lang-es="Línea de Batalla">BattleLine</th>
+                                        <th data-lang-en="Troops" data-lang-es="Tropas">Troops</th>
+                                        <th data-lang-en="Description" data-lang-es="Descripción">Description</th>
+                                        <th data-lang-en="Note" data-lang-es="Nota">Note</th>
+                                        <th data-lang-en="Battle Cards" data-lang-es="Cartas de Batalla">Battle Cards</th>
+                                        <th data-lang-en="Points" data-lang-es="Puntos">Points</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -59,11 +59,11 @@
                                         <tr>
                                             <td>{{ row.min }}</td>
                                             <td>{{ row.max }}</td>
-                                            <td>{{ row.battle_line }}</td>
-                                            <td>{{ row.troops }}</td>
-                                            <td>{{ row.description }}</td>
-                                            <td>{{ row.note }}</td>
-                                            <td>{{ row.battle_cards }}</td>
+                                            <td data-lang-en="{{ row.battle_line }}" data-lang-es="{{ row.battle_line_lang_es }}">{{ row.battle_line }}</td>
+                                            <td data-lang-en="{{ row.troops }}" data-lang-es="{{ row.troops_lang_es }}">{{ row.troops }}</td>
+                                            <td data-lang-en="{{ row.description }}" data-lang-es="{{ row.description_lang_es }}">{{ row.description }}</td>
+                                            <td data-lang-en="{{ row.note }}" data-lang-es="{{ row.note_lang_es }}">{{ row.note }}</td>
+                                            <td data-lang-en="{{ row.battle_cards }}" data-lang-es="{{ row.battle_cards_lang_es }}">{{ row.battle_cards }}</td>
                                             <td>{{ row.points }}</td>
                                         </tr>
                                     {% endfor %}
