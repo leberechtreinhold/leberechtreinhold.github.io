@@ -25,16 +25,19 @@
                         <table id="army-table" class="table is-striped is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
-                                    <th class="sortable" data-col="0" data-type="text" data-lang-en="Army" data-lang-es="Ejército">
+                                    <th class="sortable" data-col="0" data-type="text">
+                                        #<span class="sort-indicator"></span>
+                                    </th>
+                                    <th class="sortable" data-col="1" data-type="text" data-lang-en="Army" data-lang-es="Ejército">
                                         Army<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable colminwidth" data-col="1" data-type="number" data-lang-en="Start Date" data-lang-es="Inicio">
+                                    <th class="sortable colminwidth" data-col="2" data-type="number" data-lang-en="Start Date" data-lang-es="Inicio">
                                         Start Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable colminwidth" data-col="2" data-type="number" data-lang-en="End Date" data-lang-es="Fin">
+                                    <th class="sortable colminwidth" data-col="3" data-type="number" data-lang-en="End Date" data-lang-es="Fin">
                                         End Date<span class="sort-indicator"></span>
                                     </th>
-                                    <th class="sortable" data-col="3" data-type="text" data-lang-en="Category" data-lang-es="Categorías">
+                                    <th class="sortable" data-col="4" data-type="text" data-lang-en="Category" data-lang-es="Categorías">
                                         Category<span class="sort-indicator"></span>
                                     </th>
                                 </tr>
@@ -42,6 +45,7 @@
                             <tbody>
                                 {% for row in army_rows %}
                                     <tr>
+                                        <td data-sort-value="{{ row.army_num }}">{{ row.army_num }}</td>
                                         <td data-sort-value="{{ row.army_sort }}" data-lang-en="{{ row.army }}" data-lang-es="{{ row.army_lang_es }}"><a href="{{ url_for('army_detail', army_id=row.army_id) }}">{{ row.army }}</a></td>
                                         <td class="colminwidth" data-sort-value="{{ row.start_date_value if row.start_date_value is not none else '' }}">{{ row.start_date }}</td>
                                         <td class="colminwidth" data-sort-value="{{ row.end_date_value if row.end_date_value is not none else '' }}">{{ row.end_date }}</td>

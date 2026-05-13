@@ -82,6 +82,26 @@
         });
     }
 
+    function isArmyNumber(value) {
+        // A value is an "Army number" if it's a bunch of digits followed by a letter, without spaces (e.g. "123a")
+        // The number can also be a float, so it may contain a dot (e.g. "123.5a")
+        return /^\d+(\.\d+)?[a-zA-Z]$/.test(value);
+    }
+
+    function compareArmyNumbers(a, b, dir) {
+        const numA = parseFloat(a.match(/^(\d+(\.\d+)?)/)[1]);
+        const numB = parseFloat(b.match(/^(\d+(\.\d+)?)/)[1]);
+
+        console.log("Comparing army numbers:", a, b, "->", numA, numB);
+
+        if (numA !== numB) {
+            return dir === "asc" ? numA - numB : numB - numA;
+        }
+        const letterA = a.match(/[a-zA-Z]$/)[0];
+        const letterB = b.match(/[a-zA-Z]$/)[0];
+        return dir === "asc" ? letterA.localeCompare(letterB) : letterB.localeCompare(letterA);
+    }
+
     function sortBy(col, type, dir) {
         if (!tbody) return;
 
@@ -92,6 +112,8 @@
 
             if (type === "number") {
                 return dir === "asc" ? va - vb : vb - va;
+            } else if (isArmyNumber(va) && isArmyNumber(vb)) {
+                return compareArmyNumbers(va, vb, dir);
             }
 
             return dir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);

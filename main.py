@@ -300,6 +300,7 @@ def home():
         for item in sorted_army_lists:
                 army_name = str(item.get("name", "Unknown Army")).strip()
                 army_id = str(item.get("id", ""))
+                army_num = str(item.get("sortId", "")) + str(item.get("sublistId", ""))
                 category_names = CATEGORY_NAMES_BY_ARMY_ID.get(army_id, [])
                 
                 category_en = ", ".join(category_names) or "-"
@@ -312,6 +313,7 @@ def home():
                         "army": army_name,
                         "army_lang_es": TRANSLATION_ES_BY_KEY.get(army_name, ""),
                         "army_sort": army_name.lower(),
+                        "army_num": army_num,
                         "start_date": format_year(item.get("derivedData", {}).get("listStartDate")),
                         "start_date_value": item.get("derivedData", {}).get("listStartDate"),
                         "end_date": format_year(item.get("derivedData", {}).get("listEndDate")),
