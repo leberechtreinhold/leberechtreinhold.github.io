@@ -1,0 +1,197 @@
+<style>
+    :root {
+        --bulma-strong-color: #008f86;
+        --theme-green: #008f86;
+        --theme-green-soft: #eaf6ee;
+        --theme-green-mid: #cfe9d7;
+        --theme-text: #1b1b1b;
+        --theme-bg: #ffffff;
+    }
+
+    html,
+    body,
+    .section,
+    .container {
+        background: var(--theme-bg) !important;
+        color: var(--theme-text) !important;
+    }
+
+    .title {
+        color: var(--theme-text) !important;
+    }
+
+    .hero.is-triumph {
+        background: linear-gradient(135deg, #00b7a8 0%, #008f86 100%);
+        border-bottom: 1px solid #007a72;
+    }
+
+    .hero.is-triumph .title {
+        color: #ffffff !important;
+        margin-bottom: 0;
+    }
+
+    .language-switcher {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 20;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+    }
+
+    .language-switcher .github-link {
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        color: #ffffff;
+    }
+
+    .language-switcher .github-link:hover {
+        background: rgba(255, 255, 255, 0.24);
+    }
+
+    .language-switcher .github-link svg {
+        width: 1.1rem;
+        height: 1.1rem;
+        fill: currentColor;
+    }
+
+    .language-switcher .language-buttons {
+        position: relative;
+    }
+
+    .language-switcher .language-toggle {
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        color: #ffffff;
+        cursor: pointer;
+        min-width: 4.7rem;
+        height: 2.15rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.35rem;
+        padding: 0 0.6rem;
+    }
+
+    .language-switcher .language-toggle:hover,
+    .language-switcher .language-toggle[aria-expanded="true"] {
+        background: rgba(255, 255, 255, 0.24);
+    }
+
+    .language-switcher .language-toggle .caret {
+        font-size: 0.7rem;
+        line-height: 1;
+    }
+
+    .language-switcher .language-toggle img,
+    .language-switcher .lang-option img {
+        width: 1rem;
+        height: 1rem;
+        display: block;
+    }
+
+    .language-switcher .language-menu {
+        position: absolute;
+        top: calc(100% + 0.35rem);
+        right: 0;
+        min-width: 7.5rem;
+        background: #ffffff;
+        border: 1px solid var(--theme-green-mid);
+        border-radius: 0.7rem;
+        padding: 0.25rem;
+        box-shadow: 0 0.45rem 1.2rem rgba(0, 0, 0, 0.15);
+        display: none;
+    }
+
+    .language-switcher .language-menu.is-open {
+        display: block;
+    }
+
+    .language-switcher .lang-option {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        color: var(--theme-text);
+        border-radius: 0.5rem;
+        padding: 0.42rem 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .language-switcher .lang-option:hover,
+    .language-switcher .lang-option[aria-selected="true"] {
+        background: var(--theme-green-soft);
+    }
+
+    .box {
+        background: #ffffff !important;
+        color: var(--theme-text) !important;
+        border: 1px solid var(--theme-green-mid);
+        box-shadow: none;
+    }
+
+    .table,
+    .table td,
+    .table th {
+        background: #ffffff !important;
+        color: var(--theme-text) !important;
+    }
+
+    .table th,
+    .table td {
+        border-color: var(--theme-green) !important;
+    }
+
+    .table thead th {
+        background: var(--theme-green) !important;
+        color: #ffffff !important;
+    }
+
+    .table thead th a {
+        color: #ffffff !important;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .table thead th.sortable {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .table thead th .sort-indicator {
+        margin-left: 0.35rem;
+        font-size: 0.9rem;
+        opacity: 0.95;
+    }
+
+    .table tbody tr:hover td {
+        background: #86d8cb !important;
+        color: #ffffff !important;
+    }
+
+    .table tbody tr:hover a,
+    .table tbody tr:hover strong {
+        color: #ffffff !important;
+    }
+
+    .colminwidth {
+        white-space: nowrap;
+        min-width: 8ch;
+    }
+
+    a {
+        color: var(--theme-green);
+        font-weight: 600;
+    }
+</style>

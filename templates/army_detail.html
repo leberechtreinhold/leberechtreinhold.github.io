@@ -14,79 +14,10 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
         />
-        <style>
-            :root {
-                --bulma-strong-color: #008f86;
-                --theme-green: #008f86;
-                --theme-green-soft: #eaf6ee;
-                --theme-green-mid: #cfe9d7;
-                --theme-text: #1b1b1b;
-                --theme-bg: #ffffff;
-            }
-
-            html,
-            body,
-            .section,
-            .container {
-                background: var(--theme-bg) !important;
-                color: var(--theme-text) !important;
-            }
-
-            .title {
-                color: var(--theme-text) !important;
-            }
-
-            .hero.is-triumph {
-                background: linear-gradient(135deg, #00b7a8 0%, #008f86 100%);
-                border-bottom: 1px solid #007a72;
-            }
-
-            .hero.is-triumph .title {
-                color: #ffffff !important;
-                margin-bottom: 0;
-            }
-
-            .box {
-                background: #ffffff !important;
-                color: var(--theme-text) !important;
-                border: 1px solid var(--theme-green-mid);
-                box-shadow: none;
-            }
-
-            .table,
-            .table td,
-            .table th {
-                background: #ffffff !important;
-                color: var(--theme-text) !important;
-            }
-
-            .table th,
-            .table td {
-                border-color: var(--theme-green) !important;
-            }
-
-            .table thead th {
-                background: var(--theme-green) !important;
-                color: #ffffff !important;
-            }
-
-            .table tbody tr:hover td {
-                background: #86d8cb !important;
-                color: #ffffff !important;
-            }
-
-            .table tbody tr:hover a,
-            .table tbody tr:hover strong {
-                color: #ffffff !important;
-            }
-
-            a {
-                color: var(--theme-green);
-                font-weight: 600;
-            }
-        </style>
+        {% include "_triumph_db_style.html" %}
     </head>
     <body>
+        {% include "_language_switcher.html" %}
         <section class="hero is-triumph">
             <div class="hero-body">
                     {% if army %}
@@ -152,5 +83,7 @@
                 {% endif %}
             </div>
         </section>
+
+        {% include "_triumph_db_script.html" %}
     </body>
 </html>
