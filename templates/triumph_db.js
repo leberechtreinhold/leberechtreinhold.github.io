@@ -27,7 +27,7 @@
                 element.textContent = value;
             }
 
-            if (element.dataset.sortValue !== undefined) {
+            if (element.dataset.sortValue !== undefined && element.dataset.ignoreLangForSort === undefined) {
                 element.dataset.sortValue = value.trim().toLowerCase();
             }
         });
@@ -91,8 +91,6 @@
     function compareArmyNumbers(a, b, dir) {
         const numA = parseFloat(a.match(/^(\d+(\.\d+)?)/)[1]);
         const numB = parseFloat(b.match(/^(\d+(\.\d+)?)/)[1]);
-
-        console.log("Comparing army numbers:", a, b, "->", numA, numB);
 
         if (numA !== numB) {
             return dir === "asc" ? numA - numB : numB - numA;
