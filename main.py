@@ -110,7 +110,7 @@ def find_army_by_id(army_id: str):
         return None
 
 
-def format_rating_entries(ratings):
+def format_rating_entries(ratings, language="en"):
         formatted = []
         for rating in ratings or []:
                 value = rating.get("value")
@@ -122,6 +122,8 @@ def format_rating_entries(ratings):
                         continue
                 note = rating.get("note")
                 if note:
+                        if language == "es":
+                                note = translate_to_es(note)
                         formatted.append(f"{value} ({note})")
                 else:
                         formatted.append(str(value))
@@ -157,7 +159,7 @@ def format_battle_card_entries(entries, language="en"):
         return ", ".join(names) if names else "-"
 
 
-def format_general_troop_entries(entries_for_general):
+def format_general_troop_entries(entries_for_general, language="en"):
         if not entries_for_general:
                 return "None"
 
@@ -171,6 +173,8 @@ def format_general_troop_entries(entries_for_general):
 
                         name = TROOP_TYPE_DISPLAY_BY_CODE.get(code, code)
                         note = entry.get("note")
+                        if language == "es" and note:
+                                note = translate_to_es(note)
                         suffix = f" ({note})" if note else ""
                         names.append(f"{name}{suffix}")
 
@@ -184,11 +188,13 @@ def format_general_troop_entries(entries_for_general):
                 return groups[0]
 
         fallback_parts = []
+        str_if_possible = "If possible:" if language == "en" else "Si es posible:"
+        str_otherwise = "otherwise:" if language == "en" else "en otro caso:"
         for index, group in enumerate(groups):
                 if index == 0:
-                        fallback_parts.append(f"If possible: {group}")
+                        fallback_parts.append(f"{str_if_possible} {group}")
                 else:
-                        fallback_parts.append(f"otherwise: {group}")
+                        fallback_parts.append(f"{str_otherwise} {group}")
 
         return "; ".join(fallback_parts)
 
@@ -342,10 +348,15 @@ def army_detail(army_id):
         end_date = format_year(army.get("derivedData", {}).get("listEndDate"))
         end_date_lang_es = format_year(army.get("derivedData", {}).get("listEndDate"), language="es")
         invasion = format_rating_entries(army.get("invasionRatings"))
+        invasion_lang_es = format_rating_entries(army.get("invasionRatings"), language="es")
         maneuver = format_rating_entries(army.get("maneuverRatings"))
+        maneuver_lang_es = format_rating_entries(army.get("maneuverRatings"), language="es")
         home_topography = format_rating_entries(army.get("homeTopographies"))
+        home_topography_lang_es = format_rating_entries(army.get("homeTopographies"), language="es")
         general_troop_type = format_general_troop_entries(army.get("troopEntriesForGeneral"))
+        general_troop_type_lang_es = format_general_troop_entries(army.get("troopEntriesForGeneral"), language="es")
         army_battle_cards = format_battle_card_entries(army.get("battleCardEntries"))
+        army_battle_cards_lang_es = format_battle_card_entries(army.get("battleCardEntries"), language="es")
         troop_rows = format_troop_options(army.get("troopOptions"))
 
         name = army.get("name", "Unknown Army")
@@ -360,10 +371,15 @@ def army_detail(army_id):
                         "start_date": start_date,
                         "end_date": end_date,
                         "invasion": invasion,
+                        "invasion_lang_es": invasion_lang_es,
                         "maneuver": maneuver,
+                        "maneuver_lang_es": maneuver_lang_es,
                         "home_topography": home_topography,
+                        "home_topography_lang_es": home_topography_lang_es,
                         "general_troop_type": general_troop_type,
+                        "general_troop_type_lang_es": general_troop_type_lang_es,
                         "army_battle_cards": army_battle_cards,
+                        "army_battle_cards_lang_es": army_battle_cards_lang_es,
                         "troop_rows": troop_rows,
                 },
                 army_id=army_id,

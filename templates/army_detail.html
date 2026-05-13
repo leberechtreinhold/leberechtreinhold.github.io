@@ -1,89 +1,121 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        {% if army %}
+        {{ army.name }} ({{ army.start_date }} - {{ army.end_date }})
+        {% else %}
+        Army Not Found
+        {% endif %}
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    {% include "_triumph_db_style.html" %}
+</head>
+
+<body>
+    {% include "_language_switcher.html" %}
+    <section class="hero is-triumph">
+        <div class="hero-body">
             {% if army %}
-                {{ army.name }} ({{ army.start_date }} - {{ army.end_date }})
+            <h1 class="title" data-lang-en="{{ army.title }}" data-lang-es="{{ army.title_lang_es }}">{{ army.title }}
+            </h1>
             {% else %}
-                Army Not Found
+            <h1 class="title">Army Not Found</h1>
             {% endif %}
-        </title>
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
-        />
-        {% include "_triumph_db_style.html" %}
-    </head>
-    <body>
-        {% include "_language_switcher.html" %}
-        <section class="hero is-triumph">
-            <div class="hero-body" >
-                    {% if army %}
-                        <h1 class="title" data-lang-en="{{ army.title }}" data-lang-es="{{ army.title_lang_es }}">{{ army.title }}</h1>
-                    {% else %}
-                        <h1 class="title">Army Not Found</h1>
-                    {% endif %}
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            {% if army %}
+            <div class="box content">
+                <p>
+                    <strong data-lang-en="Invasion:" data-lang-es="Invasión:">Invasion:</strong>
+                    <span data-lang-en="{{ army.invasion }}" data-lang-es="{{ army.invasion_lang_es }}">
+                        {{ army.invasion }}
+                    </span>
+                </p>
+                <p>
+                    <strong data-lang-en="Maneuver Rating:" data-lang-es="Maniobra:">Maneuver Rating:</strong>
+                    <span data-lang-en="{{ army.maneuver }}" data-lang-es="{{ army.maneuver_lang_es }}">
+                        {{ army.maneuver }}
+                    </span>
+                </p>
+                <p>
+                    <strong data-lang-en="Home Topography:" data-lang-es="Topografía:">Home Topography:</strong>
+                    <span data-lang-en="{{ army.home_topography }}" data-lang-es="{{ army.home_topography_lang_es }}">
+                        {{ army.home_topography }}
+                    </span>
+                </p>
+                <p>
+                    <strong data-lang-en="General's Troop Type:" data-lang-es="Tipo de Tropa del General:">General's
+                        Troop Type:</strong>
+                    <span data-lang-en="{{ army.general_troop_type }}" data-lang-es="{{ army.general_troop_type_lang_es }}">
+                        {{ army.general_troop_type }}
+                    </span>
+                </p>
+                <p>
+                    <strong data-lang-en="Army Battle Cards:" data-lang-es="Cartas de Batalla del Ejército:">Army Battle Cards:</strong>
+                    <span data-lang-en="{{ army.army_battle_cards }}" data-lang-es="{{ army.army_battle_cards_lang_es }}">
+                        {{ army.army_battle_cards }}
+                    </span>
+                </p>
             </div>
-        </section>
 
-        <section class="section">
-            <div class="container">
-                {% if army %}
-                    <div class="box content">
-                        <p><strong data-lang-en="Invasion:" data-lang-es="Invasión:">Invasion:</strong> {{ army.invasion }}</p>
-                        <p><strong data-lang-en="Maneuver Rating:" data-lang-es="Maniobra:">Maneuver Rating:</strong> {{ army.maneuver }}</p>
-                        <p><strong data-lang-en="Home Topography:" data-lang-es="Topografía:">Home Topography:</strong> {{ army.home_topography }}</p>
-                        <p><strong data-lang-en="General's Troop Type:" data-lang-es="Tipo de Tropas del General:">General's Troop Type:</strong> {{ army.general_troop_type }}</p>
-                        <p><strong data-lang-en="Army Battle Cards:" data-lang-es="Cartas de Batalla del Ejército:">Army Battle Cards:</strong> {{ army.army_battle_cards }}</p>
-                    </div>
-
-                    <div class="box">
-                        <div class="table-container">
-                            <table class="table is-striped is-hoverable is-fullwidth">
-                                <thead>
-                                    <tr>
-                                        <th>Min</th>
-                                        <th>Max</th>
-                                        <th data-lang-en="BattleLine" data-lang-es="Línea de Batalla">BattleLine</th>
-                                        <th data-lang-en="Troops" data-lang-es="Tropas">Troops</th>
-                                        <th data-lang-en="Description" data-lang-es="Descripción">Description</th>
-                                        <th data-lang-en="Note" data-lang-es="Nota">Note</th>
-                                        <th data-lang-en="Battle Cards" data-lang-es="Cartas de Batalla">Battle Cards</th>
-                                        <th data-lang-en="Points" data-lang-es="Puntos">Points</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for row in army.troop_rows %}
-                                        <tr>
-                                            <td>{{ row.min }}</td>
-                                            <td>{{ row.max }}</td>
-                                            <td data-lang-en="{{ row.battle_line }}" data-lang-es="{{ row.battle_line_lang_es }}">{{ row.battle_line }}</td>
-                                            <td data-lang-en="{{ row.troops }}" data-lang-es="{{ row.troops_lang_es }}">{{ row.troops }}</td>
-                                            <td data-lang-en="{{ row.description }}" data-lang-es="{{ row.description_lang_es }}">{{ row.description }}</td>
-                                            <td data-lang-en="{{ row.note }}" data-lang-es="{{ row.note_lang_es }}">{{ row.note }}</td>
-                                            <td data-lang-en="{{ row.battle_cards }}" data-lang-es="{{ row.battle_cards_lang_es }}">{{ row.battle_cards }}</td>
-                                            <td>{{ row.points }}</td>
-                                        </tr>
-                                    {% endfor %}
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <p>
-                        <a href="/">Back to Army Lists</a>
-                    </p>
-                {% else %}
-                    <p>The army with {{ army_id }} could not be found.</p>
-                    <p>
-                        <a href="/">Go to Army Lists</a>
-                    </p>
-                {% endif %}
+            <div class="box">
+                <div class="table-container">
+                    <table class="table is-striped is-hoverable is-fullwidth">
+                        <thead>
+                            <tr>
+                                <th>Min</th>
+                                <th>Max</th>
+                                <th data-lang-en="BattleLine" data-lang-es="Línea de Batalla">BattleLine</th>
+                                <th data-lang-en="Troops" data-lang-es="Tropas">Troops</th>
+                                <th data-lang-en="Description" data-lang-es="Descripción">Description</th>
+                                <th data-lang-en="Note" data-lang-es="Nota">Note</th>
+                                <th data-lang-en="Battle Cards" data-lang-es="Cartas de Batalla">Battle Cards</th>
+                                <th data-lang-en="Points" data-lang-es="Puntos">Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in army.troop_rows %}
+                            <tr>
+                                <td>{{ row.min }}</td>
+                                <td>{{ row.max }}</td>
+                                <td data-lang-en="{{ row.battle_line }}" data-lang-es="{{ row.battle_line_lang_es }}">{{
+                                    row.battle_line }}</td>
+                                <td data-lang-en="{{ row.troops }}" data-lang-es="{{ row.troops_lang_es }}">{{
+                                    row.troops }}</td>
+                                <td data-lang-en="{{ row.description }}" data-lang-es="{{ row.description_lang_es }}">{{
+                                    row.description }}</td>
+                                <td data-lang-en="{{ row.note }}" data-lang-es="{{ row.note_lang_es }}">{{ row.note }}
+                                </td>
+                                <td data-lang-en="{{ row.battle_cards }}" data-lang-es="{{ row.battle_cards_lang_es }}">
+                                    {{ row.battle_cards }}</td>
+                                <td>{{ row.points }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </section>
 
-        {% include "_triumph_db_script.html" %}
-    </body>
+            <p>
+                <a href="/">Back to Army Lists</a>
+            </p>
+            {% else %}
+            <p>The army with {{ army_id }} could not be found.</p>
+            <p>
+                <a href="/">Go to Army Lists</a>
+            </p>
+            {% endif %}
+        </div>
+    </section>
+
+    {% include "_triumph_db_script.html" %}
+</body>
+
 </html>
