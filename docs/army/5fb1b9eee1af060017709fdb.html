@@ -13,78 +13,241 @@
             href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
         />
         <style>
-            :root {
-                --bulma-strong-color: #008f86;
-                --theme-green: #008f86;
-                --theme-green-soft: #eaf6ee;
-                --theme-green-mid: #cfe9d7;
-                --theme-text: #1b1b1b;
-                --theme-bg: #ffffff;
-            }
+    :root {
+        --bulma-strong-color: #008f86;
+        --theme-green: #008f86;
+        --theme-green-soft: #eaf6ee;
+        --theme-green-mid: #cfe9d7;
+        --theme-text: #1b1b1b;
+        --theme-bg: #ffffff;
+    }
 
-            html,
-            body,
-            .section,
-            .container {
-                background: var(--theme-bg) !important;
-                color: var(--theme-text) !important;
-            }
+    html,
+    body,
+    .section,
+    .container {
+        background: var(--theme-bg) !important;
+        color: var(--theme-text) !important;
+    }
 
-            .title {
-                color: var(--theme-text) !important;
-            }
+    .title {
+        color: var(--theme-text) !important;
+    }
 
-            .hero.is-triumph {
-                background: linear-gradient(135deg, #00b7a8 0%, #008f86 100%);
-                border-bottom: 1px solid #007a72;
-            }
+    .hero.is-triumph {
+        background: linear-gradient(135deg, #00b7a8 0%, #008f86 100%);
+        border-bottom: 1px solid #007a72;
+    }
 
-            .hero.is-triumph .title {
-                color: #ffffff !important;
-                margin-bottom: 0;
-            }
+    .hero.is-triumph .title {
+        color: #ffffff !important;
+        margin-bottom: 0;
+    }
 
-            .box {
-                background: #ffffff !important;
-                color: var(--theme-text) !important;
-                border: 1px solid var(--theme-green-mid);
-                box-shadow: none;
-            }
+    .language-switcher {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 20;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+    }
 
-            .table,
-            .table td,
-            .table th {
-                background: #ffffff !important;
-                color: var(--theme-text) !important;
-            }
+    .language-switcher .github-link {
+        width: 2rem;
+        height: 2rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        color: #ffffff;
+    }
 
-            .table th,
-            .table td {
-                border-color: var(--theme-green) !important;
-            }
+    .language-switcher .github-link:hover {
+        background: rgba(255, 255, 255, 0.24);
+    }
 
-            .table thead th {
-                background: var(--theme-green) !important;
-                color: #ffffff !important;
-            }
+    .language-switcher .github-link svg {
+        width: 1.1rem;
+        height: 1.1rem;
+        fill: currentColor;
+    }
 
-            .table tbody tr:hover td {
-                background: #86d8cb !important;
-                color: #ffffff !important;
-            }
+    .language-switcher .language-buttons {
+        position: relative;
+    }
 
-            .table tbody tr:hover a,
-            .table tbody tr:hover strong {
-                color: #ffffff !important;
-            }
+    .language-switcher .language-toggle {
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.16);
+        color: #ffffff;
+        cursor: pointer;
+        min-width: 4.7rem;
+        height: 2.15rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.35rem;
+        padding: 0 0.6rem;
+    }
 
-            a {
-                color: var(--theme-green);
-                font-weight: 600;
-            }
-        </style>
+    .language-switcher .language-toggle:hover,
+    .language-switcher .language-toggle[aria-expanded="true"] {
+        background: rgba(255, 255, 255, 0.24);
+    }
+
+    .language-switcher .language-toggle .caret {
+        font-size: 0.7rem;
+        line-height: 1;
+    }
+
+    .language-switcher .language-toggle img,
+    .language-switcher .lang-option img {
+        width: 1rem;
+        height: 1rem;
+        display: block;
+    }
+
+    .language-switcher .language-menu {
+        position: absolute;
+        top: calc(100% + 0.35rem);
+        right: 0;
+        min-width: 7.5rem;
+        background: #ffffff;
+        border: 1px solid var(--theme-green-mid);
+        border-radius: 0.7rem;
+        padding: 0.25rem;
+        box-shadow: 0 0.45rem 1.2rem rgba(0, 0, 0, 0.15);
+        display: none;
+    }
+
+    .language-switcher .language-menu.is-open {
+        display: block;
+    }
+
+    .language-switcher .lang-option {
+        width: 100%;
+        border: 0;
+        background: transparent;
+        color: var(--theme-text);
+        border-radius: 0.5rem;
+        padding: 0.42rem 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .language-switcher .lang-option:hover,
+    .language-switcher .lang-option[aria-selected="true"] {
+        background: var(--theme-green-soft);
+    }
+
+    .box {
+        background: #ffffff !important;
+        color: var(--theme-text) !important;
+        border: 1px solid var(--theme-green-mid);
+        box-shadow: none;
+    }
+
+    .table,
+    .table td,
+    .table th {
+        background: #ffffff !important;
+        color: var(--theme-text) !important;
+    }
+
+    .table th,
+    .table td {
+        border-color: var(--theme-green) !important;
+    }
+
+    .table thead th {
+        background: var(--theme-green) !important;
+        color: #ffffff !important;
+    }
+
+    .table thead th a {
+        color: #ffffff !important;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .table thead th.sortable {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .table thead th .sort-indicator {
+        margin-left: 0.35rem;
+        font-size: 0.9rem;
+        opacity: 0.95;
+    }
+
+    .table tbody tr:hover td {
+        background: #86d8cb !important;
+        color: #ffffff !important;
+    }
+
+    .table tbody tr:hover a,
+    .table tbody tr:hover strong {
+        color: #ffffff !important;
+    }
+
+    .colminwidth {
+        white-space: nowrap;
+        min-width: 8ch;
+    }
+
+    a {
+        color: var(--theme-green);
+        font-weight: 600;
+    }
+</style>
     </head>
     <body>
+        <div class="language-switcher">
+    <a
+        class="github-link"
+        href="https://github.com/leberechtreinhold/leberechtreinhold.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open GitHub repository"
+    >
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 0.3C5.4 0.3 0 5.7 0 12.3c0 5.3 3.4 9.8 8.2 11.4 0.6 0.1 0.8-0.3 0.8-0.6 0-0.3 0-1.1 0-2.1-3.3 0.7-4-1.4-4-1.4-0.5-1.4-1.3-1.7-1.3-1.7-1.1-0.7 0.1-0.7 0.1-0.7 1.2 0.1 1.9 1.3 1.9 1.3 1.1 1.8 2.8 1.3 3.5 1 0.1-0.8 0.4-1.3 0.8-1.6-2.7-0.3-5.5-1.3-5.5-6 0-1.3 0.5-2.4 1.2-3.2-0.1-0.3-0.5-1.5 0.1-3.1 0 0 1-0.3 3.3 1.2 1-0.3 2-0.4 3-0.4s2.1 0.1 3 0.4c2.3-1.5 3.3-1.2 3.3-1.2 0.7 1.6 0.3 2.8 0.1 3.1 0.8 0.8 1.2 1.9 1.2 3.2 0 4.7-2.8 5.7-5.5 6 0.4 0.4 0.8 1.1 0.8 2.2 0 1.6 0 2.8 0 3.2 0 0.3 0.2 0.7 0.8 0.6 4.7-1.6 8.2-6.1 8.2-11.4C24 5.7 18.6 0.3 12 0.3z" />
+        </svg>
+    </a>
+    <div class="language-buttons">
+        <button
+            type="button"
+            class="language-toggle"
+            id="language-toggle"
+            aria-label="Language selector"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+        >
+            <img id="language-current-flag" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ec-1f1e7.svg" alt="" aria-hidden="true" />
+            <span id="language-current-label">EN</span>
+            <span class="caret" aria-hidden="true">▼</span>
+        </button>
+        <div class="language-menu" id="language-menu" role="listbox" aria-label="Language options">
+            <button type="button" class="lang-option" data-lang="en" data-label="EN" data-flag="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ec-1f1e7.svg" aria-selected="true">
+                <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ec-1f1e7.svg" alt="" aria-hidden="true" />
+                <span>English</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="es" data-label="ES" data-flag="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ea-1f1f8.svg" aria-selected="false">
+                <img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f1ea-1f1f8.svg" alt="" aria-hidden="true" />
+                <span>Español</span>
+            </button>
+        </div>
+    </div>
+</div>
         <section class="hero is-triumph">
             <div class="hero-body">
                     
@@ -97,11 +260,11 @@
             <div class="container">
                 
                     <div class="box content">
-                        <p><strong>Invasion:</strong> 1</p>
-                        <p><strong>Maneuver Rating:</strong> 1</p>
-                        <p><strong>Home Topography:</strong> Hilly</p>
-                        <p><strong>General's Troop Type:</strong> Knights</p>
-                        <p><strong>Army Battle Cards:</strong> Pack Train and Herds (pack mules)</p>
+                        <p><strong data-lang-en="Invasion:" data-lang-es="Invasión:">Invasion:</strong> 1</p>
+                        <p><strong data-lang-en="Maneuver Rating:" data-lang-es="Maniobra:">Maneuver Rating:</strong> 1</p>
+                        <p><strong data-lang-en="Home Topography:" data-lang-es="Topografía:">Home Topography:</strong> Hilly</p>
+                        <p><strong data-lang-en="General's Troop Type:" data-lang-es="Tipo de Tropas del General:">General's Troop Type:</strong> Knights</p>
+                        <p><strong data-lang-en="Army Battle Cards:" data-lang-es="Cartas de Batalla del Ejército:">Army Battle Cards:</strong> Pack Train and Herds (pack mules)</p>
                     </div>
 
                     <div class="box">
@@ -111,12 +274,12 @@
                                     <tr>
                                         <th>Min</th>
                                         <th>Max</th>
-                                        <th>BattleLine</th>
-                                        <th>Troops</th>
-                                        <th>Description</th>
-                                        <th>Note</th>
-                                        <th>Battle Cards</th>
-                                        <th>Points</th>
+                                        <th data-lang-en="BattleLine" data-lang-es="Línea de Batalla">BattleLine</th>
+                                        <th data-lang-en="Troops" data-lang-es="Tropas">Troops</th>
+                                        <th data-lang-en="Description" data-lang-es="Descripción">Description</th>
+                                        <th data-lang-en="Note" data-lang-es="Nota">Note</th>
+                                        <th data-lang-en="Battle Cards" data-lang-es="Cartas de Batalla">Battle Cards</th>
+                                        <th data-lang-en="Points" data-lang-es="Puntos">Points</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -124,44 +287,44 @@
                                         <tr>
                                             <td>2</td>
                                             <td>3</td>
-                                            <td>all</td>
-                                            <td>Archers</td>
-                                            <td>Armenian bowmen</td>
-                                            <td></td>
-                                            <td>-</td>
+                                            <td data-lang-en="all" data-lang-es="todos">all</td>
+                                            <td data-lang-en="Archers" data-lang-es="Arqueros">Archers</td>
+                                            <td data-lang-en="Armenian bowmen" data-lang-es="Arqueros armenios">Armenian bowmen</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="-" data-lang-es="-">-</td>
                                             <td>4</td>
                                         </tr>
                                     
                                         <tr>
                                             <td>3</td>
                                             <td>9</td>
-                                            <td></td>
-                                            <td>Light Foot or Heavy Foot</td>
-                                            <td>Armenian infantry</td>
-                                            <td></td>
-                                            <td>-</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="Light Foot or Heavy Foot" data-lang-es="Pie ligero o Pie pesado">Light Foot or Heavy Foot</td>
+                                            <td data-lang-en="Armenian infantry" data-lang-es="Infantería armenia">Armenian infantry</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="-" data-lang-es="-">-</td>
                                             <td>3 or 3</td>
                                         </tr>
                                     
                                         <tr>
                                             <td>1</td>
                                             <td>4</td>
-                                            <td></td>
-                                            <td>Knights</td>
-                                            <td>Armenian horsemen</td>
-                                            <td></td>
-                                            <td>-</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="Knights" data-lang-es="Caballeros">Knights</td>
+                                            <td data-lang-en="Armenian horsemen" data-lang-es="Jinetes armenios">Armenian horsemen</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="-" data-lang-es="-">-</td>
                                             <td>4</td>
                                         </tr>
                                     
                                         <tr>
                                             <td>0</td>
                                             <td>1</td>
-                                            <td></td>
-                                            <td>Javelin Cavalry</td>
-                                            <td>Bedouin horsemen</td>
-                                            <td></td>
-                                            <td>-</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="Javelin Cavalry" data-lang-es="Caballería de lanzas">Javelin Cavalry</td>
+                                            <td data-lang-en="Bedouin horsemen" data-lang-es="Jinetes beduinos">Bedouin horsemen</td>
+                                            <td data-lang-en="" data-lang-es=""></td>
+                                            <td data-lang-en="-" data-lang-es="-">-</td>
                                             <td>4</td>
                                         </tr>
                                     
@@ -176,5 +339,150 @@
                 
             </div>
         </section>
+
+        <script>(() => {
+    const table = document.getElementById("army-table");
+    const languageToggle = document.getElementById("language-toggle");
+    const languageMenu = document.getElementById("language-menu");
+    const languageCurrentFlag = document.getElementById("language-current-flag");
+    const languageCurrentLabel = document.getElementById("language-current-label");
+    const languageOptions = Array.from(document.querySelectorAll(".lang-option"));
+
+    const tbody = table ? table.querySelector("tbody") : null;
+    const headers = table
+        ? Array.from(table.querySelectorAll("thead th.sortable"))
+        : [];
+    let currentSort = { col: 1, dir: "asc" };
+
+    function applyLanguage(language) {
+        const elements = document.querySelectorAll("[data-lang-en][data-lang-es]");
+        elements.forEach((element) => {
+            const value =
+                language === "es"
+                    ? element.dataset.langEs || ""
+                    : element.dataset.langEn || "";
+
+            const link = element.querySelector("a");
+            if (link) {
+                link.textContent = value;
+            } else {
+                element.textContent = value;
+            }
+
+            if (element.dataset.sortValue !== undefined) {
+                element.dataset.sortValue = value.trim().toLowerCase();
+            }
+        });
+    }
+
+    function setActiveLanguage(language) {
+        languageOptions.forEach((option) => {
+            const isActive = option.dataset.lang === language;
+            option.setAttribute("aria-selected", isActive ? "true" : "false");
+
+            if (isActive && languageCurrentFlag && languageCurrentLabel) {
+                languageCurrentFlag.src = option.dataset.flag || "";
+                languageCurrentLabel.textContent = option.dataset.label || "";
+            }
+        });
+    }
+
+    function toggleLanguageMenu(forceOpen) {
+        if (!languageMenu || !languageToggle) return;
+        const shouldOpen =
+            typeof forceOpen === "boolean"
+                ? forceOpen
+                : !languageMenu.classList.contains("is-open");
+        languageMenu.classList.toggle("is-open", shouldOpen);
+        languageToggle.setAttribute("aria-expanded", shouldOpen ? "true" : "false");
+    }
+
+    function valueFor(row, col, type) {
+        const cell = row.cells[col];
+        const raw = (cell.dataset.sortValue || "").trim();
+
+        if (type === "number") {
+            if (raw === "") return Number.POSITIVE_INFINITY;
+            const num = Number(raw);
+            return Number.isNaN(num) ? Number.POSITIVE_INFINITY : num;
+        }
+
+        return raw.toLowerCase();
+    }
+
+    function updateIndicators() {
+        headers.forEach((header) => {
+            const indicator = header.querySelector(".sort-indicator");
+            const col = Number(header.dataset.col);
+            if (!indicator) return;
+
+            if (col === currentSort.col) {
+                indicator.textContent = currentSort.dir === "asc" ? "↑" : "↓";
+            } else {
+                indicator.textContent = "";
+            }
+        });
+    }
+
+    function sortBy(col, type, dir) {
+        if (!tbody) return;
+
+        const rows = Array.from(tbody.querySelectorAll("tr"));
+        rows.sort((a, b) => {
+            const va = valueFor(a, col, type);
+            const vb = valueFor(b, col, type);
+
+            if (type === "number") {
+                return dir === "asc" ? va - vb : vb - va;
+            }
+
+            return dir === "asc" ? va.localeCompare(vb) : vb.localeCompare(va);
+        });
+
+        rows.forEach((row) => tbody.appendChild(row));
+        currentSort = { col, dir };
+        updateIndicators();
+    }
+
+    headers.forEach((header) => {
+        header.addEventListener("click", () => {
+            const col = Number(header.dataset.col);
+            const type = header.dataset.type || "text";
+            const dir =
+                currentSort.col === col && currentSort.dir === "asc"
+                    ? "desc"
+                    : "asc";
+            sortBy(col, type, dir);
+        });
+    });
+
+    if (languageToggle) {
+        languageToggle.addEventListener("click", () => {
+            toggleLanguageMenu();
+        });
+    }
+
+    languageOptions.forEach((option) => {
+        option.addEventListener("click", () => {
+            const language = option.dataset.lang || "en";
+            setActiveLanguage(language);
+            applyLanguage(language);
+            toggleLanguageMenu(false);
+        });
+    });
+
+    document.addEventListener("click", (event) => {
+        const switcher = event.target.closest(".language-buttons");
+        if (!switcher) {
+            toggleLanguageMenu(false);
+        }
+    });
+
+    if (table && tbody && headers.length > 0) {
+        sortBy(1, "number", "asc");
+    }
+    setActiveLanguage("en");
+    applyLanguage("en");
+})();</script>
     </body>
 </html>
