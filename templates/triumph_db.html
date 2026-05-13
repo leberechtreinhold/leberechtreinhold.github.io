@@ -149,6 +149,7 @@
             a {
                 color: var(--theme-green);
                 font-weight: 600;
+                
             }
         </style>
     </head>
@@ -239,6 +240,10 @@
                             link.textContent = value;
                         } else {
                             element.textContent = value;
+                        }
+
+                        if (element.dataset.sortValue !== undefined) {
+                            element.dataset.sortValue = value.trim().toLowerCase();
                         }
                     });
                 }
