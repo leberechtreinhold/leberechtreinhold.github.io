@@ -19,9 +19,9 @@
     <body>
         {% include "_language_switcher.html" %}
         <section class="hero is-triumph">
-            <div class="hero-body">
+            <div class="hero-body" >
                     {% if army %}
-                        <h1 class="title">{{ army.name }} ({{ army.start_date }} - {{ army.end_date }})</h1>
+                        <h1 class="title" data-lang-en="{{ army.title }}" data-lang-es="{{ army.title_lang_es }}">{{ army.title }}</h1>
                     {% else %}
                         <h1 class="title">Army Not Found</h1>
                     {% endif %}

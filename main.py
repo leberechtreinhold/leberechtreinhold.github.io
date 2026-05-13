@@ -73,12 +73,14 @@ CATEGORY_NAMES_BY_ARMY_ID = build_category_names_by_army_id(THEMATIC_CATEGORIES)
 app = Flask(__name__)
 
 
-def format_year(value):
+def format_year(value, language="en"):
+        str_bce = "BC" if language == "en" else "a.C."
+        str_ad = "AD" if language == "en" else "d.C."
         if isinstance(value, int):
                 if value < 0:
-                        return f"{abs(value)} BC"
+                        return f"{abs(value)} {str_bce}"
                 if value > 0:
-                        return f"{value} AD"
+                        return f"{value} {str_ad}"
                 return "0"
         return ""
 
@@ -334,7 +336,9 @@ def army_detail(army_id):
                 return render_template("army_detail.html", army=None, army_id=army_id), 404
 
         start_date = format_year(army.get("derivedData", {}).get("listStartDate"))
+        start_date_lang_es = format_year(army.get("derivedData", {}).get("listStartDate"), language="es")
         end_date = format_year(army.get("derivedData", {}).get("listEndDate"))
+        end_date_lang_es = format_year(army.get("derivedData", {}).get("listEndDate"), language="es")
         invasion = format_rating_entries(army.get("invasionRatings"))
         maneuver = format_rating_entries(army.get("maneuverRatings"))
         home_topography = format_rating_entries(army.get("homeTopographies"))
@@ -342,10 +346,15 @@ def army_detail(army_id):
         army_battle_cards = format_battle_card_entries(army.get("battleCardEntries"))
         troop_rows = format_troop_options(army.get("troopOptions"))
 
+        name = army.get("name", "Unknown Army")
+        title = name + (f" ({start_date} - {end_date})" if start_date or end_date else "")
+        title_lang_es = TRANSLATION_ES_BY_KEY.get(name, "") + (f" ({start_date_lang_es} - {end_date_lang_es})" if start_date_lang_es or end_date_lang_es else "")
         return render_template(
                 "army_detail.html",
                 army={
-                        "name": army.get("name", "Unknown Army"),
+                        "name": name,
+                        "title": title,
+                        "title_lang_es": title_lang_es,
                         "start_date": start_date,
                         "end_date": end_date,
                         "invasion": invasion,
