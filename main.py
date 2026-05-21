@@ -75,6 +75,21 @@ def build_category_names_by_army_id(categories):
 
 CATEGORY_NAMES_BY_ARMY_ID = build_category_names_by_army_id(THEMATIC_CATEGORIES)
 
+ARMY_IDS_BY_CATEGORY_ID = {
+        str(category.get("id", "")): [
+                str(army.get("id", ""))
+                for army in category.get("armyLists", []) or []
+        ]
+        for category in THEMATIC_CATEGORIES or []
+        if category.get("id")
+}
+
+CATEGORY_ID_BY_NAME = {
+        str(category.get("name", "")).strip(): str(category.get("id", ""))
+        for category in THEMATIC_CATEGORIES or []
+        if category.get("id") and category.get("name")
+}
+
 app = Flask(__name__)
 
 
@@ -330,26 +345,30 @@ def format_troop_options(options):
         return rows
 
 
-@app.route("/")
-def home():
-        sorted_army_lists = sorted(
-                ARMY_LISTS,
+def build_army_rows(army_list_items):
+        sorted_items = sorted(
+                army_list_items,
                 key=lambda item: item.get("derivedData", {}).get("listStartDate", float("inf")),
         )
-
-        army_rows = []
-        for item in sorted_army_lists:
+        rows = []
+        for item in sorted_items:
                 army_name = str(item.get("name", "Unknown Army")).strip()
                 army_id = str(item.get("id", ""))
                 army_num = str(item.get("sortId", "")) + str(item.get("sublistId", ""))
                 category_names = CATEGORY_NAMES_BY_ARMY_ID.get(army_id, [])
-                
                 category_en = ", ".join(category_names) or "-"
                 category_es = ", ".join(
                         TRANSLATION_ES_BY_KEY.get(cat, cat) for cat in category_names
                 ) or "-"
-                
-                army_rows.append({
+                category_links = [
+                        {
+                                "name": cat,
+                                "name_es": TRANSLATION_ES_BY_KEY.get(cat, cat),
+                                "id": CATEGORY_ID_BY_NAME.get(cat, ""),
+                        }
+                        for cat in category_names
+                ]
+                rows.append({
                         "army_id": army_id,
                         "army": army_name,
                         "army_lang_es": TRANSLATION_ES_BY_KEY.get(army_name, ""),
@@ -364,9 +383,14 @@ def home():
                         "category": category_en,
                         "category_lang_es": category_es,
                         "category_sort": category_en.lower(),
+                        "category_links": category_links,
                 })
+        return rows
 
-        return render_template("triumph_db.html", army_rows=army_rows)
+
+@app.route("/")
+def home():
+        return render_template("triumph_db.html", army_rows=build_army_rows(ARMY_LISTS))
 
 
 @app.route("/army/<army_id>")
@@ -418,6 +442,27 @@ def army_detail(army_id):
                         "all_battle_cards": all_battle_cards,
                 },
                 army_id=army_id,
+        )
+
+
+@app.route("/categories/<category_id>")
+def category_detail(category_id):
+        category = next(
+                (c for c in THEMATIC_CATEGORIES or [] if str(c.get("id", "")) == category_id),
+                None,
+        )
+        if category is None:
+                return render_template("triumph_db.html", army_rows=[], page_title="Category Not Found", page_title_es="Categoría no encontrada"), 404
+
+        name = str(category.get("name", "")).strip()
+        name_es = TRANSLATION_ES_BY_KEY.get(name, name)
+        army_ids = set(str(a.get("id", "")) for a in category.get("armyLists", []) or [])
+        filtered = [item for item in ARMY_LISTS if str(item.get("id", "")) in army_ids]
+        return render_template(
+                "triumph_db.html",
+                army_rows=build_army_rows(filtered),
+                page_title=name,
+                page_title_es=name_es,
         )
 
 

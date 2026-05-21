@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Triumph! Army Lists</title>
+    <title>{{ page_title | default("Triumph! Army Lists") }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
     {% include "_triumph_db_style.html" %}
 </head>
@@ -13,7 +13,7 @@
     {% include "_language_switcher.html" %}
     <section class="hero is-triumph">
         <div class="hero-body">
-            <h1 class="title">Triumph! Army Lists</h1>
+            <h1 class="title" data-lang-en="{{ page_title | default('Triumph! Army Lists') }}" data-lang-es="{{ page_title_es | default('Triumph! Listas de Ejércitos') }}">{{ page_title | default("Triumph! Army Lists") }}</h1>
         </div>
     </section>
 
@@ -63,7 +63,13 @@
                                     data-lang-en="{{ row.end_date }}" data-lang-es="{{ row.end_date_lang_es }}">{{
                                     row.end_date }}</td>
                                 <td data-sort-value="{{ row.category_sort }}" data-lang-en="{{ row.category }}"
-                                    data-lang-es="{{ row.category_lang_es }}">{{ row.category }}</td>
+                                    data-lang-es="{{ row.category_lang_es }}">
+                                    {% if row.category_links %}
+                                    {% for cat in row.category_links %}
+                                    <a href="/categories/{{ cat.id }}" data-lang-en="{{ cat.name }}" data-lang-es="{{ cat.name_es }}">{{ cat.name }}</a>{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                    {% else %}-{% endif %}
+                                </td>
                             </tr>
                             {% endfor %}
                         </tbody>
