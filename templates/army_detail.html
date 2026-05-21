@@ -108,7 +108,8 @@
                 {% if army.all_battle_cards %}
                 {% for card in army.all_battle_cards %}
                 <h2 class="title is-3" data-lang-en="{{ card.en }}" data-lang-es="{{ card.es }}">{{ card.en }}</h2>
-                {{ card.html_text | safe }}
+                <div class="html-lang-en">{{ card.html_text | safe }}</div>
+                <div class="html-lang-es">{{ card.html_text_es | safe }}</div>
                 {% endfor %}
                 {% else %}
                 <p>None</p>

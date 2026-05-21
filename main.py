@@ -244,7 +244,8 @@ def collect_all_battle_cards(army_entries, troop_options):
                 name_en = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
                 name_es = translate_to_es(name_en)
                 html_text = BATTLE_CARD_HTML_BY_CODE.get(code, "")
-                cards.append({"en": name_en, "es": name_es, "html_text": html_text})
+                html_text_es = translate_to_es(html_text)
+                cards.append({"en": name_en, "es": name_es, "html_text": html_text, "html_text_es": html_text_es})
         for option in troop_options or []:
                 for entry in option.get("battleCardEntries") or []:
                         code = entry.get("battleCardCode")
@@ -254,7 +255,8 @@ def collect_all_battle_cards(army_entries, troop_options):
                         name_en = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
                         name_es = translate_to_es(name_en)
                         html_text = BATTLE_CARD_HTML_BY_CODE.get(code, "")
-                        cards.append({"en": name_en, "es": name_es, "html_text": html_text})
+                        html_text_es = translate_to_es(html_text)
+                        cards.append({"en": name_en, "es": name_es, "html_text": html_text, "html_text_es": html_text_es})
         return sorted(cards, key=lambda c: c["en"])
 
 

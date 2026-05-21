@@ -13,6 +13,7 @@
     let currentSort = { col: 1, dir: "asc" };
 
     function applyLanguage(language) {
+        document.body.dataset.lang = language;
         const elements = document.querySelectorAll("[data-lang-en][data-lang-es]");
         elements.forEach((element) => {
             const value =

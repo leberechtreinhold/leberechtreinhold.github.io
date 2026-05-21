@@ -20,6 +20,10 @@
         color: var(--theme-text) !important;
     }
 
+    body[data-lang="es"] .html-lang-en { display: none; }
+    body[data-lang="en"] .html-lang-es,
+    body:not([data-lang]) .html-lang-es { display: none; }
+
     h3,
     h4,
     .title.is-2,

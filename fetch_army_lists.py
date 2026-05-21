@@ -119,11 +119,11 @@ def sync_translations(army_lists_data, thematic_categories_data, troop_types_dat
 				existing_keys.add(display_name)
 				updated = True
 			
-			# Add mdText
-			md_text = card.get("mdText")
-			if isinstance(md_text, str) and md_text not in existing_keys:
-				translations.append({"key": md_text, "lang_es": ""})
-				existing_keys.add(md_text)
+			# Add htmlText
+			html_text = card.get("htmlText")
+			if isinstance(html_text, str) and html_text not in existing_keys:
+				translations.append({"key": html_text, "lang_es": ""})
+				existing_keys.add(html_text)
 				updated = True
 
 	if updated:
