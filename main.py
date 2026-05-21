@@ -219,7 +219,7 @@ def format_general_troop_entries(entries_for_general, language="en"):
         return "; ".join(fallback_parts)
 
 
-def format_troop_entry_list(entries):
+def format_troop_entry_list(entries, general_codes=None):
         names_en = []
         names_es = []
         points = []
@@ -234,8 +234,9 @@ def format_troop_entry_list(entries):
                 note = entry.get("note")
                 note_es = translate_to_es(note) if note else ""
 
-                suffix_en = f" ({note})" if note else ""
-                suffix_es = f" ({note_es})" if note_es else ""
+                dagger = "\u2020" if general_codes and code in general_codes else ""
+                suffix_en = f" ({note}){dagger}" if note else dagger
+                suffix_es = f" ({note_es}){dagger}" if note_es else dagger
 
                 names_en.append(f"{name}{suffix_en}")
                 names_es.append(f"{name_es}{suffix_es}")
@@ -275,10 +276,10 @@ def collect_all_battle_cards(army_entries, troop_options):
         return sorted(cards, key=lambda c: c["en"])
 
 
-def format_troop_options(options):
+def format_troop_options(options, general_codes=None):
         rows = []
         for option in options or []:
-                troops, troops_es, points = format_troop_entry_list(option.get("troopEntries"))
+                troops, troops_es, points = format_troop_entry_list(option.get("troopEntries"), general_codes=general_codes)
 
                 note_parts = []
                 note_parts_es = []
@@ -414,7 +415,13 @@ def army_detail(army_id):
         general_troop_type_lang_es = format_general_troop_entries(army.get("troopEntriesForGeneral"), language="es")
         army_battle_cards = format_battle_card_entries(army.get("battleCardEntries"))
         army_battle_cards_lang_es = format_battle_card_entries(army.get("battleCardEntries"), language="es")
-        troop_rows = format_troop_options(army.get("troopOptions"))
+        general_codes = {
+                entry.get("troopTypeCode")
+                for group in (army.get("troopEntriesForGeneral") or [])
+                for entry in (group.get("troopEntries") or [])
+                if entry.get("troopTypeCode")
+        }
+        troop_rows = format_troop_options(army.get("troopOptions"), general_codes=general_codes)
         all_battle_cards = collect_all_battle_cards(army.get("battleCardEntries"), army.get("troopOptions"))
         category_names = CATEGORY_NAMES_BY_ARMY_ID.get(str(army.get("id", "")), [])
         category_links = [
