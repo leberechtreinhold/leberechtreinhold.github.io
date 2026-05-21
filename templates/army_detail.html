@@ -103,6 +103,18 @@
                 </div>
             </div>
 
+            <div class="box content">
+                <h1 class="title is-2" data-lang-en="Battle Cards" data-lang-es="Cartas de Batalla">Battle Cards</h1>
+                {% if army.all_battle_cards %}
+                {% for card in army.all_battle_cards %}
+                <h2 class="title is-3" data-lang-en="{{ card.en }}" data-lang-es="{{ card.es }}">{{ card.en }}</h2>
+                {{ card.html_text | safe }}
+                {% endfor %}
+                {% else %}
+                <p>None</p>
+                {% endif %}
+            </div>
+
             <p>
                 <a href="/">Back to Army Lists</a>
             </p>

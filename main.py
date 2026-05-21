@@ -46,6 +46,11 @@ BATTLE_CARD_DISPLAY_BY_CODE = {
         for card in BATTLE_CARDS
         if card.get("permanentCode")
 }
+BATTLE_CARD_HTML_BY_CODE = {
+        card.get("permanentCode"): card.get("htmlText", "")
+        for card in BATTLE_CARDS
+        if card.get("permanentCode")
+}
 
 
 def build_category_names_by_army_id(categories):
@@ -227,6 +232,32 @@ def format_troop_entry_list(entries):
         return troops_text, troops_text_es, points_text
 
 
+def collect_all_battle_cards(army_entries, troop_options):
+        """Return a sorted list of dicts with 'en' and 'es' keys for all unique battle cards."""
+        codes_seen = set()
+        cards = []
+        for entry in army_entries or []:
+                code = entry.get("battleCardCode")
+                if not code or code in codes_seen:
+                        continue
+                codes_seen.add(code)
+                name_en = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
+                name_es = translate_to_es(name_en)
+                html_text = BATTLE_CARD_HTML_BY_CODE.get(code, "")
+                cards.append({"en": name_en, "es": name_es, "html_text": html_text})
+        for option in troop_options or []:
+                for entry in option.get("battleCardEntries") or []:
+                        code = entry.get("battleCardCode")
+                        if not code or code in codes_seen:
+                                continue
+                        codes_seen.add(code)
+                        name_en = BATTLE_CARD_DISPLAY_BY_CODE.get(code, code)
+                        name_es = translate_to_es(name_en)
+                        html_text = BATTLE_CARD_HTML_BY_CODE.get(code, "")
+                        cards.append({"en": name_en, "es": name_es, "html_text": html_text})
+        return sorted(cards, key=lambda c: c["en"])
+
+
 def format_troop_options(options):
         rows = []
         for option in options or []:
@@ -358,6 +389,7 @@ def army_detail(army_id):
         army_battle_cards = format_battle_card_entries(army.get("battleCardEntries"))
         army_battle_cards_lang_es = format_battle_card_entries(army.get("battleCardEntries"), language="es")
         troop_rows = format_troop_options(army.get("troopOptions"))
+        all_battle_cards = collect_all_battle_cards(army.get("battleCardEntries"), army.get("troopOptions"))
 
         name = army.get("name", "Unknown Army")
         title = name + (f" ({start_date} - {end_date})" if start_date or end_date else "")
@@ -381,6 +413,7 @@ def army_detail(army_id):
                         "army_battle_cards": army_battle_cards,
                         "army_battle_cards_lang_es": army_battle_cards_lang_es,
                         "troop_rows": troop_rows,
+                        "all_battle_cards": all_battle_cards,
                 },
                 army_id=army_id,
         )
