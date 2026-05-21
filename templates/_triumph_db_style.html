@@ -53,9 +53,10 @@
         gap: 0.45rem;
     }
 
-    .language-switcher .github-link {
-        width: 2rem;
+    .language-switcher .header-link {
+        min-width: 2rem;
         height: 2rem;
+        padding: 0 0.4rem;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -63,13 +64,17 @@
         border-radius: 999px;
         background: rgba(255, 255, 255, 0.16);
         color: #ffffff;
+        font-size: 0.82rem;
+        font-weight: 600;
+        text-decoration: none;
+        white-space: nowrap;
     }
 
-    .language-switcher .github-link:hover {
+    .language-switcher .header-link:hover {
         background: rgba(255, 255, 255, 0.24);
     }
 
-    .language-switcher .github-link svg {
+    .language-switcher .header-link svg {
         width: 1.1rem;
         height: 1.1rem;
         fill: currentColor;

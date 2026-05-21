@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-lang-en="Categories" data-lang-es="Categorías">Categories</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    {% include "_triumph_db_style.html" %}
+</head>
+
+<body>
+    {% include "_language_switcher.html" %}
+    <section class="hero is-triumph">
+        <div class="hero-body">
+            <h1 class="title" data-lang-en="Categories" data-lang-es="Categorías">Categories</h1>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="box content">
+                {% if categories %}
+                {% for category in categories %}
+                <h3 data-lang-en="{{ category.name }}" data-lang-es="{{ category.name_es }}">{{ category.name }}</h3>
+                {% endfor %}
+                {% else %}
+                <p>No categories found.</p>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
+    {% include "_triumph_db_script.html" %}
+</body>
+
+</html>

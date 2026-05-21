@@ -421,5 +421,20 @@ def army_detail(army_id):
         )
 
 
+@app.route("/categories")
+def categories():
+        category_rows = []
+        for category in THEMATIC_CATEGORIES or []:
+                name = str(category.get("name", "")).strip()
+                if not name:
+                        continue
+                category_rows.append({
+                        "name": name,
+                        "name_es": TRANSLATION_ES_BY_KEY.get(name, name),
+                })
+        category_rows.sort(key=lambda c: c["name"].lower())
+        return render_template("categories.html", categories=category_rows)
+
+
 if __name__ == "__main__":
         app.run(debug=True)
