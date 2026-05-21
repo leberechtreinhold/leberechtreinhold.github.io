@@ -63,6 +63,12 @@
                         {{ army.army_battle_cards }}
                     </span>
                 </p>
+                <p>
+                    <strong data-lang-en="Categories:" data-lang-es="Categorías:">Categories:</strong>
+                    {% if army.category_links %}
+                    {% for cat in army.category_links %}<a href="/categories/{{ cat.id }}" data-lang-en="{{ cat.name }}" data-lang-es="{{ cat.name_es }}">{{ cat.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+                    {% else %}-{% endif %}
+                </p>
             </div>
 
             <div class="box">

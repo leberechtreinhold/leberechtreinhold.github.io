@@ -416,6 +416,15 @@ def army_detail(army_id):
         army_battle_cards_lang_es = format_battle_card_entries(army.get("battleCardEntries"), language="es")
         troop_rows = format_troop_options(army.get("troopOptions"))
         all_battle_cards = collect_all_battle_cards(army.get("battleCardEntries"), army.get("troopOptions"))
+        category_names = CATEGORY_NAMES_BY_ARMY_ID.get(str(army.get("id", "")), [])
+        category_links = [
+                {
+                        "name": cat,
+                        "name_es": TRANSLATION_ES_BY_KEY.get(cat, cat),
+                        "id": CATEGORY_ID_BY_NAME.get(cat, ""),
+                }
+                for cat in category_names
+        ]
 
         name = army.get("name", "Unknown Army")
         title = name + (f" ({start_date} - {end_date})" if start_date or end_date else "")
@@ -440,6 +449,7 @@ def army_detail(army_id):
                         "army_battle_cards_lang_es": army_battle_cards_lang_es,
                         "troop_rows": troop_rows,
                         "all_battle_cards": all_battle_cards,
+                        "category_links": category_links,
                 },
                 army_id=army_id,
         )
