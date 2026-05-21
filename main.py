@@ -93,6 +93,21 @@ CATEGORY_ID_BY_NAME = {
 app = Flask(__name__)
 
 
+@app.context_processor
+def inject_army_names():
+        return {
+                "army_names": [
+                        {
+                                "id": str(item.get("id", "")),
+                                "en": str(item.get("name", "")).strip(),
+                                "es": TRANSLATION_ES_BY_KEY.get(str(item.get("name", "")).strip(), ""),
+                        }
+                        for item in ARMY_LISTS
+                        if item.get("id") and item.get("name")
+                ]
+        }
+
+
 def format_year(value, language="en"):
         str_bce = "BC" if language == "en" else "a.C."
         str_ad = "AD" if language == "en" else "d.C."

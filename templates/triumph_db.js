@@ -11,8 +11,10 @@
         ? Array.from(table.querySelectorAll("thead th.sortable"))
         : [];
     let currentSort = { col: 1, dir: "asc" };
+    let currentLang = "en";
 
     function applyLanguage(language) {
+        currentLang = language;
         document.body.dataset.lang = language;
         const elements = document.querySelectorAll("[data-lang-en][data-lang-es]");
         elements.forEach((element) => {
@@ -32,6 +34,9 @@
                 element.dataset.sortValue = value.trim().toLowerCase();
             }
         });
+        if (typeof renderDropdown === "function" && armySearch && armySearch.value.trim()) {
+            renderDropdown(armySearch.value);
+        }
     }
 
     function setActiveLanguage(language) {
@@ -157,9 +162,87 @@
         }
     });
 
+    const armySearch = document.getElementById("army-search");
+    const armyDropdown = document.getElementById("army-search-dropdown");
+    const ARMY_NAMES = {{ army_names | tojson }};
+    let activeIndex = -1;
+
     if (table && tbody && headers.length > 0) {
         sortBy(1, "number", "asc");
     }
     setActiveLanguage("en");
     applyLanguage("en");
+
+    function getArmyLabel(army) {
+        return (currentLang === "es" && army.es) ? army.es : army.en;
+    }
+
+    function renderDropdown(query) {
+        if (!armySearch || !armyDropdown) return;
+        const q = query.trim().toLowerCase();
+        if (!q) {
+            closeDropdown();
+            return;
+        }
+        const matches = ARMY_NAMES.filter((a) =>
+            getArmyLabel(a).toLowerCase().includes(q)
+        ).slice(0, 10);
+
+        if (matches.length === 0) {
+            closeDropdown();
+            return;
+        }
+
+        activeIndex = -1;
+        armyDropdown.innerHTML = "";
+        matches.forEach((army, i) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "army-search-option";
+            btn.textContent = getArmyLabel(army);
+            btn.dataset.armyId = army.id;
+            btn.addEventListener("mousedown", (e) => {
+                e.preventDefault();
+                window.location.href = "/army/" + army.id;
+            });
+            armyDropdown.appendChild(btn);
+        });
+        armyDropdown.classList.add("is-open");
+    }
+
+    function closeDropdown() {
+        if (armyDropdown) {
+            armyDropdown.classList.remove("is-open");
+            armyDropdown.innerHTML = "";
+        }
+        activeIndex = -1;
+    }
+
+    function setActive(index) {
+        const options = armyDropdown ? Array.from(armyDropdown.querySelectorAll(".army-search-option")) : [];
+        options.forEach((opt, i) => opt.classList.toggle("is-active", i === index));
+        activeIndex = index;
+    }
+
+    if (armySearch) {
+        armySearch.addEventListener("input", () => renderDropdown(armySearch.value));
+
+        armySearch.addEventListener("keydown", (e) => {
+            const options = armyDropdown ? Array.from(armyDropdown.querySelectorAll(".army-search-option")) : [];
+            if (e.key === "ArrowDown") {
+                e.preventDefault();
+                setActive(Math.min(activeIndex + 1, options.length - 1));
+            } else if (e.key === "ArrowUp") {
+                e.preventDefault();
+                setActive(Math.max(activeIndex - 1, 0));
+            } else if (e.key === "Enter" && activeIndex >= 0 && options[activeIndex]) {
+                e.preventDefault();
+                window.location.href = "/army/" + options[activeIndex].dataset.armyId;
+            } else if (e.key === "Escape") {
+                closeDropdown();
+            }
+        });
+
+        armySearch.addEventListener("blur", () => setTimeout(closeDropdown, 150));
+    }
 })();
