@@ -476,6 +476,7 @@ def categories():
                 category_rows.append({
                         "name": name,
                         "name_es": TRANSLATION_ES_BY_KEY.get(name, name),
+                        "id": str(category.get("id", "")),
                 })
         category_rows.sort(key=lambda c: c["name"].lower())
         return render_template("categories.html", categories=category_rows)

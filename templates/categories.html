@@ -22,7 +22,7 @@
             <div class="box content">
                 {% if categories %}
                 {% for category in categories %}
-                <h3 data-lang-en="{{ category.name }}" data-lang-es="{{ category.name_es }}">{{ category.name }}</h3>
+                <h3 data-lang-en="{{ category.name }}" data-lang-es="{{ category.name_es }}"><a href="/categories/{{ category.id }}" data-lang-en="{{ category.name }}" data-lang-es="{{ category.name_es }}">{{ category.name }}</a></h3>
                 {% endfor %}
                 {% else %}
                 <p>No categories found.</p>
