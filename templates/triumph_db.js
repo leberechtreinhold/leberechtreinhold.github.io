@@ -152,6 +152,7 @@
             setActiveLanguage(language);
             applyLanguage(language);
             toggleLanguageMenu(false);
+            try { localStorage.setItem("lang", language); } catch (_) {}
         });
     });
 
@@ -170,8 +171,10 @@
     if (table && tbody && headers.length > 0) {
         sortBy(1, "number", "asc");
     }
-    setActiveLanguage("en");
-    applyLanguage("en");
+    const savedLang = (() => { try { return localStorage.getItem("lang"); } catch (_) { return null; } })();
+    const initialLang = (savedLang === "es") ? "es" : "en";
+    setActiveLanguage(initialLang);
+    applyLanguage(initialLang);
 
     function getArmyLabel(army) {
         return (currentLang === "es" && army.es) ? army.es : army.en;
