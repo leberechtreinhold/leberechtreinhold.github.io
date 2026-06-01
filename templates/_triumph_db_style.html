@@ -36,6 +36,13 @@
     .hero.is-triumph {
         background: linear-gradient(135deg, #00b7a8 0%, #008f86 100%);
         border-bottom: 1px solid #007a72;
+        padding-top: 3.5rem;
+    }
+
+    @media (max-width: 600px) {
+        .hero.is-triumph {
+            padding-top: 7rem;
+        }
     }
 
     .hero.is-triumph .title {
@@ -45,12 +52,37 @@
 
     .language-switcher {
         position: fixed;
-        top: 1rem;
-        right: 1rem;
+        top: 0.5rem;
+        right: 0.75rem;
         z-index: 20;
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
         gap: 0.45rem;
+        max-width: calc(100vw - 1.5rem);
+        justify-content: flex-end;
+    }
+
+    @media (max-width: 600px) {
+        .language-switcher {
+            top: 0;
+            right: 0;
+            left: 0;
+            max-width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: rgba(0, 115, 108, 0.96);
+            backdrop-filter: blur(6px);
+            justify-content: flex-start;
+        }
+
+        .army-search-wrapper {
+            flex: 1 1 100%;
+        }
+
+        .army-search-input {
+            width: 100%;
+            box-sizing: border-box;
+        }
     }
 
     .language-switcher .header-link {
