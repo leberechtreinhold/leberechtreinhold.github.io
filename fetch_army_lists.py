@@ -87,6 +87,26 @@ def sync_translations(army_lists_data, thematic_categories_data, troop_types_dat
 					existing_keys.add(core)
 					updated = True
 					added += 1
+
+			# Add homeTopographies values and notes
+			for topo in army.get("homeTopographies", []):
+				if not isinstance(topo, dict):
+					continue
+
+				for value in topo.get("values", []):
+					value = value.strip()
+					if isinstance(value, str) and value and value not in existing_keys:
+						translations.append({"key": value, "lang_es": ""})
+						existing_keys.add(value)
+						updated = True
+						added += 1
+
+				topo_note = topo.get("note")
+				if isinstance(topo_note, str) and topo_note and topo_note not in existing_keys:
+					translations.append({"key": topo_note, "lang_es": ""})
+					existing_keys.add(topo_note)
+					updated = True
+					added += 1
 		log.info("  -> army lists done, %d new keys so far", added)
 	
 	# Add thematic category names and their army list names
