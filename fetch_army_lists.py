@@ -107,6 +107,39 @@ def sync_translations(army_lists_data, thematic_categories_data, troop_types_dat
 					existing_keys.add(topo_note)
 					updated = True
 					added += 1
+
+			# Add invasionRatings notes
+			for entry in army.get("invasionRatings", []):
+				if not isinstance(entry, dict):
+					continue
+				note = entry.get("note")
+				if isinstance(note, str) and note and note not in existing_keys:
+					translations.append({"key": note, "lang_es": ""})
+					existing_keys.add(note)
+					updated = True
+					added += 1
+
+			# Add maneuverRatings notes
+			for entry in army.get("maneuverRatings", []):
+				if not isinstance(entry, dict):
+					continue
+				note = entry.get("note")
+				if isinstance(note, str) and note and note not in existing_keys:
+					translations.append({"key": note, "lang_es": ""})
+					existing_keys.add(note)
+					updated = True
+					added += 1
+
+			# Add battleCardEntries notes
+			for entry in army.get("battleCardEntries", []):
+				if not isinstance(entry, dict):
+					continue
+				note = entry.get("note")
+				if isinstance(note, str) and note and note not in existing_keys:
+					translations.append({"key": note, "lang_es": ""})
+					existing_keys.add(note)
+					updated = True
+					added += 1
 		log.info("  -> army lists done, %d new keys so far", added)
 	
 	# Add thematic category names and their army list names
