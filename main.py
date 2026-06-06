@@ -152,7 +152,10 @@ def format_rating_entries(ratings, language="en"):
                 if value is None:
                         values = rating.get("values")
                         if values:
-                                value = ", ".join(v.strip() for v in values if isinstance(v, str) and v.strip())
+                                parts = [v.strip() for v in values if isinstance(v, str) and v.strip()]
+                                if language == "es":
+                                        parts = [translate_to_es(p) for p in parts]
+                                value = ", ".join(parts)
                 if value is None or value == "":
                         continue
                 note = rating.get("note")
@@ -209,6 +212,7 @@ def format_general_troop_entries(entries_for_general, language="en"):
                         name = TROOP_TYPE_DISPLAY_BY_CODE.get(code, code)
                         note = entry.get("note")
                         if language == "es" and note:
+                                name = translate_to_es(name)
                                 note = translate_to_es(note)
                         suffix = f" ({note})" if note else ""
                         names.append(f"{name}{suffix}")
