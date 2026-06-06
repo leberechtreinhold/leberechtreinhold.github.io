@@ -5977,11 +5977,11 @@
     },
     {
         "key": "Khitan Liao",
-        "lang_es": "Kitán-Liao"
+        "lang_es": "Liao-Kitán"
     },
     {
         "key": "Khitan Liao (all mounted)",
-        "lang_es": "Kitán-Liao (todos montados)"
+        "lang_es": "Liao-Kitán (todos montados)"
     },
     {
         "key": "Khitan foragers and orderlies",
@@ -7529,7 +7529,7 @@
     },
     {
         "key": "Middle Abbasid",
-        "lang_es": "Abasíes medio"
+        "lang_es": "Abasíes medios"
     },
     {
         "key": "Middle Anglo-Saxon",
@@ -8517,35 +8517,35 @@
     },
     {
         "key": "Paighan spearmen",
-        "lang_es": "Los lanceros de Paighan"
+        "lang_es": "Lanceros de Paighan"
     },
     {
         "key": "Paionian, Greek, or Thracian horsemen",
-        "lang_es": "Jinetes paionios, griegos o tracios"
+        "lang_es": "Jinetes Peonios, Griegos o Tracios"
     },
     {
         "key": "Palace ghulams",
-        "lang_es": "Los ghulams del palacio"
+        "lang_es": "Ghulams de palacio"
     },
     {
         "key": "Palace guardsmen",
-        "lang_es": "guardias del palacio"
+        "lang_es": "Guardias de palacio"
     },
     {
         "key": "Palaiologan Byzantine",
-        "lang_es": "Bizantino paleólogo"
+        "lang_es": "Bizantinos de Paleólogo"
     },
     {
         "key": "Palmyran",
-        "lang_es": "Palmyra"
+        "lang_es": "Palmiros"
     },
     {
         "key": "Pantodapoi phalanx",
-        "lang_es": "Falange todopoderosa"
+        "lang_es": "Falange Pantodapoi"
     },
     {
         "key": "Papa-kaua pikemen",
-        "lang_es": "Plataforma de los piqueros"
+        "lang_es": "Piqueros Papa-kaua"
     },
     {
         "key": "Papal feudal and Lombard mercenary men-at-arms",
@@ -8557,11 +8557,11 @@
     },
     {
         "key": "Parisian Communes",
-        "lang_es": "Comunas parisinas"
+        "lang_es": "Comunas Parisinas"
     },
     {
         "key": "Parthian",
-        "lang_es": "partio"
+        "lang_es": "Partos"
     },
     {
         "key": "Parthian Subject Provinces",
@@ -8613,15 +8613,15 @@
     },
     {
         "key": "Peasant levies",
-        "lang_es": "Reclutas campesinos"
+        "lang_es": "Levas campesinas"
     },
     {
         "key": "Peasant levy",
-        "lang_es": "Corvilla"
+        "lang_es": "Leva campesina"
     },
     {
         "key": "Peasant levy armed with javelins and wicker shields",
-        "lang_es": "Milicia campesina armada con jabalinas y escudos de mimbre"
+        "lang_es": "Leva campesina armada con jabalinas y escudos de mimbre"
     },
     {
         "key": "Peasant militia",
@@ -8665,7 +8665,7 @@
     },
     {
         "key": "Peasant throng",
-        "lang_es": "Multitud de campesinos"
+        "lang_es": "Muchedumbre campesina"
     },
     {
         "key": "Peasants",
@@ -8685,19 +8685,19 @@
     },
     {
         "key": "Pecheneg",
-        "lang_es": "pechenego"
+        "lang_es": "Pechenegos"
     },
     {
         "key": "Pedites",
-        "lang_es": "Soldados rasos"
+        "lang_es": "Pedites"
     },
     {
         "key": "Pedyt",
-        "lang_es": "Pedyt"
+        "lang_es": "Pedites"
     },
     {
         "key": "Peltasts",
-        "lang_es": "Peltasta"
+        "lang_es": "Peltastas"
     },
     {
         "key": "Peltasts armed with long spear",
@@ -8785,15 +8785,15 @@
     },
     {
         "key": "Petronels",
-        "lang_es": "Petronels"
+        "lang_es": "Petroneles"
     },
     {
         "key": "Pezhetairoi",
-        "lang_es": "¿Qué harán?"
+        "lang_es": "Pezhetairoi"
     },
     {
         "key": "Ph'kak-men",
-        "lang_es": "Lo siento"
+        "lang_es": "Infantería con Ph'kak"
     },
     {
         "key": "Phalanx",
@@ -8813,11 +8813,11 @@
     },
     {
         "key": "Phokian hoplites",
-        "lang_es": "Hoplitas de Fócida"
+        "lang_es": "Hoplitas Focenses"
     },
     {
         "key": "Phrygian",
-        "lang_es": "frigio"
+        "lang_es": "Frígios"
     },
     {
         "key": "Phrygian or Paphlagonian light horsemen",
@@ -8837,15 +8837,15 @@
     },
     {
         "key": "Pictish",
-        "lang_es": "pict"
+        "lang_es": "Pictos"
     },
     {
         "key": "Pike",
-        "lang_es": "Lucio"
+        "lang_es": "Pica"
     },
     {
         "key": "Pikemen",
-        "lang_es": "Pikemen"
+        "lang_es": "Piqueros"
     },
     {
         "key": "Pikemen mixed with some halberdiers",
@@ -8853,7 +8853,7 @@
     },
     {
         "key": "Pikes",
-        "lang_es": "Pikes"
+        "lang_es": "Piqueros"
     },
     {
         "key": "Pilgrims",
@@ -8865,7 +8865,7 @@
     },
     {
         "key": "Pisidian settler thureophoroi",
-        "lang_es": "Colonos pisidios thureophoroi"
+        "lang_es": "Colonos Pisidios tureóforos"
     },
     {
         "key": "Plate and Handgonne",
@@ -8877,35 +8877,35 @@
     },
     {
         "key": "Poeni citizen infantry",
-        "lang_es": "Infantería de la ciudad de Poeni"
+        "lang_es": "Infantería ciudadana Púnica"
     },
     {
         "key": "Poeni horsemen",
-        "lang_es": "Jinetes de Poeni"
+        "lang_es": "Jinetes Púnicos"
     },
     {
         "key": "Poeni settlers",
-        "lang_es": "Colonos de Poeni"
+        "lang_es": "Colonos Púnicos"
     },
     {
         "key": "Poeni, Libyan, or Numidian horsemen",
-        "lang_es": "Jinetes púnicos, libios o númidas"
+        "lang_es": "Jinetes Púnicos, Libios o Númidas"
     },
     {
         "key": "Polk horsemen",
-        "lang_es": "Los jinetes de Polk"
+        "lang_es": "Jinetes Polk"
     },
     {
         "key": "Polk or Smerdy skirmishing bowmen",
-        "lang_es": "Arqueros de escaramuza de Polk o Smerdy"
+        "lang_es": "Arqueros de escaramuza Polk o Smerdy"
     },
     {
         "key": "Polk spearmen",
-        "lang_es": "Lanceros de Polk"
+        "lang_es": "Lanceros Polk"
     },
     {
         "key": "Polybian Roman",
-        "lang_es": "Polybian Roman"
+        "lang_es": "Romanos de Polibio"
     },
     {
         "key": "Pompeian raw legionaries",
@@ -8917,7 +8917,7 @@
     },
     {
         "key": "Poor bowmen",
-        "lang_es": "Pobres arqueros"
+        "lang_es": "Arqueros mediocres"
     },
     {
         "key": "Poor quality infantry",
@@ -8929,7 +8929,7 @@
     },
     {
         "key": "Poorly armed militia \"populus\"",
-        "lang_es": "Milicia «populus» mal armada"
+        "lang_es": "Milicia mal armada «populus»"
     },
     {
         "key": "Poorly equipped and trained bowmen, slingers, and unshielded javelinmen",
@@ -8969,7 +8969,7 @@
     },
     {
         "key": "Popolo spearmen",
-        "lang_es": "Gente con lanzas"
+        "lang_es": "Lanceros del Popolo"
     },
     {
         "key": "Portable fortified wagons with missile-armed crew and often light guns. Wagons were used as camp fortifications throughout history, but armies are only allowed war wagons as an element type when they were known to use the wagons in a mobile way during a battle, often as flank guards. Good examples of war wagons are the Hussites and Pechenegs.",
@@ -8977,31 +8977,31 @@
     },
     {
         "key": "Post Mongol Russian",
-        "lang_es": "Ruso posmongol"
+        "lang_es": "Rusos Post-Mongoles"
     },
     {
         "key": "Post Mongol Samurai",
-        "lang_es": "Samurái posmongol"
+        "lang_es": "Samuráis Post-Mongoles"
     },
     {
         "key": "Post-Zama Carthaginian",
-        "lang_es": "Cartaginés posterior a Zama"
+        "lang_es": "Cartagineses Post-Zama"
     },
     {
         "key": "Pre-Feudal Scots",
-        "lang_es": "Los escoceses en la época prefeudal"
+        "lang_es": "Escoceses Pre-Feudales"
     },
     {
         "key": "Pre-Samurai Japanese",
-        "lang_es": "Japonés anterior al periodo samurái"
+        "lang_es": "Japoneses Pre-Samuráis"
     },
     {
         "key": "Pre-Viking Scandinavian",
-        "lang_es": "Escandinavia pre-vikinga"
+        "lang_es": "Escandinavos Pre-Vikingos"
     },
     {
         "key": "Preclassic Maya",
-        "lang_es": "Maya preclásico"
+        "lang_es": "Mayas Preclásicos"
     },
     {
         "key": "Prepared Defenses",
@@ -9009,7 +9009,7 @@
     },
     {
         "key": "Primani",
-        "lang_es": "Primero"
+        "lang_es": "Primani"
     },
     {
         "key": "Prodomoi",
@@ -9025,7 +9025,7 @@
     },
     {
         "key": "Proto-Toltec and Proto-Aztec",
-        "lang_es": "Proto-tolteca y proto-azteca"
+        "lang_es": "Proto-Tolteca y Proto-Azteca"
     },
     {
         "key": "Provincial bowmen",
@@ -9049,7 +9049,7 @@
     },
     {
         "key": "Prussian",
-        "lang_es": "prusiano"
+        "lang_es": "Prusianos"
     },
     {
         "key": "Prussian or Lithuanian subject infantry",
@@ -9061,7 +9061,7 @@
     },
     {
         "key": "Psidian peltasts",
-        "lang_es": "Psidian peltasts"
+        "lang_es": "Peltastas Pisidios"
     },
     {
         "key": "Psiloi",
@@ -9085,11 +9085,11 @@
     },
     {
         "key": "Ptolemaic",
-        "lang_es": "ptolomeo"
+        "lang_es": "Ptolemaicos"
     },
     {
         "key": "Ptolemaic Kyrene",
-        "lang_es": "Cirene ptolemaica"
+        "lang_es": "Cirene Ptolemaica"
     },
     {
         "key": "Pu-ping infantry",
@@ -9101,23 +9101,23 @@
     },
     {
         "key": "Pushan-push",
-        "lang_es": "Empuja-empuja"
+        "lang_es": "Empuje Pushan"
     },
     {
         "key": "Pylians",
-        "lang_es": "pilios"
+        "lang_es": "Pilios"
     },
     {
         "key": "Pyrrhic",
-        "lang_es": "pirroico"
+        "lang_es": "Pirro"
     },
     {
         "key": "Qangli and similar horse archers",
-        "lang_es": "Los qangli y otros arqueros a caballo similares"
+        "lang_es": Qangli y otros arqueros a caballo similares"
     },
     {
         "key": "Qangli foot",
-        "lang_es": "Pie de Qangli"
+        "lang_es": "Infantería Qangli"
     },
     {
         "key": "Qapukulu horsemen and better feudal sipahis with lance and bow",
@@ -9125,7 +9125,7 @@
     },
     {
         "key": "Qara Khitan",
-        "lang_es": "Gato negro"
+        "lang_es": "Kara-Kitán"
     },
     {
         "key": "Qaraghulams, Kurds or Syrian askaris",
@@ -9133,23 +9133,23 @@
     },
     {
         "key": "Qaramita",
-        "lang_es": "Pequeñín"
+        "lang_es": "Cármatas"
     },
     {
         "key": "Qaramita armored horsemen",
-        "lang_es": "Jinetes acorazados de Qaramita"
+        "lang_es": "Jinetes acorazados de Cármatas"
     },
     {
         "key": "Qaramita bowmen",
-        "lang_es": "Pequeños arqueros"
+        "lang_es": "Arqueros Cármatas"
     },
     {
         "key": "Qaramita camel-mounted mercenary spearmen",
-        "lang_es": "Lanceros mercenarios de Qaramita a lomos de camellos"
+        "lang_es": "Lanceros mercenarios Cármatas montados en camellos"
     },
     {
         "key": "Qaramita spearmen",
-        "lang_es": "Pequeños lanceros"
+        "lang_es": "Lanceros Cármatas"
     },
     {
         "key": "Qarluq nobles and horse archers",
@@ -9157,7 +9157,7 @@
     },
     {
         "key": "Qiang and Di",
-        "lang_es": "Qiang y Di"
+        "lang_es": "Dinastías Qiang y Di"
     },
     {
         "key": "Qiang, Sumpa, and similar nomad tribesmen horse archers",
@@ -9165,27 +9165,27 @@
     },
     {
         "key": "Qin Collapse",
-        "lang_es": "La caída de la dinastía Qin"
+        "lang_es": "Caida de la dinastía Qin"
     },
     {
         "key": "Qin Kingdom",
-        "lang_es": "Reino de Qin"
+        "lang_es": "Reino Qin"
     },
     {
         "key": "Qocho Uyghur Kingdom",
-        "lang_es": "Reino uigur de Qocho"
+        "lang_es": "Reino Uigur de Qocho"
     },
     {
         "key": "Quadi",
-        "lang_es": "Quadi"
+        "lang_es": "Cuados"
     },
     {
         "key": "Quechua and Aymara military mita",
-        "lang_es": "La mita militar quechua y aimara"
+        "lang_es": "Mita militar Quechua y Aimara"
     },
     {
         "key": "Quechua or Aymara",
-        "lang_es": "Quechua o aimara"
+        "lang_es": "Quechuas o Aimaras"
     },
     {
         "key": "Qurbuti horsemen",
@@ -9197,7 +9197,7 @@
     },
     {
         "key": "Qurbuti, Chaldean, Aramaean, or militia horsemen",
-        "lang_es": "Qurbuti, caldeos, arameos o jinetes de la milicia"
+        "lang_es": "Qurbuti, Caldeos, Arameos o jinetes de la milicia"
     },
     {
         "key": "Rabble",
@@ -9205,19 +9205,19 @@
     },
     {
         "key": "Raiders",
-        "lang_es": "Raiders"
+        "lang_es": "Incursores"
     },
     {
         "key": "Rajput Indian",
-        "lang_es": "Indio rajput"
+        "lang_es": "Indios Rajput"
     },
     {
         "key": "Rajput horsemen",
-        "lang_es": "Jinetes rajput"
+        "lang_es": "Jinetes Rajput"
     },
     {
         "key": "Ramesside New Kingdom Egyptian",
-        "lang_es": "Egipcio del Imperio Nuevo ramésida"
+        "lang_es": "Egipcios del Imperio Nuevo Ramésida"
     },
     {
         "key": "Rathor Rajput horsemen",
@@ -9249,7 +9249,7 @@
     },
     {
         "key": "Reformed Komnenan Byzantine",
-        "lang_es": "Bizantino comneno reformado"
+        "lang_es": "Bizantinos, Restauración de Comneno"
     },
     {
         "key": "Regional bowmen and crossbowmen",
@@ -9261,31 +9261,31 @@
     },
     {
         "key": "Regional spearmen",
-        "lang_es": "Lanzadores regionales"
+        "lang_es": "Lanceros regionales"
     },
     {
         "key": "Reluctant commoners",
-        "lang_es": "Pueblo a regañadientes"
+        "lang_es": "Plebeyos reacios"
     },
     {
         "key": "Remnant Alan horse archers",
-        "lang_es": "Los últimos arqueros a caballo de Alan"
+        "lang_es": "Restos de arqueros a caballo Alanos"
     },
     {
         "key": "Remnant Bactrian Greek phalanx",
-        "lang_es": "Restos de una falange griega bactriana"
+        "lang_es": "Restos de falange Griega Bactriana"
     },
     {
         "key": "Remnant Bactrian Greek thureophoroi",
-        "lang_es": "Los últimos turéforos griegos de Bactriana"
+        "lang_es": "Restos de Tureóforos Griegos Bactrianos"
     },
     {
         "key": "Renaissance Russian",
-        "lang_es": "Ruso renacentista"
+        "lang_es": "Rusos renacentistas"
     },
     {
         "key": "Republican Indian",
-        "lang_es": "Indígena republicano"
+        "lang_es": "Indios Republicanos"
     },
     {
         "key": "Reserves",
@@ -9405,11 +9405,11 @@
     },
     {
         "key": "Rise of Macedon",
-        "lang_es": "El auge de Macedonia"
+        "lang_es": "El ascenso de Macedonia"
     },
     {
         "key": "Rise of Rome",
-        "lang_es": "El auge de Roma"
+        "lang_es": "El ascenso de Roma"
     },
     {
         "key": "Ritterbrüder and adventurer men-at-arms",
@@ -9421,15 +9421,15 @@
     },
     {
         "key": "Roman Armenian",
-        "lang_es": "Armenio romano"
+        "lang_es": "Armenios Romanos"
     },
     {
         "key": "Roman Bosporan",
-        "lang_es": "Bósforo romano"
+        "lang_es": "Romanos del Bósforo"
     },
     {
         "key": "Roman Equites",
-        "lang_es": "Caballeros romanos"
+        "lang_es": "Equites romanos"
     },
     {
         "key": "Roman allied Auxilia or Auxilia Palatina",
@@ -9441,7 +9441,7 @@
     },
     {
         "key": "Roman auxilia",
-        "lang_es": "Roman ayuda"
+        "lang_es": "Auxilia Roman"
     },
     {
         "key": "Roman auxiliaries",
@@ -9485,15 +9485,15 @@
     },
     {
         "key": "Romanian Frankish",
-        "lang_es": "franco-rumano"
+        "lang_es": "Francos Romanos (Francocracia)"
     },
     {
         "key": "Romanized Campanian",
-        "lang_es": "Campaniano romanizado"
+        "lang_es": "Campanios romanizados"
     },
     {
         "key": "Romanus IV campaigns in Anatolia",
-        "lang_es": "Las campañas de Romano IV en Anatolia"
+        "lang_es": "Campañas de Romano IV en Anatolia"
     },
     {
         "key": "Rope-pull stone throwers",
@@ -9505,7 +9505,7 @@
     },
     {
         "key": "Rouran",
-        "lang_es": "del norte"
+        "lang_es": "Rouran"
     },
     {
         "key": "Royal Army horsemen",
@@ -9533,7 +9533,7 @@
     },
     {
         "key": "Rshtuni Armenian",
-        "lang_es": "Armenio de Rshtuni"
+        "lang_es": "Armenios de Rshtuni"
     },
     {
         "key": "Rshtuni Armenian (all mounted)",
@@ -9545,7 +9545,7 @@
     },
     {
         "key": "Russian Princes",
-        "lang_es": "Príncipes rusos"
+        "lang_es": "Príncipes Rusos"
     },
     {
         "key": "Russian horse archers",
@@ -9561,15 +9561,15 @@
     },
     {
         "key": "Rycerz",
-        "lang_es": "Caballero"
+        "lang_es": "Rycerz"
     },
     {
         "key": "Sab sharri bowmen",
-        "lang_es": "Nuevos arqueros malvados"
+        "lang_es": "Arqueros Sab Sharri"
     },
     {
         "key": "Sab sharri spearmen",
-        "lang_es": "Nuevos lanceros malvados"
+        "lang_es": "Lanceros Sab Sharri"
     },
     {
         "key": "Sabadar bowmen",
@@ -9577,7 +9577,7 @@
     },
     {
         "key": "Sabir",
-        "lang_es": "Silencio"
+        "lang_es": "Sabir"
     },
     {
         "key": "Sabum qallatum armed with bow or sling",
@@ -9597,7 +9597,7 @@
     },
     {
         "key": "Sacred War Phokian",
-        "lang_es": "Guerra Sagrada de Focea"
+        "lang_es": "Guerra Sagrada Focea"
     },
     {
         "key": "Safavids",
@@ -9613,11 +9613,11 @@
     },
     {
         "key": "Saitic Egyptian",
-        "lang_es": "Egipcio saíta"
+        "lang_es": "Egipcios Saítas"
     },
     {
         "key": "Saitic Egyptian Rebellions",
-        "lang_es": "Las rebeliones egipcias de Saitic"
+        "lang_es": "Rebeliones egipcias Saítas"
     },
     {
         "key": "Saka horse archers",
@@ -9625,23 +9625,23 @@
     },
     {
         "key": "Samnite",
-        "lang_es": "samnita"
+        "lang_es": "Samnitas"
     },
     {
         "key": "Samurai nobushi bowmen",
-        "lang_es": "Arqueros samuráis sin señor"
+        "lang_es": "Arqueros samuráis nobushi"
     },
     {
         "key": "Sangam Era Sinhalese",
-        "lang_es": "Cingalés de la época de Sangam"
+        "lang_es": "Cingalés periodo Sangam"
     },
     {
         "key": "Sangam Era Tamil",
-        "lang_es": "Tamil de la era Sangam"
+        "lang_es": "Tamil periodo Sangam"
     },
     {
         "key": "Sao City-States",
-        "lang_es": "Ciudades-Estado de Sao"
+        "lang_es": "Ciudades-Estado Sao"
     },
     {
         "key": "Saracen foot bowmen",
@@ -9657,7 +9657,7 @@
     },
     {
         "key": "Sardinian",
-        "lang_es": "sardo"
+        "lang_es": "Sardos"
     },
     {
         "key": "Saririya pikemen",
@@ -9665,7 +9665,7 @@
     },
     {
         "key": "Sarmatian Tribes",
-        "lang_es": "Tribus sármatas"
+        "lang_es": "Tribus Sármatas"
     },
     {
         "key": "Sarmatian style horsebow or Thracian horsemen with javelins",
@@ -9677,7 +9677,7 @@
     },
     {
         "key": "Sarmatians",
-        "lang_es": "sarmatas"
+        "lang_es": "Sármatas"
     },
     {
         "key": "Savoyard, Italian, or Arriere-ban men-at-arms",
@@ -9685,15 +9685,15 @@
     },
     {
         "key": "Saxon thegns",
-        "lang_es": "los thegns sajones"
+        "lang_es": "Thegns sajones"
     },
     {
         "key": "Saxons",
-        "lang_es": "sajones"
+        "lang_es": "Sajones"
     },
     {
         "key": "Scandinavian Leidang",
-        "lang_es": "Leidang escandinavo"
+        "lang_es": "Leidang Escandinava"
     },
     {
         "key": "Scimitar and Crescent",
@@ -9701,11 +9701,11 @@
     },
     {
         "key": "Scots Common",
-        "lang_es": "Scots Common"
+        "lang_es": "Ejército común Escocés"
     },
     {
         "key": "Scots Isles and Highlands",
-        "lang_es": "Las islas escocesas y las Highlands"
+        "lang_es": "Islas Escocesas y las Highlands"
     },
     {
         "key": "Scots axemen or Highland bowmen",
@@ -9721,7 +9721,7 @@
     },
     {
         "key": "Scots-Irish",
-        "lang_es": "escocés-irlandeses"
+        "lang_es": "Escoceses-Irlandeses"
     },
     {
         "key": "Scottish men-at-arms",
@@ -9729,7 +9729,7 @@
     },
     {
         "key": "Scottish spearmen",
-        "lang_es": "Lanzadores escoceses"
+        "lang_es": "Lanceros Escoceses"
     },
     {
         "key": "Scout horse archers",
@@ -9769,15 +9769,15 @@
     },
     {
         "key": "Screenable",
-        "lang_es": "Screenable"
+        "lang_es": "Apantallable"
     },
     {
         "key": "Scutarii",
-        "lang_es": "Los escuderos"
+        "lang_es": "Scutarii"
     },
     {
         "key": "Scutum and spear",
-        "lang_es": "Escudo y lanza"
+        "lang_es": "Scutum y lanza"
     },
     {
         "key": "Scythed Chariots and Stampedes",
@@ -9785,11 +9785,11 @@
     },
     {
         "key": "Sea Peoples",
-        "lang_es": "Los pueblos del mar"
+        "lang_es": "Pueblos del Mar"
     },
     {
         "key": "Sea Peoples Invasions",
-        "lang_es": "Las invasiones de los pueblos del mar"
+        "lang_es": "Invasiones de los Pueblos del Mar"
     },
     {
         "key": "Sea Peoples mercenaries",
@@ -9797,7 +9797,7 @@
     },
     {
         "key": "Sea Peoples military colonists",
-        "lang_es": "Los colonos militares de los Pueblos del Mar"
+        "lang_es": "Colonos militares de los Pueblos del Mar"
     },
     {
         "key": "Seasonal army spearmen",
@@ -9809,7 +9809,7 @@
     },
     {
         "key": "Sedentary Gallic",
-        "lang_es": "Galo sedentario"
+        "lang_es": "Galos Sedentarios"
     },
     {
         "key": "Sedentary infantry",
@@ -9817,43 +9817,43 @@
     },
     {
         "key": "Select fyrd",
-        "lang_es": "Seleccionar fyrd"
+        "lang_es": "Fyrd selecto"
     },
     {
         "key": "Select levies",
-        "lang_es": "Seleccionar tasas"
+        "lang_es": "Levas seleccionadas"
     },
     {
         "key": "Seleucid",
-        "lang_es": "seléucida"
+        "lang_es": "Seléucidas"
     },
     {
         "key": "Seljuk Eastern Sultanates",
-        "lang_es": "Sultanatos selyúcidas orientales"
+        "lang_es": "Sultanatos Selyúcidas Orientales"
     },
     {
         "key": "Seljuq nobles and retainers",
-        "lang_es": "Nobles y vasallos selyúcidas"
+        "lang_es": "Nobles y vasallos Selyúcidas"
     },
     {
         "key": "Seljuq nobles and retainers, or Seljuq or Mamluk guard",
-        "lang_es": "Nobles y vasallos selyúcidas, o guardia selyúcida o mameluca"
+        "lang_es": "Nobles y vasallos Selyúcidas, o guardia Selyúcida o Mameluca"
     },
     {
         "key": "Seljuq spearmen",
-        "lang_es": "Los lanceros selyúcidas"
+        "lang_es": "Lanceros Selyúcidas"
     },
     {
         "key": "Seljuq tribesmen before 1063 (Askar after 1063)",
-        "lang_es": "Miembros de las tribus selyúcidas antes de 1063 (Askar a partir de 1063)"
+        "lang_es": "Miembros de las tribus Selyúcidas antes de 1063 (Askar a partir de 1063)"
     },
     {
         "key": "Sengoku Samurai",
-        "lang_es": "Samurái moderno"
+        "lang_es": "Samuráis periodo Sengoku"
     },
     {
         "key": "Separated Valets",
-        "lang_es": "Servicios de aparcacoches independientes"
+        "lang_es": "Valets apartados"
     },
     {
         "key": "Separately deployed halberdiers, some with armor",
@@ -9865,11 +9865,11 @@
     },
     {
         "key": "Serb, Vlach, or similar highlanders",
-        "lang_es": "Serbios, valacos o pueblos de montaña similares"
+        "lang_es": "Serbios, Valacos o pueblos de montaña similares"
     },
     {
         "key": "Serbian Empire",
-        "lang_es": "Imperio serbio"
+        "lang_es": "Imperio Serbio"
     },
     {
         "key": "Serbian Kingdom",
@@ -9929,7 +9929,7 @@
     },
     {
         "key": "Sertorius' legionaries",
-        "lang_es": "Los legionarios de Sertorio"
+        "lang_es": "Legionarios de Sertorio"
     },
     {
         "key": "Servants and camp followers",
@@ -9941,7 +9941,7 @@
     },
     {
         "key": "Severan Middle Imperial Roman",
-        "lang_es": "Imperio Romano de la época media"
+        "lang_es": "Imperio Romano medio de Severo"
     },
     {
         "key": "Sha shepe and palace 2-horse chariots",
@@ -9949,11 +9949,11 @@
     },
     {
         "key": "Shaasu or Sutu Bedouin",
-        "lang_es": "Los beduinos shasu o sutu"
+        "lang_es": "Beduinos Shasu o Sutu"
     },
     {
         "key": "Shang Chinese",
-        "lang_es": "Chino Shang"
+        "lang_es": "Chinos Shang"
     },
     {
         "key": "Shardana Royal Guard",
@@ -9961,19 +9961,19 @@
     },
     {
         "key": "Shashu no ashigaru armed with bow",
-        "lang_es": "Ashigaru de Shashu armado con un arco"
+        "lang_es": "Shashu no Ashigaru, armados con arco"
     },
     {
         "key": "Shatuo Chinese Dynasties",
-        "lang_es": "Dinastías chinas de Shatuo"
+        "lang_es": "Dinastías Chinas Shatuo"
     },
     {
         "key": "Shatuo Governate of Shanxi",
-        "lang_es": "Provincia de Shatuo, en Shanxi"
+        "lang_es": "Gobierno Shatuo de Shanxi"
     },
     {
         "key": "Shatuo Turkish",
-        "lang_es": "Shatuo turco"
+        "lang_es": "Shatuo Turco"
     },
     {
         "key": "Shatuo armored horsemen",
@@ -10029,27 +10029,27 @@
     },
     {
         "key": "Shuar",
-        "lang_es": "Morir"
+        "lang_es": "Shuar"
     },
     {
         "key": "Siamese Kingdoms",
-        "lang_es": "Reinos siameses"
+        "lang_es": "Reinos Siameses"
     },
     {
         "key": "Siamese Minor States",
-        "lang_es": "Pequeños Estados siameses"
+        "lang_es": "Estados menores Siameses"
     },
     {
         "key": "Siberian tribesmen",
-        "lang_es": "miembros de tribus siberianas"
+        "lang_es": "Miembros de tribus Siberianas"
     },
     {
         "key": "Sicari",
-        "lang_es": "sicilianos"
+        "lang_es": "Sicari"
     },
     {
         "key": "Sicel tribesmen",
-        "lang_es": "Miembros de la tribu sicel"
+        "lang_es": "Miembros de la tribu Sícula"
     },
     {
         "key": "Sicilian Greek infantry",
@@ -10057,11 +10057,11 @@
     },
     {
         "key": "Sicilio-Norman",
-        "lang_es": "Siciliano-normando"
+        "lang_es": "Siciliano-Normandos"
     },
     {
         "key": "Sikels",
-        "lang_es": "Sikels"
+        "lang_es": "Sículos"
     },
     {
         "key": "Silk Road",
@@ -10069,15 +10069,15 @@
     },
     {
         "key": "Silla Korean",
-        "lang_es": "Porque coreano"
+        "lang_es": "Coreanos Silla"
     },
     {
         "key": "Simeonites and Ephraimites fierce fighters",
-        "lang_es": "Los simeonitas y los efraimitas, guerreros aguerridos"
+        "lang_es": "Guerreros feroces Simeonitas y Efraimitas"
     },
     {
         "key": "Sindi horsemen",
-        "lang_es": "Cindy Horseman"
+        "lang_es": "Jinetes Sindi"
     },
     {
         "key": "Skilled lancers",
@@ -10237,19 +10237,19 @@
     },
     {
         "key": "Skoutatoi",
-        "lang_es": "Te descubrirán"
+        "lang_es": "Skoutatoi"
     },
     {
         "key": "Skythian horse archer mercenaries",
-        "lang_es": "Mercenarios escitas arqueros a caballo"
+        "lang_es": "Mercenarios arqueros a caballo Escitas"
     },
     {
         "key": "Skythian horse archers",
-        "lang_es": "Arqueros a caballo escitas"
+        "lang_es": "Arqueros a caballo Escitas"
     },
     {
         "key": "Skythian mercenary horse archers",
-        "lang_es": "Arqueros a caballo mercenarios escitas"
+        "lang_es": "Arqueros a caballo mercenarios Escitas"
     },
     {
         "key": "Skythikon and Vardariatoi",
@@ -10277,11 +10277,11 @@
     },
     {
         "key": "Slav or Wend",
-        "lang_es": "Eslavo o wendo"
+        "lang_es": "Eslavos o Wendos"
     },
     {
         "key": "Slavic light infantry",
-        "lang_es": "Infantería ligera eslava"
+        "lang_es": "Infantería ligera Eslava"
     },
     {
         "key": "Slavs, Isaurians, Armenians, or similar light infantry",
@@ -10289,7 +10289,7 @@
     },
     {
         "key": "Slingers",
-        "lang_es": "Guirnaldas"
+        "lang_es": "Honderos"
     },
     {
         "key": "Slingers or skirmishing bowmen",
@@ -10297,7 +10297,7 @@
     },
     {
         "key": "Smaasvenner",
-        "lang_es": "Amiguitos"
+        "lang_es": "Smaasvenner"
     },
     {
         "key": "Small State Indonesian",
@@ -10305,11 +10305,11 @@
     },
     {
         "key": "Smerdy spearmen",
-        "lang_es": "Los lanceros de Smerdy"
+        "lang_es": "Lanceros Smerdy"
     },
     {
         "key": "Smerdy throng",
-        "lang_es": "Multitud apestosa"
+        "lang_es": "Muchedumbre Smerdy"
     },
     {
         "key": "Sogdian or Skythian horse archers",
@@ -10317,7 +10317,7 @@
     },
     {
         "key": "Sogdians",
-        "lang_es": "sogdianos"
+        "lang_es": "Sogdianos"
     },
     {
         "key": "Soldiers",
@@ -10325,7 +10325,7 @@
     },
     {
         "key": "Solomonic Ethiopia",
-        "lang_es": "La Etiopía salomónica"
+        "lang_es": "Etiopía Salomónica"
     },
     {
         "key": "Songhai",
@@ -10349,7 +10349,7 @@
     },
     {
         "key": "South Welsh",
-        "lang_es": "del sur de Gales"
+        "lang_es": "Sur de Gales"
     },
     {
         "key": "South Welsh bowmen",
@@ -10361,7 +10361,7 @@
     },
     {
         "key": "South Welsh uchelwyr",
-        "lang_es": "La aristocracia del sur de Gales"
+        "lang_es": "Uchelwyr del sur de Gales"
     },
     {
         "key": "Southeast Asia",
@@ -10369,11 +10369,11 @@
     },
     {
         "key": "Southern Song Chinese",
-        "lang_es": "Chino de la dinastía Song del Sur"
+        "lang_es": "Chinos de la dinastía Song del Sur"
     },
     {
         "key": "Southern Xiongnu",
-        "lang_es": "Xiongnu del sur"
+        "lang_es": "Xiongnu del Sur"
     },
     {
         "key": "Southern fierce tribal auxiliaries",
@@ -10413,7 +10413,7 @@
     },
     {
         "key": "Spanish foot",
-        "lang_es": "pie español"
+        "lang_es": "Infantería Española"
     },
     {
         "key": "Spanish horsemen",
@@ -10449,7 +10449,7 @@
     },
     {
         "key": "Spartan citizens",
-        "lang_es": "Ciudadanos espartanos"
+        "lang_es": "Ciudadanos Espartanos"
     },
     {
         "key": "Spartan horsemen",
@@ -10457,7 +10457,7 @@
     },
     {
         "key": "Spartiates",
-        "lang_es": "Sandalias romanas"
+        "lang_es": "Espartiatas"
     },
     {
         "key": "Spear",
@@ -10465,11 +10465,11 @@
     },
     {
         "key": "Spear and militia spearmen",
-        "lang_es": "Lanzadores y milicianos lanzadores"
+        "lang_es": "Lanza y lanceros de milicia"
     },
     {
         "key": "Spearmen",
-        "lang_es": "El lancero"
+        "lang_es": "Lanceros"
     },
     {
         "key": "Spearmen and communal French militia",
@@ -10477,11 +10477,11 @@
     },
     {
         "key": "Spearmen and javelinmen",
-        "lang_es": "Lanzadores de lanza y de jabalina"
+        "lang_es": "Lanceros y jabalineros"
     },
     {
         "key": "Spearmen or hoplites",
-        "lang_es": "Lanzadores o hoplitas"
+        "lang_es": "Lanceros u Hoplitas"
     },
     {
         "key": "Spearmen with large shields; spears could be very long",
@@ -10513,19 +10513,19 @@
     },
     {
         "key": "Spread of Islam",
-        "lang_es": "La expansión del Islam"
+        "lang_es": "Expansión del Islam"
     },
     {
         "key": "St. George's Night Uprising",
-        "lang_es": "El levantamiento de la Noche de San Jorge"
+        "lang_es": "Levantamiento de la noche de San Jorge"
     },
     {
         "key": "Staff-slingers",
-        "lang_es": "Lanzadores de bastones"
+        "lang_es": "Honderos con fustíbalo"
     },
     {
         "key": "Standard Wagon",
-        "lang_es": "Furgoneta estándar"
+        "lang_es": "Vagón Estandarte"
     },
     {
         "key": "Standing army horsemen",
@@ -10561,15 +10561,15 @@
     },
     {
         "key": "Stradiots",
-        "lang_es": "Stradiots"
+        "lang_es": "Estradiote"
     },
     {
         "key": "Stratiotai",
-        "lang_es": "Estratigemas"
+        "lang_es": "Stratiotai"
     },
     {
         "key": "Subject levy",
-        "lang_es": "Impuesto sobre el objeto"
+        "lang_es": "Leva de súbditos"
     },
     {
         "key": "Subject tribal bowmen",
@@ -10593,27 +10593,27 @@
     },
     {
         "key": "Sudanese bowmen",
-        "lang_es": "Arqueros sudaneses"
+        "lang_es": "Arqueros Sudaneses"
     },
     {
         "key": "Sui Chinese",
-        "lang_es": "Chino de la dinastía Sui"
+        "lang_es": "Chinos dinastía Sui"
     },
     {
         "key": "Suit-wearers",
-        "lang_es": "personas que visten traje"
+        "lang_es": "Guerreros en trajes distintivos"
     },
     {
         "key": "Suit-wearers armed with long spears and clubs or small shields",
-        "lang_es": "Hombres vestidos con traje, armados con largas lanzas y garrotes o pequeños escudos"
+        "lang_es": "Guerreros en trajes distintivos, armados con largas lanzas y garrotes o pequeños escudos"
     },
     {
         "key": "Sumerian Successor States",
-        "lang_es": "Estados sucesores de Sumeria"
+        "lang_es": "Estados Sucesores de Sumeria"
     },
     {
         "key": "Sumero-Akkadian militia spearmen",
-        "lang_es": "Lanzadores de la milicia sumero-acadia"
+        "lang_es": "Lanceros de la milicia Sumero-Acadia"
     },
     {
         "key": "Super-long spears used by men fighting in deep formations, allowing multiple ranks of soldiers to fight in a very limited area. This makes them by far the most effective troops in the open when their flanks are secure, but vulnerable to attacks from the flanks (even more than normal troops) and poor in bad going. Examples are Macedonian phalangites, Low Countries pikes, Scots schiltrons, Swiss pikemen, and many more.",
@@ -10637,7 +10637,7 @@
     },
     {
         "key": "Supportable",
-        "lang_es": "Soportable"
+        "lang_es": "Apoyable"
     },
     {
         "key": "Supporting Bowmen",
@@ -10653,11 +10653,11 @@
     },
     {
         "key": "Suren Indo-Parthian",
-        "lang_es": "Indo-parta del Suren"
+        "lang_es": "Indo-Partos de Surena"
     },
     {
         "key": "Surviving Roman Equites or Companions",
-        "lang_es": "Los equites o compañeros romanos que sobrevivieron"
+        "lang_es": "Equites Romanos o Compañeros supervivientes"
     },
     {
         "key": "Sutu or Hapiru mercenaries",
@@ -10677,11 +10677,11 @@
     },
     {
         "key": "Swabian or Bavarian caballarii",
-        "lang_es": "Caballeros suabos o bávaros"
+        "lang_es": "Caballarii Suabos o Bávaros"
     },
     {
         "key": "Swiss pikemen",
-        "lang_es": "Piqueros suizos"
+        "lang_es": "Piqueros Suizos"
     },
     {
         "key": "Sword and buckler men",
@@ -10717,7 +10717,7 @@
     },
     {
         "key": "Syracusan",
-        "lang_es": "Syracusan"
+        "lang_es": "Siracusanos"
     },
     {
         "key": "Syracusan and mercenary hoplites",
@@ -10725,11 +10725,11 @@
     },
     {
         "key": "Syrian Arab-ruled Citystates",
-        "lang_es": "Ciudades-estado bajo dominio árabe sirio"
+        "lang_es": "Ciudades-estado bajo govierno Sirio-Árabe"
     },
     {
         "key": "Syrian Caliphate of Baghdad",
-        "lang_es": "Califato sirio de Bagdad"
+        "lang_es": "Califato Sirio de Bagdad"
     },
     {
         "key": "Syrian ahdath militia or armed Egyptian laborers",
@@ -10765,7 +10765,7 @@
     },
     {
         "key": "Syro-Canaanite and Ugaritic",
-        "lang_es": "Sirio-cananeo y ugarítico"
+        "lang_es": "Sirio-Cananeo y Ugarítico"
     },
     {
         "key": "Szekely",
@@ -10773,7 +10773,7 @@
     },
     {
         "key": "Szekely borderers",
-        "lang_es": "Los habitantes de la frontera de Székely"
+        "lang_es": "Székely de frontera"
     },
     {
         "key": "Tagmatic Kavallarioi",
@@ -10785,19 +10785,19 @@
     },
     {
         "key": "Tahirid",
-        "lang_es": "Borrar"
+        "lang_es": "Dinastía Tahirid"
     },
     {
         "key": "Takabara peltasts",
-        "lang_es": "Takabara, cazador de animales de peletería"
+        "lang_es": "Peltastas Takabara"
     },
     {
         "key": "Takrur and Wolof",
-        "lang_es": "La República y los wolof"
+        "lang_es": "Takrur y Wólof"
     },
     {
         "key": "Tallanes Coastal Peruvian",
-        "lang_es": "Tallanes, costa peruana"
+        "lang_es": "Tallanes, costa Peruana"
     },
     {
         "key": "Tallanes noble hostages",
@@ -10809,15 +10809,15 @@
     },
     {
         "key": "Tang Mounted Expeditions to the Steppe",
-        "lang_es": "Las expediciones de la dinastía Tang a la estepa"
+        "lang_es": "Expediciones montadas Tang a la Estepa"
     },
     {
         "key": "Tang Mounted Expeditions to the Steppe ",
-        "lang_es": "Las expediciones de la dinastía Tang a la estepa "
+        "lang_es": "Expediciones montadas Tang a la Estepa"
     },
     {
         "key": "Tang, Turkish, or other nomad horse archers",
-        "lang_es": "Arqueros a caballo tang, turcos u otros pueblos nómadas"
+        "lang_es": "Arqueros a caballo Tang, Turcos u otros pueblos nómadas"
     },
     {
         "key": "Tangut Iron Sparrowhawk  horsemen",
@@ -10841,7 +10841,7 @@
     },
     {
         "key": "Tarascan, Tlaxcalan, or Toltec-Chichimec",
-        "lang_es": "tarasco, tlaxcalteco o tolteca-chichimeca"
+        "lang_es": "Tarascos, Tlaxcaltecos o Tolteca-Chichimecas"
     },
     {
         "key": "Tarentine style horsemen",
@@ -10861,7 +10861,7 @@
     },
     {
         "key": "Tarim Basin Citystates",
-        "lang_es": "Ciudades-estado de la cuenca del Tarim"
+        "lang_es": "Cuenca del Tarim, ciudades-estado"
     },
     {
         "key": "Tartar exile settler horse archers",
@@ -10901,7 +10901,7 @@
     },
     {
         "key": "Teotihuacan Decline",
-        "lang_es": "El declive de Teotihuacan"
+        "lang_es": "Declive de Teotihuacan"
     },
     {
         "key": "Teotihuacan Empire",
@@ -10909,7 +10909,7 @@
     },
     {
         "key": "Teotihuacan Rise",
-        "lang_es": "El auge de Teotihuacan"
+        "lang_es": "El ascenso de Teotihuacan"
     },
     {
         "key": "Tervingi or Early Visigoth",
@@ -10917,7 +10917,7 @@
     },
     {
         "key": "Teutonic Orders",
-        "lang_es": "Órdenes teutónicas"
+        "lang_es": "Órdenes Teutónicas"
     },
     {
         "key": "Teutonic order brüder in deep spitz formation",
@@ -10929,7 +10929,7 @@
     },
     {
         "key": "Thapsus Campaign",
-        "lang_es": "Campaña de Thapsus"
+        "lang_es": "Campaña de Tapso"
     },
     {
         "key": "The other major path in chariot development, where chariots were used as transportation methods for elite warriors who would ride to battle, dismount individually (not as a group) to fight on foot, then get picked up again by their drivers to swoop somewhere else. Also used for any chariots who were crewed completely by crew armed with javelins and melee weapons, who necessarily would need to get to thrown-weapon range against any foe even if they did not dismount. Examples are Trojans and Achaeans, later Mycenaeans, Gallic and Early Romans, and a variety of cultures in the British Isles. They were outmatched by cavalry or bow-armed chariots, but stayed in use for a long time where such technology was not available or did not spread quickly, and were only abandoned in the Dark Ages in Scotland and Ireland.",
@@ -10937,35 +10937,35 @@
     },
     {
         "key": "Thegns",
-        "lang_es": "Los thegns"
+        "lang_es": "Thegns"
     },
     {
         "key": "Thematic Byzantine",
-        "lang_es": "Temático bizantino"
+        "lang_es": "Bizantinos Temáticos"
     },
     {
         "key": "Thematic Byzantine (in Italy)",
-        "lang_es": "Temática bizantina (en Italia)"
+        "lang_es": "Bizantinos Temáticos (en Italia)"
     },
     {
         "key": "Thematic kavallarioi",
-        "lang_es": "Kavallarioi temáticos"
+        "lang_es": "Kavallarioi Temáticos"
     },
     {
         "key": "Thessalian horsemen",
-        "lang_es": "Jinetes de Tesalia"
+        "lang_es": "Jinetes Tesalios"
     },
     {
         "key": "Thessalian or Mercenary hoplites",
-        "lang_es": "Hoplitas de Tesalia o mercenarios"
+        "lang_es": "Hoplitas Tesalios o mercenarios"
     },
     {
         "key": "Thessalian, Oscan, or Greek ally horsemen",
-        "lang_es": "Jinetes tesalianos, oscos o aliados griegos"
+        "lang_es": "Jinetes Tesalios, Oscos o aliados griegos"
     },
     {
         "key": "Third Dynasty of Ur",
-        "lang_es": "Tercera dinastía de Ur"
+        "lang_es": "Tercera Dinastía de Ur"
     },
     {
         "key": "Thracian Hill Tribes",
@@ -10981,7 +10981,7 @@
     },
     {
         "key": "Thracian foot",
-        "lang_es": "Infantería tracia"
+        "lang_es": "Infantería Tracia"
     },
     {
         "key": "Thracian horsemen",
@@ -11033,27 +11033,27 @@
     },
     {
         "key": "Thracians, Illyrians, or Paionians",
-        "lang_es": "tracios, ilirios o paionios"
+        "lang_es": "Tracios, Ilirios o Peonios"
     },
     {
         "key": "Thralls and dregs",
-        "lang_es": "Esclavos y escoria"
+        "lang_es": "Thralls y Dregs"
     },
     {
         "key": "Thralls, levy, and dregs",
-        "lang_es": "Esclavos, reclutas y gentuza"
+        "lang_es": "Thralls, levas y Dregs"
     },
     {
         "key": "Three Kingdoms and Western Jin Chinese",
-        "lang_es": "Chino de la época de los Tres Reinos y de la dinastía Jin Occidental"
+        "lang_es": "Chinos de los Tres Reinos y dinastía Jin Occidental"
     },
     {
         "key": "Throng",
-        "lang_es": "Multitud"
+        "lang_es": "Muchedumbre"
     },
     {
         "key": "Throngs of former slaves",
-        "lang_es": "Multitudes de antiguos esclavos"
+        "lang_es": "Muchedumbre de antiguos esclavos"
     },
     {
         "key": "Thughur bowmen",
@@ -11073,11 +11073,11 @@
     },
     {
         "key": "Thureophoroi",
-        "lang_es": "Portadores de lanzas"
+        "lang_es": "Tureóforos"
     },
     {
         "key": "Thureophoroi and thorakitoi",
-        "lang_es": "Portadores de lanzas y portadores de escudos"
+        "lang_es": "Tureóforos y Toracitas"
     },
     {
         "key": "Thureophoroi or peltasts",
@@ -11085,11 +11085,11 @@
     },
     {
         "key": "Thuringians",
-        "lang_es": "turingios"
+        "lang_es": "Turingios"
     },
     {
         "key": "Tibetan",
-        "lang_es": "tibetano"
+        "lang_es": "Tibetanos"
     },
     {
         "key": "Tibetan horsemen",
@@ -11101,7 +11101,7 @@
     },
     {
         "key": "Timurid",
-        "lang_es": "timúrida"
+        "lang_es": "Timúridas"
     },
     {
         "key": "Timurid bowmen",
@@ -11117,7 +11117,7 @@
     },
     {
         "key": "Tirkash-ban and qullughchi",
-        "lang_es": "El Tirkash-ban y el curandero"
+        "lang_es": "Tirkash-band y Qullughchi"
     },
     {
         "key": "Toassin, halqa or Kipchak mamluks armed with bow and lance, possibly with horse armor",
@@ -11125,7 +11125,7 @@
     },
     {
         "key": "Toltec Empire",
-        "lang_es": "Imperio tolteca"
+        "lang_es": "Imperio Tolteca"
     },
     {
         "key": "Toltec-Chichimec mercenary bowmen",
@@ -11133,7 +11133,7 @@
     },
     {
         "key": "Toltec-ruled Mayan Citystates",
-        "lang_es": "Ciudades-estado mayas gobernadas por los toltecas"
+        "lang_es": "Ciudades-estado Mayas gobernadas por Toltecas"
     },
     {
         "key": "Tourkopouloi or Vardariotai horse archer guards",
@@ -11161,15 +11161,15 @@
     },
     {
         "key": "Trallian slingers",
-        "lang_es": "Guirnaldas Trallian"
+        "lang_es": "Honderos Traliano"
     },
     {
         "key": "Transitional Achaemenid Persian",
-        "lang_es": "Persa aqueménida de transición"
+        "lang_es": "Persas Aqueménidas de transición"
     },
     {
         "key": "Transitional Renaissance Spanish",
-        "lang_es": "Español del Renacimiento de transición"
+        "lang_es": "Renacimiento Español de transición"
     },
     {
         "key": "Transoxus Tajik levies",
@@ -11181,35 +11181,35 @@
     },
     {
         "key": "Trapezuntine Byzantine",
-        "lang_es": "Bizantino de Trebizonda"
+        "lang_es": "Bizantinos de Trebisonda"
     },
     {
         "key": "Trapezuntine bowmen",
-        "lang_es": "Arcos de Trebizonda"
+        "lang_es": "Arqueros de Trebisonda"
     },
     {
         "key": "Trapezuntine or mercenary spearmen",
-        "lang_es": "Lanceros de Trapezunte o mercenarios"
+        "lang_es": "Lanceros de Trebisonda o mercenarios"
     },
     {
         "key": "Trapezuntine stratiotai horse archers",
-        "lang_es": "Arqueros a caballo de la stratiotai de Trapezunte"
+        "lang_es": "Arqueros a caballo stratiotai de Trebisonda"
     },
     {
         "key": "Trapezuntine stratiotai lancers",
-        "lang_es": "Lanzamientos de la stratiotai de Trebisonda"
+        "lang_es": "Lanceros stratiotai de Trebisonda"
     },
     {
         "key": "Triarii",
-        "lang_es": "Los trirremes"
+        "lang_es": "Triarii"
     },
     {
         "key": "Triarii, principes, and better-equipped hastati",
-        "lang_es": "Triarii, principes y hastati mejor equipados"
+        "lang_es": "Triarii, Principes y Hastati mejor equipados"
     },
     {
         "key": "Tribal Mongolian",
-        "lang_es": "Mongol tribal"
+        "lang_es": "Mongoles tribales"
     },
     {
         "key": "Tribal bowmen",
@@ -11281,31 +11281,31 @@
     },
     {
         "key": "Tribesmen",
-        "lang_es": "Miembros de la tribu"
+        "lang_es": "Miembros de tribu"
     },
     {
         "key": "Tribesmen armed with atlatl",
-        "lang_es": "Miembros de una tribu armados con atlatl"
+        "lang_es": "Miembros de tribu armados con atlatl"
     },
     {
         "key": "Tribesmen armed with javelin",
-        "lang_es": "Miembros de una tribu armados con jabalinas"
+        "lang_es": "Miembros de tribu armados con jabalinas"
     },
     {
         "key": "Tribesmen armed with javelins, throwing sticks, and clubs",
-        "lang_es": "Miembros de la tribu armados con jabalinas, lanzadores y garrotes"
+        "lang_es": "Miembros de tribu armados con jabalinas, lanzadores y garrotes"
     },
     {
         "key": "Tribesmen armed with javelins, throwing sticks, and clubs, and some shields",
-        "lang_es": "Miembros de la tribu armados con jabalinas, lanzas y garrotes, y algunos escudos"
+        "lang_es": "Miembros de tribu armados con jabalinas, lanzas y garrotes, y algunos escudos"
     },
     {
         "key": "Tribesmen armed with long spears",
-        "lang_es": "Miembros de una tribu armados con largas lanzas"
+        "lang_es": "Miembros de tribu armados con lanzas largas"
     },
     {
         "key": "Tribesmen armed with swords and javelins",
-        "lang_es": "Miembros de una tribu armados con espadas y jabalinas"
+        "lang_es": "Miembros de tribu armados con espadas y jabalinas"
     },
     {
         "key": "Trogodyte nomadic herdsman skirmishing bow",
@@ -11317,31 +11317,31 @@
     },
     {
         "key": "Tuareg",
-        "lang_es": "tuareg"
+        "lang_es": "Tuaregs"
     },
     {
         "key": "Tuareg camelry",
-        "lang_es": "Criadero de camellos tuareg"
+        "lang_es": "Camellería Tuareg"
     },
     {
         "key": "Tuareg skirmishing bowmen",
-        "lang_es": "Arqueros tuaregs en escaramuzas"
+        "lang_es": "Arqueros escaramuzadores Tuareg"
     },
     {
         "key": "Tudor English",
-        "lang_es": "Inglés de la época Tudor"
+        "lang_es": "Ingleses de los Tudor"
     },
     {
         "key": "Tullian Roman",
-        "lang_es": "Roman Tullian"
+        "lang_es": "Romanos de Tulio"
     },
     {
         "key": "Tulunid Egyptian",
-        "lang_es": "Egipcio de Tulunid"
+        "lang_es": "Egipcios Tuluníes"
     },
     {
         "key": "Tupi",
-        "lang_es": "Allí arriba"
+        "lang_es": "Tupís"
     },
     {
         "key": "Turk horse archers",
@@ -11349,7 +11349,7 @@
     },
     {
         "key": "Turkish ghulams",
-        "lang_es": "Gulams turcos"
+        "lang_es": "Ghulams turcos"
     },
     {
         "key": "Turkish guard horse archers",
@@ -11361,7 +11361,7 @@
     },
     {
         "key": "Turkish or Circassian ghulams",
-        "lang_es": "Gulams turcos o circasianos"
+        "lang_es": "Ghulams turcos o circasianos"
     },
     {
         "key": "Turkish, Armenian, or Kurdish bowmen",
@@ -11373,7 +11373,7 @@
     },
     {
         "key": "Turkish, Greek and Armenian ghulams",
-        "lang_es": "Gulams turcos, griegos y armenios"
+        "lang_es": "Ghulams turcos, griegos y armenios"
     },
     {
         "key": "Turkish, Tajik or similar nomadic auxiliaries or ghazis",
@@ -11401,11 +11401,11 @@
     },
     {
         "key": "Turkopolen",
-        "lang_es": "Turcopolen"
+        "lang_es": "Turcopolos"
     },
     {
         "key": "Turkopoles of military orders",
-        "lang_es": "Turcopoles de las órdenes militares"
+        "lang_es": "Turcopolos de las órdenes militares"
     },
     {
         "key": "Turks, Alans, Cumans, or Pechenegs",
@@ -11413,11 +11413,11 @@
     },
     {
         "key": "Tuyuhun",
-        "lang_es": "Gracias"
+        "lang_es": "Tuyuhun"
     },
     {
         "key": "Uchelwyr",
-        "lang_es": "La nobleza"
+        "lang_es": "Uchelwyr"
     },
     {
         "key": "Uighur, Tangut, and other mercenary horse archers",
@@ -11425,11 +11425,11 @@
     },
     {
         "key": "Umayyad Arab",
-        "lang_es": "Los omeyas árabes"
+        "lang_es": "Árabes Omeya"
     },
     {
         "key": "Umbrian Italian",
-        "lang_es": "Italiano de Umbría"
+        "lang_es": "Umbros itálicos"
     },
     {
         "key": "Unarmored auxiliary infantry",
@@ -11445,7 +11445,7 @@
     },
     {
         "key": "Unarmored spearmen",
-        "lang_es": "Lanzadores sin armadura"
+        "lang_es": "Lanceros sin armadura"
     },
     {
         "key": "Unarmored tribal infantry",
@@ -11489,11 +11489,11 @@
     },
     {
         "key": "Unruly spearmen",
-        "lang_es": "Lanzadores rebeldes"
+        "lang_es": "Lanceros rebeldes"
     },
     {
         "key": "Unshielded fighters with mixed weapons",
-        "lang_es": "Cazas sin blindaje con armamento mixto"
+        "lang_es": "Luchadores sin protección con armamento mixto"
     },
     {
         "key": "Unshielded horsemen",
@@ -11525,11 +11525,11 @@
     },
     {
         "key": "Urartian",
-        "lang_es": "Uraartiano"
+        "lang_es": "Urartianos"
     },
     {
         "key": "Urnfield Culture",
-        "lang_es": "Cultura de los campos de urnas"
+        "lang_es": "Cultura de los Campos de Urnas"
     },
     {
         "key": "Valperra swordsmen",
@@ -11541,7 +11541,7 @@
     },
     {
         "key": "Varangian guard",
-        "lang_es": "Guardia varangio"
+        "lang_es": "Guardia Varega"
     },
     {
         "key": "Varangian or Rus mercenaries",
@@ -11569,7 +11569,7 @@
     },
     {
         "key": "Vedic Indian",
-        "lang_es": "India védica"
+        "lang_es": "Indios Védicos"
     },
     {
         "key": "Velites",
@@ -11581,7 +11581,7 @@
     },
     {
         "key": "Venetian elmeti",
-        "lang_es": "Elmeti venecianos"
+        "lang_es": "Elmeti veneciano"
     },
     {
         "key": "Veteran Chinese bowmen or crossbowmen, separate or protected behind men armed with shield and spear",
@@ -11593,7 +11593,7 @@
     },
     {
         "key": "Veteran Islesmen",
-        "lang_es": "Veteranos de los Islesmen"
+        "lang_es": "Isleños veteranos"
     },
     {
         "key": "Veteran Libyan spearmen using captured Roman equipment",
@@ -11617,19 +11617,19 @@
     },
     {
         "key": "Vijayanagar Empire",
-        "lang_es": "Imperio de Vijayanagar"
+        "lang_es": "Imperio Vijayanagara"
     },
     {
         "key": "Viking",
-        "lang_es": "Viking"
+        "lang_es": "Vikingos"
     },
     {
         "key": "Viking Raiders",
-        "lang_es": "Los Vikingos"
+        "lang_es": "Incursores Vikingos"
     },
     {
         "key": "Viking Seas",
-        "lang_es": "Mares vikingos"
+        "lang_es": "Mares Vikingos"
     },
     {
         "key": "Viking West Frisia",
@@ -11637,15 +11637,15 @@
     },
     {
         "key": "Viking freelance marauders",
-        "lang_es": "Merodeadores vikingos independientes"
+        "lang_es": "Merodeadores Vikingos por libre "
     },
     {
         "key": "Viking mercenaries",
-        "lang_es": "Mercenarios vikingos"
+        "lang_es": "Mercenarios Vikingos"
     },
     {
         "key": "Viking mercenaries or allies",
-        "lang_es": "Mercenarios vikingos o aliados"
+        "lang_es": "Mercenarios Vikingos o aliados"
     },
     {
         "key": "Viking nobles and retainers",
@@ -11653,39 +11653,39 @@
     },
     {
         "key": "Vilcabamba Neo-Inca",
-        "lang_es": "Vilcabamba Neo-Inca"
+        "lang_es": "Neoincaicos de Vilcabamba"
     },
     {
         "key": "Village levy",
-        "lang_es": "Impuesto municipal"
+        "lang_es": "Leva aldeana "
     },
     {
         "key": "Villikal bowmen",
-        "lang_es": "Villikal Bowmen"
+        "lang_es": "Arqueros Villikal"
     },
     {
         "key": "Visigoth, German or Frank fierce fighters",
-        "lang_es": "Visigodos, germanos o francos: guerreros feroces"
+        "lang_es": "Luchadores feroces Visigodos, Germanos o Francos"
     },
     {
         "key": "Visigoths under Alaric and Successors",
-        "lang_es": "Los visigodos bajo el mando de Alarico y sus sucesores"
+        "lang_es": "Visigodos de Alarico y Sucesores"
     },
     {
         "key": "Visigoths under Alaric as Magister Militum",
-        "lang_es": "Los visigodos al mando de Alarico como magister militum"
+        "lang_es": "Visigodos de Alarico como Magister Militum"
     },
     {
         "key": "Vlach bowmen",
-        "lang_es": "Arqueros valacos"
+        "lang_es": "Arqueros Valacos"
     },
     {
         "key": "Vlach horse archers or Vardariotai",
-        "lang_es": "Arqueros a caballo vlacos o vardariotai"
+        "lang_es": "Arqueros a caballo Valacos o Vardariotai"
     },
     {
         "key": "Vlach javelinmen",
-        "lang_es": "Lanzadores de jabalina valacos"
+        "lang_es": "Lanzadores de jabalina Valacos"
     },
     {
         "key": "Volga Bulgar",
@@ -11721,7 +11721,7 @@
     },
     {
         "key": "Wallachian or Moldavian",
-        "lang_es": "valaco o moldavo"
+        "lang_es": "Valacos o Moldavos"
     },
     {
         "key": "War Elephants",
@@ -11729,7 +11729,7 @@
     },
     {
         "key": "War Wagons",
-        "lang_es": "Carros de guerra"
+        "lang_es": "Vagones de guerra"
     },
     {
         "key": "War dogs",
@@ -11757,7 +11757,7 @@
     },
     {
         "key": "War wagons",
-        "lang_es": "Carros de combate"
+        "lang_es": "Vagones de guerra"
     },
     {
         "key": "War wagons manned by crossbowmen, handgunners, and light guns",
@@ -11769,7 +11769,7 @@
     },
     {
         "key": "Warlike Gallic",
-        "lang_es": "Galo belicoso"
+        "lang_es": "Galos Belicosos"
     },
     {
         "key": "Warring States",
@@ -11789,7 +11789,7 @@
     },
     {
         "key": "Wars of the Roses English",
-        "lang_es": "Las Guerras de las Rosas (en inglés)"
+        "lang_es": "Ingleses de Las Guerras de las Rosas"
     },
     {
         "key": "Well equipped or trained infantry",
@@ -11809,11 +11809,11 @@
     },
     {
         "key": "Welsh spearmen",
-        "lang_es": "Lanzadores galeses"
+        "lang_es": "Lanceros galeses"
     },
     {
         "key": "West Frankish",
-        "lang_es": "franco-occidental"
+        "lang_es": "Francos Occidentales"
     },
     {
         "key": "West Frisia",
@@ -11821,19 +11821,19 @@
     },
     {
         "key": "West Mexican",
-        "lang_es": "del oeste de México"
+        "lang_es": "Mexicanos Occidentales"
     },
     {
         "key": "Western Hunnic",
-        "lang_es": "huno occidental"
+        "lang_es": "Hunos Occidentales"
     },
     {
         "key": "Western Jin Invasion of Wu in 279 AD",
-        "lang_es": "La invasión de Wu por parte de Jin Occidental en el año 279 d. C."
+        "lang_es": "Invasión de Wu por los Jin Occidentales en el 279 d.C."
     },
     {
         "key": "Western Slav",
-        "lang_es": "eslavo occidental"
+        "lang_es": "Eslavos Occidentales"
     },
     {
         "key": "Western Xia",
@@ -11841,7 +11841,7 @@
     },
     {
         "key": "Western Xia (all mounted)",
-        "lang_es": "Xia Occidental (todas montadas)"
+        "lang_es": "Xia Occidental (todos montados)"
     },
     {
         "key": "Western Zhou",
@@ -11873,15 +11873,15 @@
     },
     {
         "key": "Xia Chinese",
-        "lang_es": "Xia chino"
+        "lang_es": "Chinos Xia"
     },
     {
         "key": "Xianbei Kingdoms",
-        "lang_es": "Reinos de los xianbei"
+        "lang_es": "Reinos Xianbei"
     },
     {
         "key": "Xicalanca City States and Tilantongo Mixtec",
-        "lang_es": "Las ciudades-estado de Xicalanca y el mixteco de Tilantongo"
+        "lang_es": "Ciudades-estado Xicalancas y Mixtecos de Tilantongo"
     },
     {
         "key": "Xiongnu",
@@ -11893,7 +11893,7 @@
     },
     {
         "key": "Xystophoroi",
-        "lang_es": "Xistóforos"
+        "lang_es": "Xystóforos"
     },
     {
         "key": "Yatsuko retainer bowmen with less armor",
@@ -11901,15 +11901,15 @@
     },
     {
         "key": "Yayoi Japanese",
-        "lang_es": "Yayoi, de Japón"
+        "lang_es": "Japón periodo Yayoi"
     },
     {
         "key": "Yayoi Japanese ",
-        "lang_es": "Yayoi, de Japón "
+        "lang_es": "Japón periodo Yayoi"
     },
     {
         "key": "Yi Dynasty Korean",
-        "lang_es": "Coreano de la dinastía Yi"
+        "lang_es": "Coreanos Dinastía Yi"
     },
     {
         "key": "Yuan in Japan and S.E. Asia",
@@ -11937,15 +11937,15 @@
     },
     {
         "key": "Zanj Revolt",
-        "lang_es": "Para él, Revolt"
+        "lang_es": "Rebelión Zanj"
     },
     {
         "key": "Zanj bowmen",
-        "lang_es": "Para él, bowmen"
+        "lang_es": "Arqueros Zanj"
     },
     {
         "key": "Zanj spearmen",
-        "lang_es": "Para él, los lanceros"
+        "lang_es": "Lanceros Zanj"
     },
     {
         "key": "Zanj with sword, javelin and shield",
@@ -11953,7 +11953,7 @@
     },
     {
         "key": "Zengid Dynasties in Syria",
-        "lang_es": "Las dinastías Zengid en Siria"
+        "lang_es": "Dinastías Zengid en Siria"
     },
     {
         "key": "Zhuang or similar southern tribesmen",
@@ -12009,7 +12009,7 @@
     },
     {
         "key": "dromedarii",
-        "lang_es": "camellos de dos jorobas"
+        "lang_es": "dromedarii"
     },
     {
         "key": "foot armed with stone- and copper-tipped axes and lances, or metal double-ended short swords",
