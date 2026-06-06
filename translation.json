@@ -24,6 +24,10 @@
         "lang_es": "«Elevándose»"
     },
     {
+        "key": "1451-1600 AD",
+        "lang_es": "1451-1600 d.C."
+    },
+    {
         "key": "2- or 4-horse battle platforms with javelin-armed crewmen",
         "lang_es": "Plataformas de combate tiradas por 2 o 4 caballos, con tripulantes armados con jabalinas"
     },
@@ -112,6 +116,22 @@
         "lang_es": "Plataformas de combate móviles de 2 ruedas con tripulación puede bajar del vehículo y con lanzadores de jabalina"
     },
     {
+        "key": "200-375 AD",
+        "lang_es": "200-375 d.C."
+    },
+    {
+        "key": "250-406 AD",
+        "lang_es": "250-406 d.C."
+    },
+    {
+        "key": "250-436 AD",
+        "lang_es": "250-436 d.C."
+    },
+    {
+        "key": "376-493 AD",
+        "lang_es": "376-493 d.C."
+    },
+    {
         "key": "4-equid platform cars or royal retinue bowmen",
         "lang_es": "Plataformas tiradas por 4 caballos o arqueros del séquito real"
     },
@@ -166,6 +186,26 @@
     {
         "key": "4-wheeled battle platforms or straddle cars",
         "lang_es": "Plataformas de combate de cuatro ruedas o vehículos de apoyo"
+    },
+    {
+        "key": "407-584 AD",
+        "lang_es": "407-584 d.C."
+    },
+    {
+        "key": "437-534 AD",
+        "lang_es": "437-534 d.C."
+    },
+    {
+        "key": "728-662 BC",
+        "lang_es": "728-662 a.C."
+    },
+    {
+        "key": "745-729 and 661-593 BC",
+        "lang_es": "745-729 y 661-593 a.C."
+    },
+    {
+        "key": "901-1450 AD",
+        "lang_es": "901-1450 d.C."
     },
     {
         "key": "<p>Armies with this battle card be supported by disperse bow-armed troops from another stand.</p>\n<h4>Selecting this Battle Card</h4>\n<p>The army list indicates which troops may have the Supporting Bowmen battle card applied to them. The army list indicates which bow-armed troops may be used to support other troops (labeled Supporting Bowmen) and which troops may be supported (labeled Supportable).</p>\n<p>If used, the Supporting Bowmen battle card must be used in one of two ways.</p>\n<p><em>Option 1</em></p>\n<p>The Supporting Bowmen battle card must be applied to all stands in a Supportable troop entry if applied to any (i.e., all or none). If there aren’t enough stands of Supporting Bowmen available to support all Supportable stands, then the battle card may not be used.</p>\n<p><em>Option 2</em></p>\n<p>The  Supporting Bowmen battle card may be applied to any number of stands in a Supportable troop entry. If this option is selected, every stand that has the Supporting Bowmen battle card applied to it must be replaced at deployment by a stand modeled with supporting bow figures.  If these separate stands are not available (and visually distinct from unsupported stands) this option is not allowed.</p>\n<p>These options are selected separately for each eligible troop entry.</p>\n<h4>Cost</h4>\n<p>There is no cost for the battle card itself. However, one or more Supporting Bowmen stands (which are included in the total army cost) must be exchanged for the addition of support to the Supportable stands. </p>\n<h4>Deployment</h4>\n<p>During deployment, the player may set aside Supporting Bowmen stands in exchange for adding support to the Supportable stands in the army. One stand of Supporting Bowmen can support as many Supportable stands as the point value of its troop type. </p>\n<p>The decision to use the battle card must be made when the first supported troops are placed on the game board. Supporting Bowmen stands that have been placed on the game board may not be exchanged.</p>\n<p>The Supporting Bowmen stands set aside are not used during the game and do not count as lost.</p>\n<p><em>Example</em></p>\n<p>A player assembles an army that has 6 stands of Heavy Foot that are Supportable. The Supporting Bowmen stands are Skirmishers (3 points per stand). To add support to the heavy foot stands, the player would need to include 2 Skirmishers stands in the army, which would be exchanged (set aside) during deployment to add support to the Heavy Foot.</p>\n<h4>Modeling</h4>\n<p>No changes are required if the battle card is used “all or none” – i.e., if the choice of whether to use Supporting Bowmen or not is made for all Supportable troops at deployment.</p>\n<p>If the player wishes the option of using only some Supportable troop stands with Supporting Bowmen, each such stand (a “Supported” stand) is modeled with the same number and type of figures as a regular stand, plus one supporting bow figure standing behind the line of figures.  This Supported stand should be on the same depth base if possible.</p>\n<p>Use of Supported stands modeled as described allows the player to vary from the “all or none” choice at deployment – to deploy some Supportable stands with Supporting Bowmen and some without – but does not modify the battle card in any other way.  A single Skirmisher (3pt stand) could be exchanged for providing support for three individual Supported stands, for example.</p>\n<h4>Game Play</h4>\n<p>Stands which are supported by Supporting Bowmen receive a +1 tactical factor in close combat against enemy Warband, Warriors, and all mounted troop types. This tactical factor only applies if the stand is fighting to its front.</p>\n<h4>Victory Conditions</h4>\n<p>If destroyed, a stand that has the Supporting Bowmen battle card counts as its normal number of points of lost troops. The Supporting Bowmen battle card does not change this value.</p>\n<h4>Historical Background</h4>\n<p>A number of armies throughout history have reacted to horsemen (and in some cases fierce infantry) by using a thin line of bowmen to support behind the main line of foot.  This line of missile troops substantially increased the effectiveness of supported foot by galling the enemy and endangering them while they were still preparing to engage.</p>\n<p>Such supporting bowmen could also be used separately from the other foot troops, grouped together as a unit.  Whether such troops would be rated as Skirmishers, Archers, or Bow Levy depends upon their training and equipment.</p>\n",
@@ -540,6 +580,10 @@
         "lang_es": "Almogávares"
     },
     {
+        "key": "Alpine states",
+        "lang_es": "Estados alpinos"
+    },
+    {
         "key": "Amazonian",
         "lang_es": "Amazónicos"
     },
@@ -644,6 +688,14 @@
         "lang_es": "Antígono Gonatas"
     },
     {
+        "key": "Appenine or Alpine cities",
+        "lang_es": "Ciudades de los Apeninos o Alpes"
+    },
+    {
+        "key": "Apulia",
+        "lang_es": "Apulia"
+    },
+    {
         "key": "Apulian, Lucanian, or Bruttian",
         "lang_es": "Apulios, Lucanos o Brucios"
     },
@@ -702,6 +754,10 @@
     {
         "key": "Arab-Berber horsemen",
         "lang_es": "Jinetes árabes y bereberes"
+    },
+    {
+        "key": "Arable",
+        "lang_es": "Fértil"
     },
     {
         "key": "Arabo-Aramaean Citystates",
@@ -1238,6 +1294,10 @@
     {
         "key": "Bedouin, Kurdish, Syrian, or Ashir horsemen",
         "lang_es": "Jinetes beduinos, kurdos, sirios o ashir"
+    },
+    {
+        "key": "Before 900 AD",
+        "lang_es": "Antes del 900 d.C."
     },
     {
         "key": "Beidi",
@@ -2092,6 +2152,10 @@
         "lang_es": "Reino Chimú"
     },
     {
+        "key": "Chin or Jin",
+        "lang_es": "Chin o Jin"
+    },
+    {
         "key": "Chinantec",
         "lang_es": "Chinantecos"
     },
@@ -2230,6 +2294,10 @@
     {
         "key": "Christian or Berber crossbowmen",
         "lang_es": "Ballesteros cristianos o bereberes"
+    },
+    {
+        "key": "Chu or Yue",
+        "lang_es": "Chu o Yue"
     },
     {
         "key": "Cilician Armenian",
@@ -2394,6 +2462,10 @@
     {
         "key": "Coastal Peruvian nobles",
         "lang_es": "Nobles de la costa Peruana"
+    },
+    {
+        "key": "Coastal cities",
+        "lang_es": "Ciudades costeras"
     },
     {
         "key": "Colonist bowmen",
@@ -2756,6 +2828,10 @@
         "lang_es": "Soldados feudales dálmatas"
     },
     {
+        "key": "Danes",
+        "lang_es": "Daneses"
+    },
+    {
         "key": "Danish, Saxon, or Thuringian mercenary horsemen",
         "lang_es": "Jinetes mercenarios daneses, sajones o de Turingia"
     },
@@ -2792,6 +2868,10 @@
         "lang_es": "Gales en la Edad Media"
     },
     {
+        "key": "Deccan or Thar states",
+        "lang_es": "Deccan o estados de Thar"
+    },
+    {
         "key": "Deceptive Deployment",
         "lang_es": "Despliegue engañoso"
     },
@@ -2808,8 +2888,16 @@
         "lang_es": "Los delis, los kurdos o los jinetes beduinos árabes"
     },
     {
+        "key": "Delta",
+        "lang_es": "Delta"
+    },
+    {
+        "key": "Denmark",
+        "lang_es": "Dinamarca"
+    },
+    {
         "key": "Dependant state horsemen",
-        "lang_es": "Jinetes de equipos estatales"
+        "lang_es": "Jinetes de estados dependientes"
     },
     {
         "key": "Deployment Dismounting",
@@ -2818,6 +2906,10 @@
     {
         "key": "Desert Blemmye or Beja",
         "lang_es": "Blemios o Bejas del desierto"
+    },
+    {
+        "key": "Desert Rajput",
+        "lang_es": "Rajput del desierto"
     },
     {
         "key": "Detached Menavlatoi",
@@ -2898,6 +2990,10 @@
     {
         "key": "Druzhina",
         "lang_es": "Druzhina"
+    },
+    {
+        "key": "Dry",
+        "lang_es": "Árido"
     },
     {
         "key": "Dublin or Manx Vikings",
@@ -3314,6 +3410,10 @@
     {
         "key": "Eastern Jin Dynasty and Liu Yu",
         "lang_es": "Dinastía Jin Oriental y Liu Yu"
+    },
+    {
+        "key": "Eastern or Southern tribes",
+        "lang_es": "Tribus orientales o meridionales"
     },
     {
         "key": "Edward Bruce in Ireland",
@@ -3912,6 +4012,10 @@
         "lang_es": "Piqueros mercenarios extranjeros"
     },
     {
+        "key": "Forest",
+        "lang_es": "Bosque"
+    },
+    {
         "key": "Forest and hill tribe skirmishing bowmen or Kashmiri slingers",
         "lang_es": "Arqueros de las tribus de las montañas y los bosques o lanzadores de hondas de Cachemira"
     },
@@ -4302,6 +4406,10 @@
     {
         "key": "Gastaldi, gasindii, and other first class mounted",
         "lang_es": "Gastaldi, gasindii y otros jinetes de primera clase"
+    },
+    {
+        "key": "Geats",
+        "lang_es": "Getas"
     },
     {
         "key": "Genoese crossbowmen",
@@ -4992,6 +5100,14 @@
         "lang_es": "miembros de las tribus de las montañas"
     },
     {
+        "key": "Hilly",
+        "lang_es": "Montañoso"
+    },
+    {
+        "key": "Himalaya or Maharasthra states",
+        "lang_es": "Estados del Himalaya o Maharasthra"
+    },
+    {
         "key": "Himalayan mountain tribesmen",
         "lang_es": "Miembros de las tribus de las montañas del Himalaya"
     },
@@ -5413,7 +5529,7 @@
     },
     {
         "key": "Indian levies",
-        "lang_es": "Impuestos indios"
+        "lang_es": "Levas indias"
     },
     {
         "key": "Indian mercenary javelinmen",
@@ -5421,7 +5537,7 @@
     },
     {
         "key": "Indian throng",
-        "lang_es": "Muchedumbre India"
+        "lang_es": "Muchedumbre india"
     },
     {
         "key": "Indian war elephants",
@@ -5430,6 +5546,10 @@
     {
         "key": "Indo-Greek Kingdom",
         "lang_es": "Reino Indo-Griego"
+    },
+    {
+        "key": "Indus and Ganges deltas",
+        "lang_es": "Deltas del Indo y del Ganges"
     },
     {
         "key": "Ineffective foot",
@@ -5522,6 +5642,10 @@
     {
         "key": "Inji 'ruffians'",
         "lang_es": "«Rufianes» Inji"
+    },
+    {
+        "key": "Inland cities",
+        "lang_es": "Ciudades del interior"
     },
     {
         "key": "Iphikratean peltasts",
@@ -6972,6 +7096,10 @@
         "lang_es": "Lanceros plebeyos de las tierras bajas de Escocia"
     },
     {
+        "key": "Lucania or Bruttia",
+        "lang_es": "Lucania o Bruttia"
+    },
+    {
         "key": "Lukka",
         "lang_es": "Lukka"
     },
@@ -7182,6 +7310,10 @@
     {
         "key": "Maronite or Syrian bowmen",
         "lang_es": "Arqueros maronitas o sirios"
+    },
+    {
+        "key": "Marsh",
+        "lang_es": "Marisma"
     },
     {
         "key": "Martu mercenaries",
@@ -8224,6 +8356,10 @@
         "lang_es": "Normandos"
     },
     {
+        "key": "Norse",
+        "lang_es": "Norse"
+    },
+    {
         "key": "Norse Irish",
         "lang_es": "Irlanda Nórdica"
     },
@@ -8308,12 +8444,20 @@
         "lang_es": "Cuartel general de infantería del norte"
     },
     {
+        "key": "Northern tribes",
+        "lang_es": "Tribus del norte"
+    },
+    {
         "key": "Northumbrian",
         "lang_es": "Northumbrios"
     },
     {
         "key": "Northumbrian exiles",
         "lang_es": "Exiliados de Northumbria"
+    },
+    {
+        "key": "Norway",
+        "lang_es": "Noruega"
     },
     {
         "key": "Norwegian crusading bondi spearmen",
@@ -8400,6 +8544,10 @@
         "lang_es": "Antiguos Sajones y tribus afines"
     },
     {
+        "key": "Old Saxon or Anglo-Saxon",
+        "lang_es": "Antiguos Sajones o Anglo-Sajones"
+    },
+    {
         "key": "Old Saxon, Thuringian or Bohemian horsemen",
         "lang_es": "Jinetes de la Antigua Sajonia, Turingia o Bohemia"
     },
@@ -8472,8 +8620,20 @@
         "lang_es": "Otros mercenarios italianos armados con picas o arcabuceros de escaramuza"
     },
     {
+        "key": "Other Rajput",
+        "lang_es": "Otros Rajput"
+    },
+    {
         "key": "Other horsemen",
         "lang_es": "Otros jinetes"
+    },
+    {
+        "key": "Other states",
+        "lang_es": "Otros estados"
+    },
+    {
+        "key": "Others",
+        "lang_es": "Otros"
     },
     {
         "key": "Otomi mercenaries",
@@ -9162,6 +9322,10 @@
     {
         "key": "Qiang, Sumpa, and similar nomad tribesmen horse archers",
         "lang_es": "Los arqueros a caballo de las tribus nómadas Qiang, Sumpa y otras similares"
+    },
+    {
+        "key": "Qin",
+        "lang_es": "Qin"
     },
     {
         "key": "Qin Collapse",
@@ -10028,6 +10192,10 @@
         "lang_es": "Disparos en masa"
     },
     {
+        "key": "Shu",
+        "lang_es": "Shu"
+    },
+    {
         "key": "Shuar",
         "lang_es": "Shuar"
     },
@@ -10262,6 +10430,10 @@
     {
         "key": "Skyttar armored crossbowmen on horses",
         "lang_es": "Arqueros a caballo armados con ballestas"
+    },
+    {
+        "key": "Slav",
+        "lang_es": "Eslavos"
     },
     {
         "key": "Slav horsemen",
@@ -10544,6 +10716,10 @@
         "lang_es": "Pie firme"
     },
     {
+        "key": "Steppe",
+        "lang_es": "Estepa"
+    },
+    {
         "key": "Stinkards",
         "lang_es": "Stinkards"
     },
@@ -10678,6 +10854,14 @@
     {
         "key": "Swabian or Bavarian caballarii",
         "lang_es": "Caballarii Suabos o Bávaros"
+    },
+    {
+        "key": "Sweden",
+        "lang_es": "Suecia"
+    },
+    {
+        "key": "Swedes",
+        "lang_es": "Suecos"
     },
     {
         "key": "Swiss pikemen",
@@ -11468,6 +11652,10 @@
         "lang_es": "Jinetes infelices sin caballos"
     },
     {
+        "key": "Union",
+        "lang_es": "Unión"
+    },
+    {
         "key": "United Monarchy under David",
         "lang_es": "La monarquía unificada bajo el reinado de David"
     },
@@ -11582,6 +11770,10 @@
     {
         "key": "Venetian elmeti",
         "lang_es": "Elmeti veneciano"
+    },
+    {
+        "key": "Venice",
+        "lang_es": "Venecia"
     },
     {
         "key": "Veteran Chinese bowmen or crossbowmen, separate or protected behind men armed with shield and spear",
@@ -11792,6 +11984,10 @@
         "lang_es": "Ingleses de Las Guerras de las Rosas"
     },
     {
+        "key": "Wei and Jin",
+        "lang_es": "Wei y Jin"
+    },
+    {
         "key": "Well equipped or trained infantry",
         "lang_es": "Infantería bien equipada o bien entrenada"
     },
@@ -11812,6 +12008,10 @@
         "lang_es": "Lanceros galeses"
     },
     {
+        "key": "Wend",
+        "lang_es": "Wend"
+    },
+    {
         "key": "West Frankish",
         "lang_es": "Francos Occidentales"
     },
@@ -11822,6 +12022,10 @@
     {
         "key": "West Mexican",
         "lang_es": "Mexicanos Occidentales"
+    },
+    {
+        "key": "Western Ghat  or Bay of Bengal Coastal states",
+        "lang_es": "Estados costeros de los Ghats Occidentales o de la Bahía de Bengala"
     },
     {
         "key": "Western Hunnic",
@@ -11852,6 +12056,10 @@
         "lang_es": "Mercenarios occidentales"
     },
     {
+        "key": "Western tribes",
+        "lang_es": "Tribus occidentales"
+    },
+    {
         "key": "Wheeled or elephant-mounted Song-style ballista",
         "lang_es": "Balista de estilo Song, montada sobre ruedas o sobre un elefante"
     },
@@ -11870,6 +12078,14 @@
     {
         "key": "Woodsmen",
         "lang_es": "Leñadores"
+    },
+    {
+        "key": "Wu",
+        "lang_es": "Wu"
+    },
+    {
+        "key": "Wu or Chu",
+        "lang_es": "Wu o Chu"
     },
     {
         "key": "Xia Chinese",
